@@ -33,8 +33,8 @@ const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 // Paste the RSS feed URL for each brand's Google Alert here.
 // (Google Alerts → edit an alert → "Deliver to" → "RSS Feed" → copy link.)
 const FEEDS = {
-  ZOP: "PASTE_YOUR_ZOP_GOOGLE_ALERTS_RSS_URL_HERE",
-  Afora: "PASTE_YOUR_AFORA_GOOGLE_ALERTS_RSS_URL_HERE",
+  ZOP: "https://www.google.com/alerts/feeds/05813187493059511228/8592933093986867067",
+  Afora: "https://www.google.com/alerts/feeds/05813187493059511228/8929181206387735148",
 };
 
 const CLASSIFY_INSTRUCTIONS = `
