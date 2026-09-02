@@ -2,8 +2,8 @@ name: Mention Watch Scan
 
 on:
   schedule:
-    # Every 3 hours. GitHub may delay this by a few minutes at busy times.
-    - cron: "0 */3 * * *"
+    # Every 6 hours. GitHub may delay this by a few minutes at busy times.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:
