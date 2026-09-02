@@ -1,0 +1,13 @@
+{
+  "name": "mention-watch",
+  "version": "1.0.0",
+  "description": "Scheduled brand mention scanner using Gemini + Google Search grounding",
+  "type": "module",
+  "main": "scan.js",
+  "scripts": {
+    "scan": "node scan.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
