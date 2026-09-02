@@ -1,141 +1,155 @@
 /**
  * Mention Watch — scan.js
  *
- * Runs one grounded-search pass per brand/query, asks Gemini to describe
- * what it found, and saves each finding ONLY if its URL is one that Google
- * Search actually returned (checked against groundingMetadata). Nothing
- * here is allowed to invent a source.
+ * Discovery: reads Google Alerts RSS/Atom feeds (one per brand). This has
+ * no API quota — it's just a feed URL Google updates on its own schedule.
  *
- * Requires: Node 18+ (built-in fetch), GEMINI_API_KEY env var.
+ * Classification: sends each NEW alert's title + snippet (already fetched
+ * from the feed, not searched by an AI) to Groq for a short summary,
+ * sentiment, and type tag.
+ *
+ * The URL for every finding comes directly from the Google Alerts feed
+ * entry itself — it is never generated or guessed by the AI step.
+ *
+ * Requires: Node 18+ (built-in fetch), GROQ_API_KEY env var,
+ * the "fast-xml-parser" package (see package.json).
  */
 
 import { readFile, writeFile, mkdir } from "fs/promises";
 import path from "path";
+import { XMLParser } from "fast-xml-parser";
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-if (!GEMINI_API_KEY) {
-  console.error("Missing GEMINI_API_KEY environment variable.");
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+if (!GROQ_API_KEY) {
+  console.error("Missing GROQ_API_KEY environment variable.");
   process.exit(1);
 }
 
 // ---- Configuration -------------------------------------------------
 
-const MODEL = "gemini-3.6-flash"; // gemini-2.5-flash was retired for new API users
+const GROQ_MODEL = "llama-3.3-70b-versatile";
 const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 
-const BRANDS = ["ZOP", "Afora"];
+// Paste the RSS feed URL for each brand's Google Alert here.
+// (Google Alerts → edit an alert → "Deliver to" → "RSS Feed" → copy link.)
+const FEEDS = {
+  ZOP: "PASTE_YOUR_ZOP_GOOGLE_ALERTS_RSS_URL_HERE",
+  Afora: "PASTE_YOUR_AFORA_GOOGLE_ALERTS_RSS_URL_HERE",
+};
 
-// One combined query per brand keeps daily API call volume low, which
-// matters on Google's free tier (small daily request cap before billing
-// is linked). Add more phrasings later if you have quota headroom.
-function queriesFor(brand) {
-  return [`"${brand}" scam OR fraud OR complaints OR review OR "is it legit"`];
-}
+const CLASSIFY_INSTRUCTIONS = `
+You are helping a company understand a single web mention of its brand.
+You will be given a title and a short snippet from a real web page. Do not
+search for anything or invent any information beyond what's given.
 
-const ANALYSIS_INSTRUCTIONS = `
-You are helping a company monitor public mentions of its brand.
-
-Search for recent, real, public posts, reviews, complaints, or articles
-that match the query. For EACH distinct web page you find, output one
-JSON object with these fields:
-
-- "url": the exact URL of the page (must be a real page you found via search)
-- "platform": short platform name, e.g. "Reddit", "Trustpilot", "X", "Blog",
-  "Facebook", "Instagram", "LinkedIn", "News"
+Respond with ONLY a JSON object with these fields:
 - "type": one of "Complaint", "Review", "Scam claim", "Mention"
 - "sentiment": one of "Positive", "Neutral", "Negative"
-- "summary": ONE short sentence paraphrasing what the post says, in your
-  own words. Do not quote the source text directly.
-
-Rules:
-- Only include a page if you actually found it through search just now.
-- Never invent, guess, or reconstruct a URL. If you're not sure a URL is
-  real, leave that page out entirely.
-- If nothing relevant was found, return an empty array.
-- Respond with ONLY a JSON array. No markdown fences, no commentary.
+- "summary": ONE short sentence paraphrasing the snippet, in your own
+  words. Do not quote it directly.
 `.trim();
 
-// ---- Gemini call -----------------------------------------------------
+// ---- Google Alerts feed parsing --------------------------------------
 
-async function runGroundedQuery(brand, query) {
-  const body = {
-    contents: [
-      {
-        parts: [{ text: `${ANALYSIS_INSTRUCTIONS}\n\nBrand: ${brand}\nQuery: ${query}` }],
-      },
-    ],
-    tools: [{ google_search: {} }],
-    generationConfig: {
-      // Grounded calls on this model default to "thinking" on, which costs
-      // more and has been reported to occasionally truncate the JSON output.
-      thinkingConfig: { thinkingBudget: 0 },
+const xmlParser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
+
+function stripHtml(html) {
+  return (html || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Google Alerts links wrap the real URL as a query parameter, e.g.
+// https://www.google.com/url?rct=j&sa=t&url=<REAL_URL>&ct=ga&...
+function unwrapGoogleUrl(rawUrl) {
+  try {
+    const parsed = new URL(rawUrl);
+    const inner = parsed.searchParams.get("url") || parsed.searchParams.get("q");
+    return inner || rawUrl;
+  } catch {
+    return rawUrl;
+  }
+}
+
+function platformFromUrl(url) {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    if (host.includes("reddit.com")) return "Reddit";
+    if (host.includes("trustpilot.com")) return "Trustpilot";
+    if (host.includes("twitter.com") || host.includes("x.com")) return "X";
+    if (host.includes("facebook.com")) return "Facebook";
+    if (host.includes("instagram.com")) return "Instagram";
+    if (host.includes("linkedin.com")) return "LinkedIn";
+    if (host.includes("news.google.com")) return "News";
+    return host;
+  } catch {
+    return "Web";
+  }
+}
+
+async function fetchAlertEntries(feedUrl) {
+  const res = await fetch(feedUrl);
+  if (!res.ok) {
+    console.error(`Failed to fetch feed (${res.status}): ${feedUrl}`);
+    return [];
+  }
+  const xml = await res.text();
+  const parsed = xmlParser.parse(xml);
+
+  // Google Alerts feeds are Atom format: <feed><entry>...</entry></feed>
+  const entries = parsed?.feed?.entry;
+  if (!entries) return [];
+  const list = Array.isArray(entries) ? entries : [entries];
+
+  return list.map((entry) => {
+    const rawLink = Array.isArray(entry.link) ? entry.link[0] : entry.link;
+    const href = rawLink?.["@_href"] || "";
+    const url = unwrapGoogleUrl(href);
+    const title = stripHtml(entry.title || "");
+    const snippet = stripHtml(entry.content || entry.summary || "");
+    const id = entry.id || url;
+    return { id, url, title, snippet };
+  });
+}
+
+// ---- Groq classification ----------------------------------------------
+
+async function classify(title, snippet) {
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${GROQ_API_KEY}`,
     },
-  };
-
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-goog-api-key": GEMINI_API_KEY,
-      },
-      body: JSON.stringify(body),
-    }
-  );
+    body: JSON.stringify({
+      model: GROQ_MODEL,
+      response_format: { type: "json_object" },
+      messages: [
+        { role: "system", content: CLASSIFY_INSTRUCTIONS },
+        { role: "user", content: `Title: ${title}\nSnippet: ${snippet}` },
+      ],
+    }),
+  });
 
   if (!res.ok) {
     const errText = await res.text();
-    console.error(`Gemini request failed for "${query}": ${res.status} ${errText}`);
-    return [];
+    console.error(`Groq request failed: ${res.status} ${errText}`);
+    return null;
   }
 
   const data = await res.json();
-  const candidate = data.candidates?.[0];
-  if (!candidate) return [];
-
-  const text = candidate.content?.parts?.map((p) => p.text || "").join("") || "";
-  const groundedUrls = new Set(
-    (candidate.groundingMetadata?.groundingChunks || [])
-      .map((c) => c.web?.uri)
-      .filter(Boolean)
-  );
-
-  let parsed;
+  const text = data.choices?.[0]?.message?.content || "";
   try {
-    let cleaned = text.replace(/```json|```/g, "").trim();
-    // Defend against responses that have stray text before/after the array,
-    // or a truncated opening bracket, by slicing to the outermost [ ... ].
-    const start = cleaned.indexOf("[");
-    const end = cleaned.lastIndexOf("]");
-    if (start === -1 || end === -1 || end < start) {
-      throw new Error("no JSON array found in response");
-    }
-    cleaned = cleaned.slice(start, end + 1);
-    parsed = JSON.parse(cleaned);
-  } catch (err) {
-    console.error(`Could not parse model output for "${query}":`, text.slice(0, 300));
-    return [];
+    return JSON.parse(text);
+  } catch {
+    console.error("Could not parse Groq output:", text.slice(0, 300));
+    return null;
   }
-
-  if (!Array.isArray(parsed)) return [];
-
-  // Hard enforcement: drop anything whose URL wasn't actually in Google's
-  // own grounding results for this call.
-  const verified = parsed.filter((item) => {
-    if (!item?.url) return false;
-    const ok = groundedUrls.has(item.url);
-    if (!ok) {
-      console.warn(`Dropping unverified URL (not in grounding results): ${item.url}`);
-    }
-    return ok;
-  });
-
-  return verified.map((item) => ({
-    ...item,
-    brand,
-    foundAt: new Date().toISOString(),
-  }));
 }
 
 // ---- Database (JSON file) --------------------------------------------
@@ -154,30 +168,48 @@ async function saveFindings(findings) {
   await writeFile(DB_PATH, JSON.stringify(findings, null, 2));
 }
 
-function makeId(finding) {
-  return `${finding.brand}::${finding.url}`;
+function makeId(brand, entryId) {
+  return `${brand}::${entryId}`;
 }
 
 // ---- Main --------------------------------------------------------------
 
 async function main() {
   const existing = await loadFindings();
-  const seenIds = new Set(existing.map(makeId));
+  const seenIds = new Set(existing.map((f) => f.id));
   const newFindings = [];
 
-  for (const brand of BRANDS) {
-    for (const query of queriesFor(brand)) {
-      console.log(`Searching: [${brand}] ${query}`);
-      const results = await runGroundedQuery(brand, query);
-      for (const finding of results) {
-        const id = makeId(finding);
-        if (!seenIds.has(id)) {
-          seenIds.add(id);
-          newFindings.push({ id, ...finding });
-        }
-      }
-      // Small delay to stay well under per-minute rate limits.
-      await new Promise((r) => setTimeout(r, 2000));
+  for (const [brand, feedUrl] of Object.entries(FEEDS)) {
+    if (feedUrl.startsWith("PASTE_YOUR_")) {
+      console.warn(`Skipping ${brand}: no Google Alerts feed URL configured yet.`);
+      continue;
+    }
+
+    console.log(`Checking feed for ${brand}...`);
+    const entries = await fetchAlertEntries(feedUrl);
+
+    for (const entry of entries) {
+      const id = makeId(brand, entry.id);
+      if (seenIds.has(id)) continue;
+      if (!entry.url) continue;
+
+      const result = await classify(entry.title, entry.snippet);
+      if (!result) continue;
+
+      seenIds.add(id);
+      newFindings.push({
+        id,
+        brand,
+        platform: platformFromUrl(entry.url),
+        url: entry.url,
+        type: result.type,
+        sentiment: result.sentiment,
+        summary: result.summary,
+        foundAt: new Date().toISOString(),
+      });
+
+      // Stay well under Groq's rate limit.
+      await new Promise((r) => setTimeout(r, 500));
     }
   }
 
