@@ -20,7 +20,7 @@ if (!GEMINI_API_KEY) {
 
 // ---- Configuration -------------------------------------------------
 
-const MODEL = "gemini-2.5-flash"; // stable, per-prompt billed, has its own free daily quota
+const MODEL = "gemini-3.6-flash"; // gemini-2.5-flash was retired for new API users
 const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 
 const BRANDS = ["ZOP", "Afora"];
@@ -68,6 +68,11 @@ async function runGroundedQuery(brand, query) {
       },
     ],
     tools: [{ google_search: {} }],
+    generationConfig: {
+      // Grounded calls on this model default to "thinking" on, which costs
+      // more and has been reported to occasionally truncate the JSON output.
+      thinkingConfig: { thinkingBudget: 0 },
+    },
   };
 
   const res = await fetch(
@@ -101,7 +106,15 @@ async function runGroundedQuery(brand, query) {
 
   let parsed;
   try {
-    const cleaned = text.replace(/```json|```/g, "").trim();
+    let cleaned = text.replace(/```json|```/g, "").trim();
+    // Defend against responses that have stray text before/after the array,
+    // or a truncated opening bracket, by slicing to the outermost [ ... ].
+    const start = cleaned.indexOf("[");
+    const end = cleaned.lastIndexOf("]");
+    if (start === -1 || end === -1 || end < start) {
+      throw new Error("no JSON array found in response");
+    }
+    cleaned = cleaned.slice(start, end + 1);
     parsed = JSON.parse(cleaned);
   } catch (err) {
     console.error(`Could not parse model output for "${query}":`, text.slice(0, 300));
