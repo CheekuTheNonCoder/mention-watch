@@ -25,14 +25,11 @@ const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 
 const BRANDS = ["ZOP", "Afora"];
 
-// One query per brand covers the direct case; add more phrasings if you
-// want broader "indirect mention" coverage (e.g. "avoid app India").
+// One combined query per brand keeps daily API call volume low, which
+// matters on Google's free tier (small daily request cap before billing
+// is linked). Add more phrasings later if you have quota headroom.
 function queriesFor(brand) {
-  return [
-    `"${brand}" scam OR fraud complaints`,
-    `"${brand}" review reddit OR trustpilot`,
-    `is "${brand}" legit`,
-  ];
+  return [`"${brand}" scam OR fraud OR complaints OR review OR "is it legit"`];
 }
 
 const ANALYSIS_INSTRUCTIONS = `
