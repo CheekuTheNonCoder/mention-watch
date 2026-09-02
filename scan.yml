@@ -1,0 +1,38 @@
+name: Mention Watch Scan
+
+on:
+  schedule:
+    # Every 3 hours. GitHub may delay this by a few minutes at busy times.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run scan
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scan.js
+
+      - name: Commit updated findings
+        run: |
+          git config user.name "mention-watch-bot"
+          git config user.email "actions@github.com"
+          git add data/findings.json
+          git diff --quiet --cached || git commit -m "Update findings [automated]"
+          git push
