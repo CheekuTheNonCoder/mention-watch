@@ -328,5 +328,155 @@
     "sentiment": "Neutral",
     "summary": "The EPA explains its risk-only approach to pesticide registration, defining unreasonable adverse effects and noting that benefits are not weighed in certain decisions.",
     "foundAt": "2026-09-03T10:16:20.586Z"
+  },
+  {
+    "id": "ZOP::https://www.linkedin.com/posts/fraud-complaints_aiwa-capital-review-is-aiwafxcom-legit-activity-7302660710793125889-cdLn",
+    "brand": "ZOP",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/posts/fraud-complaints_aiwa-capital-review-is-aiwafxcom-legit-activity-7302660710793125889-cdLn",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A LinkedIn post by Fraud Complaints references an Aiwa Capital review questioning its legitimacy.",
+    "foundAt": "2026-09-03T15:23:27.140Z"
+  },
+  {
+    "id": "ZOP::https://www.facebook.com/61560365497223/posts/the-trends-centre-review-is-thetrendscentrecom-scam-or-legithttpsfraudcomplaints/122162270150345516",
+    "brand": "ZOP",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/61560365497223/posts/the-trends-centre-review-is-thetrendscentrecom-scam-or-legithttpsfraudcomplaints/122162270150345516",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The article examines The Trends Centre, questioning its legitimacy and outlining possible scams and refund options.",
+    "foundAt": "2026-09-03T15:23:28.656Z"
+  },
+  {
+    "id": "ZOP::https://fraudreviews.net/crypto-scam-reviews/coinpoker-scam-review",
+    "brand": "ZOP",
+    "platform": "fraudreviews.net",
+    "url": "https://fraudreviews.net/crypto-scam-reviews/coinpoker-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The article questions whether CoinPoker is a fraudulent cryptocurrency, presenting it as a potential scam.",
+    "foundAt": "2026-09-03T15:23:29.870Z"
+  },
+  {
+    "id": "ZOP::https://globalfraudreviews.com/investment-scams/insightsoftware-scam-review",
+    "brand": "ZOP",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/insightsoftware-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet asserts that InsightSoftware lacks reputable regulation and appears to be a potential forex scam.",
+    "foundAt": "2026-09-03T15:23:30.728Z"
+  },
+  {
+    "id": "ZOP::https://holyprofweb.com/is-foxvixen-legit-or-scam-reviews-complaints",
+    "brand": "ZOP",
+    "platform": "holyprofweb.com",
+    "url": "https://holyprofweb.com/is-foxvixen-legit-or-scam-reviews-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists various unrelated review links on Holyprofweb without providing specific information about Foxvixen.",
+    "foundAt": "2026-09-03T15:23:31.695Z"
+  },
+  {
+    "id": "ZOP::https://holyprofweb.com/is-tomoboost-legit-or-scam-reviews-complaints",
+    "brand": "ZOP",
+    "platform": "holyprofweb.com",
+    "url": "https://holyprofweb.com/is-tomoboost-legit-or-scam-reviews-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet only lists other review links and does not provide any specific information about Tomoboost.",
+    "foundAt": "2026-09-03T15:23:32.881Z"
+  },
+  {
+    "id": "ZOP::https://globalfraudreviews.com/investment-scams/arbitrage-prime-scam-review",
+    "brand": "ZOP",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/arbitrage-prime-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The review highlights lack of regulation, numerous complaints, and red flags suggesting Arbitrage Prime may be a fraudulent broker.",
+    "foundAt": "2026-09-03T15:23:33.777Z"
+  },
+  {
+    "id": "ZOP::http://brokercomplaintalert.com/sgb-finance-sa-review-2024-legit-or-a-scam",
+    "brand": "ZOP",
+    "platform": "brokercomplaintalert.com",
+    "url": "http://brokercomplaintalert.com/sgb-finance-sa-review-2024-legit-or-a-scam",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "The snippet promotes Broker Complaint Alert, a service that assists victims of investment and trading scams by offering advice and recovery assistance.",
+    "foundAt": "2026-09-03T15:23:35.253Z"
+  },
+  {
+    "id": "ZOP::https://fraudreviews.net/crypto-scam-reviews/safepal-scam-review",
+    "brand": "ZOP",
+    "platform": "fraudreviews.net",
+    "url": "https://fraudreviews.net/crypto-scam-reviews/safepal-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The piece reviews SafePal, highlighting its wallet features but warning that its lack of regulatory oversight, fee transparency, and customer support raise concerns it could be a scam.",
+    "foundAt": "2026-09-03T15:23:36.554Z"
+  },
+  {
+    "id": "ZOP::https://globalfraudreviews.com/investment-scams/gtfx-scam-review",
+    "brand": "ZOP",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/gtfx-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The review notes that GTFX’s trading details are unclear, with low minimum deposits and undisclosed commissions or leverage, suggesting it may be a scam.",
+    "foundAt": "2026-09-03T15:23:37.587Z"
+  },
+  {
+    "id": "Afora::https://www.glassdoor.sg/Reviews/Employee-Review-The-Agora-E322362-RVW25495293.htm",
+    "brand": "Afora",
+    "platform": "glassdoor.sg",
+    "url": "https://www.glassdoor.sg/Reviews/Employee-Review-The-Agora-E322362-RVW25495293.htm",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "A former employee alleges terrible management, favoritism, lack of growth, and that the firm scams older workers.",
+    "foundAt": "2026-09-03T15:23:39.698Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/us/md/baltimore/profile/publishers-periodical/agora-financial-llc-0011-90207864/complaints",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/us/md/baltimore/profile/publishers-periodical/agora-financial-llc-0011-90207864/complaints",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "A customer claims an unauthorized $51.60 charge from Agora, reports ongoing spam despite removal requests, and was told the charge likely came from a different company.",
+    "foundAt": "2026-09-03T15:23:40.629Z"
+  },
+  {
+    "id": "Afora::https://brokerchooser.com/safety/agora-direct-broker-safe-or-scam",
+    "brand": "Afora",
+    "platform": "brokerchooser.com",
+    "url": "https://brokerchooser.com/safety/agora-direct-broker-safe-or-scam",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet asserts that AGORA direct is a legitimate, SEC‑regulated broker and the author recommends it as safe.",
+    "foundAt": "2026-09-03T15:23:41.657Z"
+  },
+  {
+    "id": "Afora::https://www.nudgesecurity.com/security-profile/agora-io",
+    "brand": "Afora",
+    "platform": "nudgesecurity.com",
+    "url": "https://www.nudgesecurity.com/security-profile/agora-io",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet presents Nudge Security’s security profile for Agora, listing its certifications, compliance standards, and integrated services.",
+    "foundAt": "2026-09-03T15:23:42.597Z"
+  },
+  {
+    "id": "Afora::https://agora.unicef.org",
+    "brand": "Afora",
+    "platform": "agora.unicef.org",
+    "url": "https://agora.unicef.org",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Agora is a UNICEF learning portal providing free, flexible, and user‑friendly courses on topics such as gender‑based violence and political analysis.",
+    "foundAt": "2026-09-03T15:23:43.563Z"
   }
 ]
