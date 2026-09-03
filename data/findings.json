@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "id": "ZOP::https://www.scamadviser.com/check-website/zop.in",
+    "brand": "ZOP",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/zop.in",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The Scamadviser review notes zop.in is an 18‑year‑old site with a valid SSL and safe rating despite hidden WHOIS info and some negative remarks, concluding it is legit and not a scam.",
+    "foundAt": "2026-09-03T05:41:26.313Z"
+  },
+  {
+    "id": "ZOP::https://zop-in.tenereteam.com",
+    "brand": "ZOP",
+    "platform": "zop-in.tenereteam.com",
+    "url": "https://zop-in.tenereteam.com",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "A reviewer alleges Zop.in takes money without delivering products and labels it a scam, contradicting other assessments that consider the site legitimate.",
+    "foundAt": "2026-09-03T05:41:27.407Z"
+  },
+  {
+    "id": "ZOP::https://www.mouthshut.com/product-reviews/zopnow-reviews-925663393",
+    "brand": "ZOP",
+    "platform": "mouthshut.com",
+    "url": "https://www.mouthshut.com/product-reviews/zopnow-reviews-925663393",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The reviewer alleges Zop took money without delivering the product and warns others not to buy from them.",
+    "foundAt": "2026-09-03T05:41:28.445Z"
+  },
+  {
+    "id": "ZOP::https://www.trustpilot.com/review/www.zop.in",
+    "brand": "ZOP",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/www.zop.in",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "Several customers claim ZOP is fraudulent, with misleading prices, cancelled orders, no refunds, and poor customer support.",
+    "foundAt": "2026-09-03T05:41:29.335Z"
+  },
+  {
+    "id": "ZOP::https://zop-by-shiprocket.pissedconsumer.com/review.html",
+    "brand": "ZOP",
+    "platform": "zop-by-shiprocket.pissedconsumer.com",
+    "url": "https://zop-by-shiprocket.pissedconsumer.com/review.html",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer alleges that Zop delivered a product marked as delivered but never received, received no customer support, and accuses the site of fraudulent practices, seeking a full refund.",
+    "foundAt": "2026-09-03T05:41:30.184Z"
+  },
+  {
+    "id": "ZOP::https://www.reddit.com/r/BhartiyaReplicaParty/comments/1nlpzfd/is_zop_legit",
+    "brand": "ZOP",
+    "platform": "Reddit",
+    "url": "https://www.reddit.com/r/BhartiyaReplicaParty/comments/1nlpzfd/is_zop_legit",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The post asserts Zop is a fake site that never delivers orders and provides no tracking or contact information.",
+    "foundAt": "2026-09-03T05:41:31.145Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=62MK6bGd_y8",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=62MK6bGd_y8",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer describes the t‑shirt as extremely low quality, mentions a failed refund request, and advises others to stay away from the product and website.",
+    "foundAt": "2026-09-03T05:41:32.202Z"
+  },
+  {
+    "id": "ZOP::https://www.facebook.com/groups/1153009848895360/posts/1622193615310312",
+    "brand": "ZOP",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/groups/1153009848895360/posts/1622193615310312",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet claims Zop.in is fraudulently cheating many customers and suggests contacting cyber or consumer authorities.",
+    "foundAt": "2026-09-03T05:41:33.123Z"
+  },
+  {
+    "id": "ZOP::https://www.instagram.com/reel/DCjme2vSy4M?hl=en",
+    "brand": "ZOP",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/reel/DCjme2vSy4M?hl=en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists several recent Instagram posts featuring promotional images and text for inexpensive products and a Raksha Bandhan greeting.",
+    "foundAt": "2026-09-03T05:41:34.150Z"
+  },
+  {
+    "id": "ZOP::https://www.instagram.com/zop.in_?hl=en",
+    "brand": "ZOP",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/zop.in_?hl=en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Zop's Instagram page shares multiple promotional videos and photos advertising inexpensive gifts, a toothbrush, headphones, and a Raksha Bandhan celebration message.",
+    "foundAt": "2026-09-03T05:41:35.068Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/spb.afora.ru",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/spb.afora.ru",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The site is reported to have a decent trust rating and is considered legitimate and safe.",
+    "foundAt": "2026-09-03T05:41:37.163Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/afora.shop",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/afora.shop",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "Afora holds a low Trustpilot rating of about 2.4 out of 5 from 23 reviews.",
+    "foundAt": "2026-09-03T05:41:38.119Z"
+  },
+  {
+    "id": "Afora::https://www.justanswer.com/consumer-protection-law/7a470-agora-financial-llc-scam-company-selling-financial-info.html",
+    "brand": "Afora",
+    "platform": "justanswer.com",
+    "url": "https://www.justanswer.com/consumer-protection-law/7a470-agora-financial-llc-scam-company-selling-financial-info.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The BBB has maintained a file on Agora Financial since 1987 and gives it an A rating.",
+    "foundAt": "2026-09-03T05:41:39.156Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=xpl176mPiUY",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=xpl176mPiUY",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet questions whether becoming a Fora Travel advisor is a legitimate opportunity or just another MLM scam.",
+    "foundAt": "2026-09-03T05:41:40.350Z"
+  },
+  {
+    "id": "Afora::https://www.reddit.com/r/copywriting/comments/a846us/is_agora_financial_a_scam",
+    "brand": "Afora",
+    "platform": "Reddit",
+    "url": "https://www.reddit.com/r/copywriting/comments/a846us/is_agora_financial_a_scam",
+    "type": "Scam claim",
+    "sentiment": "Positive",
+    "summary": "The author asserts that Agora Financial is not a scam, despite engaging in questionable but legal activities.",
+    "foundAt": "2026-09-03T05:41:41.321Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/www.agorafinancial.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/www.agorafinancial.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A reviewer alleges Agora Financial operates fraudulent newsletters that scam investors and urges people to avoid them.",
+    "foundAt": "2026-09-03T05:41:42.480Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/scamtracker",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/scamtracker",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the website's necessary and marketing cookies, their purposes, and how users can manage them.",
+    "foundAt": "2026-09-03T05:41:43.413Z"
+  },
+  {
+    "id": "Afora::https://www.quora.com/Is-Avatrade-Global-LLC-a-scam-company-and-why-is-it-illegal-in-the-US",
+    "brand": "Afora",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-Avatrade-Global-LLC-a-scam-company-and-why-is-it-illegal-in-the-US",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet alleges that the alleged fraud could violate criminal laws, leading to jail time and legal action to recover stolen funds.",
+    "foundAt": "2026-09-03T05:41:44.528Z"
+  }
+]
