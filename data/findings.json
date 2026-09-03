@@ -268,5 +268,65 @@
     "sentiment": "Neutral",
     "summary": "The snippet references an article titled “The Soothing Unsubtlety of UNBROKEN” that explores the untold story of Shen Yun and lists various column sections.",
     "foundAt": "2026-09-03T05:45:35.886Z"
+  },
+  {
+    "id": "ZOP::https://voxya.com/company/zop-now-complaints/1232096",
+    "brand": "ZOP",
+    "platform": "voxya.com",
+    "url": "https://voxya.com/company/zop-now-complaints/1232096",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The page provides guidance on filing a consumer complaint against ZOP NOW and outlines the resolution process.",
+    "foundAt": "2026-09-03T10:16:13.525Z"
+  },
+  {
+    "id": "ZOP::https://www.zop.in/pages/reviews",
+    "brand": "ZOP",
+    "platform": "zop.in",
+    "url": "https://www.zop.in/pages/reviews",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines the Shiprocket merchant app’s UI elements such as sharing options, an empty cart notice, free‑gift prompts, wishlist management, and login prompts.",
+    "foundAt": "2026-09-03T10:16:14.780Z"
+  },
+  {
+    "id": "Afora::https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "brand": "Afora",
+    "platform": "developers.google.com",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "It advises fixing invalid structured data items, checking live URLs, and monitoring after website changes.",
+    "foundAt": "2026-09-03T10:16:17.452Z"
+  },
+  {
+    "id": "Afora::https://www.mass.edu/forstufam/complaints/complaints.asp",
+    "brand": "Afora",
+    "platform": "mass.edu",
+    "url": "https://www.mass.edu/forstufam/complaints/complaints.asp",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The department outlines that complaint details and responses are public records (minus personal data), institutions must reply within 30 days, and unresolved issues go to the Consumer Protection Division.",
+    "foundAt": "2026-09-03T10:16:18.560Z"
+  },
+  {
+    "id": "Afora::https://www.nybooks.com/articles/1995/06/22/ur-fascism",
+    "brand": "Afora",
+    "platform": "nybooks.com",
+    "url": "https://www.nybooks.com/articles/1995/06/22/ur-fascism",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists several past New York Review article titles and dates, includes a subscription promotion, and adds a brief personal anecdote about an American officer.",
+    "foundAt": "2026-09-03T10:16:19.601Z"
+  },
+  {
+    "id": "Afora::https://www.epa.gov/pesticide-reevaluation/registration-review-process",
+    "brand": "Afora",
+    "platform": "epa.gov",
+    "url": "https://www.epa.gov/pesticide-reevaluation/registration-review-process",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The EPA explains its risk-only approach to pesticide registration, defining unreasonable adverse effects and noting that benefits are not weighed in certain decisions.",
+    "foundAt": "2026-09-03T10:16:20.586Z"
   }
 ]
