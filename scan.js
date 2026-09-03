@@ -1,25 +1,31 @@
 /**
- * Mention Watch — scan.js
+ * Mention Watch — scan.js (v3: Tavily + Groq)
  *
- * Discovery: reads Google Alerts RSS/Atom feeds (one per brand). This has
- * no API quota — it's just a feed URL Google updates on its own schedule.
+ * Discovery: Tavily's search API, queried live on each run (not waiting
+ * on Google Alerts' own crawl/notify schedule). Free tier: 1,000 credits
+ * a month, no credit card, resets monthly. A basic search = 1 credit.
  *
- * Classification: sends each NEW alert's title + snippet (already fetched
- * from the feed, not searched by an AI) to Groq for a short summary,
- * sentiment, and type tag.
+ * Classification: Groq reads each NEW result's title + snippet (already
+ * returned by Tavily, not searched by the AI) and returns a type,
+ * sentiment, and one-line summary. Free tier: 14,400 requests/day.
  *
- * The URL for every finding comes directly from the Google Alerts feed
- * entry itself — it is never generated or guessed by the AI step.
+ * Every finding's URL comes directly from Tavily's search results — the
+ * classification step never sees a blank page and invents a link.
  *
- * Requires: Node 18+ (built-in fetch), GROQ_API_KEY env var,
- * the "fast-xml-parser" package (see package.json).
+ * Requires: Node 18+ (built-in fetch), TAVILY_API_KEY and GROQ_API_KEY
+ * env vars.
  */
 
 import { readFile, writeFile, mkdir } from "fs/promises";
 import path from "path";
-import { XMLParser } from "fast-xml-parser";
 
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const GROQ_API_KEY = process.env.GROQ_API_KEY;
+
+if (!TAVILY_API_KEY) {
+  console.error("Missing TAVILY_API_KEY environment variable.");
+  process.exit(1);
+}
 if (!GROQ_API_KEY) {
   console.error("Missing GROQ_API_KEY environment variable.");
   process.exit(1);
@@ -30,17 +36,19 @@ if (!GROQ_API_KEY) {
 const GROQ_MODEL = "llama-3.3-70b-versatile";
 const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 
-// Paste the RSS feed URL for each brand's Google Alert here.
-// (Google Alerts → edit an alert → "Deliver to" → "RSS Feed" → copy link.)
-const FEEDS = {
-  ZOP: "https://www.google.com/alerts/feeds/05813187493059511228/8592933093986867067",
-  Afora: "https://www.google.com/alerts/feeds/05813187493059511228/8929181206387735148",
-};
+const BRANDS = ["ZOP", "Afora"];
+
+// One query per brand per run keeps monthly Tavily credit use well under
+// the 1,000/month free cap. Add more phrasings later if you have headroom
+// (check usage at app.tavily.com).
+function queryFor(brand) {
+  return `"${brand}" scam OR fraud OR complaints OR review OR "is it legit"`;
+}
 
 const CLASSIFY_INSTRUCTIONS = `
-You are helping a company understand a single web mention of its brand.
-You will be given a title and a short snippet from a real web page. Do not
-search for anything or invent any information beyond what's given.
+You are helping a company understand a single web search result about its
+brand. You will be given a title and a short snippet from a real web page.
+Do not search for anything or invent any information beyond what's given.
 
 Respond with ONLY a JSON object with these fields:
 - "type": one of "Complaint", "Review", "Scam claim", "Mention"
@@ -49,31 +57,34 @@ Respond with ONLY a JSON object with these fields:
   words. Do not quote it directly.
 `.trim();
 
-// ---- Google Alerts feed parsing --------------------------------------
+// ---- Tavily search -----------------------------------------------------
 
-const xmlParser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
+async function searchTavily(query) {
+  const res = await fetch("https://api.tavily.com/search", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${TAVILY_API_KEY}`,
+    },
+    body: JSON.stringify({
+      query,
+      search_depth: "basic",
+      max_results: 10,
+    }),
+  });
 
-function stripHtml(html) {
-  return (html || "")
-    .replace(/<[^>]*>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-// Google Alerts links wrap the real URL as a query parameter, e.g.
-// https://www.google.com/url?rct=j&sa=t&url=<REAL_URL>&ct=ga&...
-function unwrapGoogleUrl(rawUrl) {
-  try {
-    const parsed = new URL(rawUrl);
-    const inner = parsed.searchParams.get("url") || parsed.searchParams.get("q");
-    return inner || rawUrl;
-  } catch {
-    return rawUrl;
+  if (!res.ok) {
+    const errText = await res.text();
+    console.error(`Tavily request failed for "${query}": ${res.status} ${errText}`);
+    return [];
   }
+
+  const data = await res.json();
+  return (data.results || []).map((r) => ({
+    url: r.url,
+    title: r.title || "",
+    snippet: r.content || "",
+  }));
 }
 
 function platformFromUrl(url) {
@@ -85,36 +96,10 @@ function platformFromUrl(url) {
     if (host.includes("facebook.com")) return "Facebook";
     if (host.includes("instagram.com")) return "Instagram";
     if (host.includes("linkedin.com")) return "LinkedIn";
-    if (host.includes("news.google.com")) return "News";
     return host;
   } catch {
     return "Web";
   }
-}
-
-async function fetchAlertEntries(feedUrl) {
-  const res = await fetch(feedUrl);
-  if (!res.ok) {
-    console.error(`Failed to fetch feed (${res.status}): ${feedUrl}`);
-    return [];
-  }
-  const xml = await res.text();
-  const parsed = xmlParser.parse(xml);
-
-  // Google Alerts feeds are Atom format: <feed><entry>...</entry></feed>
-  const entries = parsed?.feed?.entry;
-  if (!entries) return [];
-  const list = Array.isArray(entries) ? entries : [entries];
-
-  return list.map((entry) => {
-    const rawLink = Array.isArray(entry.link) ? entry.link[0] : entry.link;
-    const href = rawLink?.["@_href"] || "";
-    const url = unwrapGoogleUrl(href);
-    const title = stripHtml(entry.title || "");
-    const snippet = stripHtml(entry.content || entry.summary || "");
-    const id = entry.id || url;
-    return { id, url, title, snippet };
-  });
 }
 
 // ---- Groq classification ----------------------------------------------
@@ -168,8 +153,8 @@ async function saveFindings(findings) {
   await writeFile(DB_PATH, JSON.stringify(findings, null, 2));
 }
 
-function makeId(brand, entryId) {
-  return `${brand}::${entryId}`;
+function makeId(brand, url) {
+  return `${brand}::${url}`;
 }
 
 // ---- Main --------------------------------------------------------------
@@ -179,36 +164,32 @@ async function main() {
   const seenIds = new Set(existing.map((f) => f.id));
   const newFindings = [];
 
-  for (const [brand, feedUrl] of Object.entries(FEEDS)) {
-    if (feedUrl.startsWith("PASTE_YOUR_")) {
-      console.warn(`Skipping ${brand}: no Google Alerts feed URL configured yet.`);
-      continue;
-    }
+  for (const brand of BRANDS) {
+    const query = queryFor(brand);
+    console.log(`Searching: [${brand}] ${query}`);
+    const results = await searchTavily(query);
 
-    console.log(`Checking feed for ${brand}...`);
-    const entries = await fetchAlertEntries(feedUrl);
-
-    for (const entry of entries) {
-      const id = makeId(brand, entry.id);
+    for (const result of results) {
+      if (!result.url) continue;
+      const id = makeId(brand, result.url);
       if (seenIds.has(id)) continue;
-      if (!entry.url) continue;
 
-      const result = await classify(entry.title, entry.snippet);
-      if (!result) continue;
+      const classified = await classify(result.title, result.snippet);
+      if (!classified) continue;
 
       seenIds.add(id);
       newFindings.push({
         id,
         brand,
-        platform: platformFromUrl(entry.url),
-        url: entry.url,
-        type: result.type,
-        sentiment: result.sentiment,
-        summary: result.summary,
+        platform: platformFromUrl(result.url),
+        url: result.url,
+        type: classified.type,
+        sentiment: classified.sentiment,
+        summary: classified.summary,
         foundAt: new Date().toISOString(),
       });
 
-      // Stay well under Groq's rate limit.
+      // Stay well under Groq's per-minute rate limit.
       await new Promise((r) => setTimeout(r, 500));
     }
   }
