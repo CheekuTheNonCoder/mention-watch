@@ -478,5 +478,15 @@
     "sentiment": "Positive",
     "summary": "Agora is a UNICEF learning portal providing free, flexible, and user‑friendly courses on topics such as gender‑based violence and political analysis.",
     "foundAt": "2026-09-03T15:23:43.563Z"
+  },
+  {
+    "id": "Afora::https://www.quora.com/How-come-Agora-Financial-was-never-sued-even-if-its-a-scam",
+    "brand": "Afora",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/How-come-Agora-Financial-was-never-sued-even-if-its-a-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet argues that Agora Financial hasn't faced lawsuits because its $2,000 annual fee makes legal action too costly for complainants.",
+    "foundAt": "2026-09-03T20:14:03.500Z"
   }
 ]
