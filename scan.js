@@ -33,7 +33,7 @@ if (!GROQ_API_KEY) {
 
 // ---- Configuration -------------------------------------------------
 
-const GROQ_MODEL = "llama-3.3-70b-versatile";
+const GROQ_MODEL = "openai/gpt-oss-120b"; // llama-3.3-70b-versatile was retired Aug 16, 2026
 const DB_PATH = path.join(process.cwd(), "data", "findings.json");
 
 const BRANDS = ["ZOP", "Afora"];
