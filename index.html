@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zop &amp; Afora — Mention Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #12161B; }
+  #root { min-height: 100vh; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<script type="text/babel" data-presets="env,react">
+const { useState, useMemo, useEffect } = React;
+
+const FINDINGS_URL =
+  "https://raw.githubusercontent.com/CheekuTheNonCoder/mention-watch/main/data/findings.json";
+
+const COLORS = {
+  bgVoid: "#12161B",
+  bgPanel: "#181D24",
+  bgPanelHover: "#1D232B",
+  border: "#262D36",
+  textHi: "#EDEFF2",
+  textMid: "#9AA4B0",
+  textLow: "#5E6771",
+  negative: "#E15241",
+  positive: "#4EAE8B",
+  neutral: "#8B94A0",
+  live: "#F2A93B",
+};
+
+const SENTIMENT_COLOR = {
+  Negative: COLORS.negative,
+  Positive: COLORS.positive,
+  Neutral: COLORS.neutral,
+};
+
+function relativeTime(date) {
+  const diffMs = Date.now() - date.getTime();
+  const hours = Math.floor(diffMs / (1000 * 60 * 60));
+  if (hours < 1) return "just now";
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return `${days}d ago`;
+}
+
+const BRAND_OPTIONS = ["All", "ZOP", "Afora"];
+const DATE_OPTIONS = [
+  { label: "Today", days: 1 },
+  { label: "7 days", days: 7 },
+  { label: "30 days", days: 30 },
+];
+const SENTIMENT_OPTIONS = ["All", "Positive", "Neutral", "Negative"];
+const TYPE_OPTIONS = ["All", "Complaint", "Review", "Scam claim", "Mention"];
+
+function Pill({ active, onClick, children }) {
+  return (
+    <button
+      onClick={onClick}
+      style={{
+        fontFamily: "'Inter', sans-serif",
+        fontSize: 13,
+        fontWeight: 500,
+        padding: "6px 13px",
+        borderRadius: 7,
+        border: `1px solid ${active ? COLORS.textMid : COLORS.border}`,
+        background: active ? COLORS.bgPanelHover : "transparent",
+        color: active ? COLORS.textHi : COLORS.textMid,
+        cursor: "pointer",
+        transition: "border-color 120ms ease, color 120ms ease",
+        whiteSpace: "nowrap",
+      }}
+    >
+      {children}
+    </button>
+  );
+}
+
+function FilterRow({ label, options, value, onChange }) {
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
+      <span
+        style={{
+          fontFamily: "'Inter', sans-serif",
+          fontSize: 12,
+          color: COLORS.textLow,
+          width: 66,
+          flexShrink: 0,
+        }}
+      >
+        {label}
+      </span>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+        {options.map((opt) => {
+          const optLabel = typeof opt === "string" ? opt : opt.label;
+          return (
+            <Pill key={optLabel} active={value === optLabel} onClick={() => onChange(optLabel)}>
+              {optLabel}
+            </Pill>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function Dot() {
+  return (
+    <span
+      style={{
+        display: "inline-block",
+        width: 3,
+        height: 3,
+        borderRadius: "50%",
+        background: COLORS.textLow,
+        flexShrink: 0,
+      }}
+    />
+  );
+}
+
+function FindingRow({ finding }) {
+  const accent = SENTIMENT_COLOR[finding.sentiment];
+  return (
+    <div
+      style={{
+        background: COLORS.bgPanel,
+        border: `1px solid ${COLORS.border}`,
+        borderLeft: `3px solid ${accent}`,
+        borderRadius: 8,
+        padding: "14px 16px",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: 12,
+          marginBottom: 8,
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+          <span
+            style={{
+              fontFamily: "'Space Grotesk', sans-serif",
+              fontSize: 13,
+              fontWeight: 600,
+              color: COLORS.textHi,
+            }}
+          >
+            {finding.brand}
+          </span>
+          <Dot />
+          <span style={{ fontSize: 13, color: COLORS.textMid }}>{finding.platform}</span>
+          <Dot />
+          <span style={{ fontSize: 13, color: COLORS.textMid }}>{finding.type}</span>
+          <Dot />
+          <span style={{ fontSize: 13, color: accent, fontWeight: 500 }}>{finding.sentiment}</span>
+        </div>
+        <span
+          style={{
+            fontFamily: "'IBM Plex Mono', monospace",
+            fontSize: 11.5,
+            color: COLORS.textLow,
+            flexShrink: 0,
+          }}
+        >
+          {relativeTime(finding.foundAt)}
+        </span>
+      </div>
+
+      <p style={{ fontSize: 14, lineHeight: 1.5, color: COLORS.textHi, margin: "0 0 10px" }}>
+        &ldquo;{finding.summary}&rdquo;
+      </p>
+
+      <a
+        href={finding.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: 5,
+          fontSize: 12.5,
+          fontFamily: "'IBM Plex Mono', monospace",
+          color: COLORS.textMid,
+          textDecoration: "none",
+        }}
+      >
+        Open source ↗
+      </a>
+    </div>
+  );
+}
+
+function MentionWatchDashboard() {
+  const [brand, setBrand] = useState("All");
+  const [dateRange, setDateRange] = useState("30 days");
+  const [sentiment, setSentiment] = useState("All");
+  const [type, setType] = useState("All");
+
+  const [findings, setFindings] = useState([]);
+  const [status, setStatus] = useState("loading");
+  const [lastChecked, setLastChecked] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function load() {
+      try {
+        const res = await fetch(FINDINGS_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const raw = await res.json();
+        if (cancelled) return;
+        const parsed = raw.map((f) => ({ ...f, foundAt: new Date(f.foundAt) }));
+        setFindings(parsed);
+        setStatus("ready");
+        setLastChecked(new Date());
+      } catch (err) {
+        if (!cancelled) setStatus("error");
+      }
+    }
+
+    load();
+    const interval = setInterval(load, 5 * 60 * 1000);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
+  }, []);
+
+  const filtered = useMemo(() => {
+    const rangeDef = DATE_OPTIONS.find((d) => d.label === dateRange);
+    const cutoff = Date.now() - rangeDef.days * 24 * 60 * 60 * 1000;
+    return findings
+      .filter((f) => {
+        if (brand !== "All" && f.brand !== brand) return false;
+        if (sentiment !== "All" && f.sentiment !== sentiment) return false;
+        if (type !== "All" && f.type !== type) return false;
+        if (f.foundAt.getTime() < cutoff) return false;
+        return true;
+      })
+      .sort((a, b) => b.foundAt - a.foundAt);
+  }, [brand, dateRange, sentiment, type, findings]);
+
+  const negativeCount = filtered.filter((f) => f.sentiment === "Negative").length;
+
+  return (
+    <div
+      style={{
+        minHeight: "100vh",
+        background: COLORS.bgVoid,
+        color: COLORS.textHi,
+        fontFamily: "'Inter', sans-serif",
+        padding: "28px 20px 60px",
+      }}
+    >
+      <div style={{ maxWidth: 760, margin: "0 auto" }}>
+        <div style={{ marginBottom: 22 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+            <span style={{ position: "relative", display: "inline-flex", width: 8, height: 8 }}>
+              <span
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  borderRadius: "50%",
+                  background: COLORS.live,
+                  opacity: 0.5,
+                  animation: "watch-pulse 2.2s ease-out infinite",
+                }}
+              />
+              <span
+                style={{
+                  position: "relative",
+                  width: 8,
+                  height: 8,
+                  borderRadius: "50%",
+                  background: COLORS.live,
+                }}
+              />
+            </span>
+            <span style={{ fontSize: 12, color: COLORS.textMid, fontFamily: "'IBM Plex Mono', monospace" }}>
+              {status === "loading" && "loading findings…"}
+              {status === "error" && "couldn't reach data source — retrying"}
+              {status === "ready" &&
+                `watching · last checked ${lastChecked ? relativeTime(lastChecked) : "just now"}`}
+            </span>
+          </div>
+          <h1
+            style={{
+              fontFamily: "'Space Grotesk', sans-serif",
+              fontSize: 26,
+              fontWeight: 600,
+              letterSpacing: "-0.01em",
+              margin: "8px 0 4px",
+            }}
+          >
+            Zop &amp; Afora — Mention Watch
+          </h1>
+          <p style={{ fontSize: 13.5, color: COLORS.textMid, margin: 0 }}>
+            {filtered.length} mention{filtered.length === 1 ? "" : "s"} in this view
+            {negativeCount > 0 && (
+              <span style={{ color: COLORS.negative }}> · {negativeCount} negative</span>
+            )}
+          </p>
+        </div>
+
+        <div
+          style={{
+            background: COLORS.bgPanel,
+            border: `1px solid ${COLORS.border}`,
+            borderRadius: 10,
+            padding: "14px 16px",
+            marginBottom: 20,
+            display: "flex",
+            flexDirection: "column",
+            gap: 10,
+          }}
+        >
+          <FilterRow label="Brand" options={BRAND_OPTIONS} value={brand} onChange={setBrand} />
+          <FilterRow label="Date" options={DATE_OPTIONS} value={dateRange} onChange={setDateRange} />
+          <FilterRow label="Sentiment" options={SENTIMENT_OPTIONS} value={sentiment} onChange={setSentiment} />
+          <FilterRow label="Type" options={TYPE_OPTIONS} value={type} onChange={setType} />
+        </div>
+
+        {status === "loading" ? (
+          <div style={{ border: `1px solid ${COLORS.border}`, borderRadius: 10, padding: "36px 20px", textAlign: "center", color: COLORS.textMid, fontSize: 13.5 }}>
+            Loading findings…
+          </div>
+        ) : status === "error" ? (
+          <div style={{ border: `1px solid ${COLORS.negative}`, borderRadius: 10, padding: "36px 20px", textAlign: "center", color: COLORS.textMid, fontSize: 13.5 }}>
+            Couldn't load data from the repo just now.
+            <br />
+            It'll retry automatically — or refresh this page.
+          </div>
+        ) : filtered.length === 0 ? (
+          <div style={{ border: `1px dashed ${COLORS.border}`, borderRadius: 10, padding: "36px 20px", textAlign: "center", color: COLORS.textMid, fontSize: 13.5 }}>
+            No mentions match these filters.
+            <br />
+            Try widening the date range or clearing a filter.
+          </div>
+        ) : (
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {filtered.map((f) => (
+              <FindingRow key={f.id} finding={f} />
+            ))}
+          </div>
+        )}
+      </div>
+
+      <style>{`
+        @keyframes watch-pulse {
+          0% { transform: scale(1); opacity: 0.5; }
+          100% { transform: scale(2.6); opacity: 0; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          * { animation: none !important; }
+        }
+      `}</style>
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<MentionWatchDashboard />);
+</script>
+</body>
+</html>
