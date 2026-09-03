@@ -1,14 +1,11 @@
 {
   "name": "mention-watch",
   "version": "1.0.0",
-  "description": "Scheduled brand mention scanner using Google Alerts + Groq",
+  "description": "Scheduled brand mention scanner using Tavily + Groq",
   "type": "module",
   "main": "scan.js",
   "scripts": {
     "scan": "node scan.js"
-  },
-  "dependencies": {
-    "fast-xml-parser": "^4.5.0"
   },
   "engines": {
     "node": ">=18"
