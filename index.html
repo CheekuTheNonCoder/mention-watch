@@ -12,13 +12,17 @@
 </style>
 </head>
 <body>
-<div id="root"></div>
+<div id="root">
+  <div style="color:#9AA4B0; font-family: sans-serif; padding: 40px; text-align:center;">
+    If this text doesn't disappear in a few seconds, something failed to load — open the browser console (F12 or right-click → Inspect → Console tab) and check for a red error message.
+  </div>
+</div>
 
-<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7/babel.min.js"></script>
 
-<script type="text/babel" data-presets="env,react">
+<script type="text/babel" data-presets="react">
 const { useState, useMemo, useEffect } = React;
 
 const FINDINGS_URL =
