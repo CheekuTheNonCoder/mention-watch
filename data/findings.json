@@ -178,5 +178,95 @@
     "sentiment": "Negative",
     "summary": "The snippet alleges that the alleged fraud could violate criminal laws, leading to jail time and legal action to recover stolen funds.",
     "foundAt": "2026-09-03T05:41:44.528Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=9vqNiUy022E",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=9vqNiUy022E",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer finds the game's odd setup and limited health mechanics frustrating, citing the lack of resource management as a major downside.",
+    "foundAt": "2026-09-03T05:45:26.922Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=rng_yUSwrgU",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=rng_yUSwrgU",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The reviewer says the iPhone 17 is largely satisfactory with only minor drawbacks such as limited selfie‑camera control and no new AI features.",
+    "foundAt": "2026-09-03T05:45:28.016Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=HBhfMNewip8",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=HBhfMNewip8",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer appreciates the game's design but complains that the hotbar is too limited and lacks a second bar for more items.",
+    "foundAt": "2026-09-03T05:45:29.104Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=XbXXKhfvSF0&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=XbXXKhfvSF0&vl=en",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The reviewer highlights the WH‑1000XM6’s upgraded microphones, stronger chip, and AI‑trained voice detection, while noting drawbacks such as ear sweat, finicky touch controls, and a high price.",
+    "foundAt": "2026-09-03T05:45:30.152Z"
+  },
+  {
+    "id": "Afora::https://www.ohchr.org/en/hr-bodies/upr/basic-facts",
+    "brand": "Afora",
+    "platform": "ohchr.org",
+    "url": "https://www.ohchr.org/en/hr-bodies/upr/basic-facts",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines basic facts about the Universal Periodic Review, listing its expert mechanisms, complaint procedures, and follow‑up steps for stakeholders.",
+    "foundAt": "2026-09-03T05:45:31.449Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=wRaDbRjVrc4",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=wRaDbRjVrc4",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the Galaxy Buds 4 Pro for strong ANC, solid fit, good design and sound, while noting minor drawbacks like unnecessary ANC levels and a non‑water‑proof case.",
+    "foundAt": "2026-09-03T05:45:32.454Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=i6sbjtJjJ-A",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=i6sbjtJjJ-A",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The video explains exponent rules and how to manipulate powers when solving algebra problems.",
+    "foundAt": "2026-09-03T05:45:33.567Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/besteverfoodreviewshow",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/besteverfoodreviewshow",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The Best Ever Food Review Show video, which has 4 million views, showcases Asian fried chicken and Nigerian street food.",
+    "foundAt": "2026-09-03T05:45:34.506Z"
+  },
+  {
+    "id": "Afora::https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez",
+    "brand": "Afora",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet references an article titled “The Soothing Unsubtlety of UNBROKEN” that explores the untold story of Shen Yun and lists various column sections.",
+    "foundAt": "2026-09-03T05:45:35.886Z"
   }
 ]
