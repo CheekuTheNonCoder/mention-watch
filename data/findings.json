@@ -498,5 +498,85 @@
     "sentiment": "Negative",
     "summary": "The site received a medium‑low trust rating, suggesting it may be risky and should be approached with caution.",
     "foundAt": "2026-09-04T01:44:36.813Z"
+  },
+  {
+    "id": "ZOP::https://www.reddit.com/r/IsThisAScamIndia/comments/1pougmg/zop_dot_in_is_scam_or_not",
+    "brand": "ZOP",
+    "platform": "Reddit",
+    "url": "https://www.reddit.com/r/IsThisAScamIndia/comments/1pougmg/zop_dot_in_is_scam_or_not",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The comment questions the brand's legitimacy and warns that its quality is likely sub‑par.",
+    "foundAt": "2026-09-04T10:05:14.165Z"
+  },
+  {
+    "id": "ZOP::https://www.mouthshut.com/review/zopnow-review-prpmlrponop",
+    "brand": "ZOP",
+    "platform": "mouthshut.com",
+    "url": "https://www.mouthshut.com/review/zopnow-review-prpmlrponop",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The reviewer calls ZOPNOW a scam and urges people to avoid its site and app promotions.",
+    "foundAt": "2026-09-04T10:05:15.311Z"
+  },
+  {
+    "id": "ZOP::https://ca.trustpilot.com/review/www.zop.in?page=3",
+    "brand": "ZOP",
+    "platform": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/www.zop.in?page=3",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer ordered from zop.in, found the products low quality, and reported no reachable customer service or responses to inquiries.",
+    "foundAt": "2026-09-04T10:05:16.366Z"
+  },
+  {
+    "id": "ZOP::https://www.instagram.com/reel/DGxvc-eMHYj?hl=en",
+    "brand": "ZOP",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/reel/DGxvc-eMHYj?hl=en",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The writer alleges the brand scammed them and is demanding a refund and compensation.",
+    "foundAt": "2026-09-04T10:05:17.588Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=OY2x0TyKzIQ",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=OY2x0TyKzIQ",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer notes SORA’s strict content restrictions and watermarks but praises its fast, powerful AI video generation.",
+    "foundAt": "2026-09-04T10:05:20.445Z"
+  },
+  {
+    "id": "Afora::https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html",
+    "brand": "Afora",
+    "platform": "nytimes.com",
+    "url": "https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The writer feels Peter Luger has lost its former quality and now feels overpriced and disappointing, leaving them feeling scammed.",
+    "foundAt": "2026-09-04T10:05:21.854Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=66QzlDewigE",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=66QzlDewigE",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer finds the Steam Machine fun and unique to tinker with, despite noting its high price.",
+    "foundAt": "2026-09-04T10:05:22.806Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=n1k4qAUbLLU",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=n1k4qAUbLLU",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt describes how different Native American groups built permanent settlements and complex societies using abundant marine resources or agriculture, leading to trade networks and social hierarchies.",
+    "foundAt": "2026-09-04T10:05:23.869Z"
   }
 ]
