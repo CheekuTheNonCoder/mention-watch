@@ -578,5 +578,105 @@
     "sentiment": "Neutral",
     "summary": "The excerpt describes how different Native American groups built permanent settlements and complex societies using abundant marine resources or agriculture, leading to trade networks and social hierarchies.",
     "foundAt": "2026-09-04T10:05:23.869Z"
+  },
+  {
+    "id": "Afora::https://www.linkedin.com/posts/fraud-complaints_aiwa-capital-review-is-aiwafxcom-legit-activity-7302660710793125889-cdLn",
+    "brand": "Afora",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/posts/fraud-complaints_aiwa-capital-review-is-aiwafxcom-legit-activity-7302660710793125889-cdLn",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A LinkedIn post by Fraud Complaints questions whether Aiwa Capital is a scam or a legitimate company.",
+    "foundAt": "2026-09-04T15:19:14.199Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/61560365497223/posts/the-trends-centre-review-is-thetrendscentrecom-scam-or-legithttpsfraudcomplaints/122162270150345516",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/61560365497223/posts/the-trends-centre-review-is-thetrendscentrecom-scam-or-legithttpsfraudcomplaints/122162270150345516",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The article examines whether The Trends Centre is a scam, offering information on potential fraud and refund claims.",
+    "foundAt": "2026-09-04T15:19:15.421Z"
+  },
+  {
+    "id": "Afora::https://globalfraudreviews.com/investment-scams/arbitrage-prime-scam-review",
+    "brand": "Afora",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/arbitrage-prime-scam-review",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The article reviews Arbitrage Prime, highlighting a lack of regulation and multiple warning signs that suggest it may be a scam.",
+    "foundAt": "2026-09-04T15:19:17.710Z"
+  },
+  {
+    "id": "Afora::https://globalfraudreviews.com/investment-scams/insightsoftware-scam-review",
+    "brand": "Afora",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/insightsoftware-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet alleges that InsightSoftware is an offshore, unregulated broker without proper licensing, making it characteristic of a forex scam.",
+    "foundAt": "2026-09-04T15:19:18.788Z"
+  },
+  {
+    "id": "Afora::https://holyprofweb.com/is-foxvixen-legit-or-scam-reviews-complaints",
+    "brand": "Afora",
+    "platform": "holyprofweb.com",
+    "url": "https://holyprofweb.com/is-foxvixen-legit-or-scam-reviews-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet only lists links to other review articles and does not contain any specific feedback about FoxVixen.",
+    "foundAt": "2026-09-04T15:19:20.538Z"
+  },
+  {
+    "id": "Afora::https://holyprofweb.com/is-tomoboost-legit-or-scam-reviews-complaints",
+    "brand": "Afora",
+    "platform": "holyprofweb.com",
+    "url": "https://holyprofweb.com/is-tomoboost-legit-or-scam-reviews-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet only lists other legitimacy review links and does not contain any specific opinion or complaint about Tomoboost.",
+    "foundAt": "2026-09-04T15:19:21.666Z"
+  },
+  {
+    "id": "Afora::https://fraudreviews.net/crypto-scam-reviews/coinpoker-scam-review",
+    "brand": "Afora",
+    "platform": "fraudreviews.net",
+    "url": "https://fraudreviews.net/crypto-scam-reviews/coinpoker-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet is from a fraud‑review site presenting a CoinPoker article that questions whether the cryptocurrency is a scam or legitimate.",
+    "foundAt": "2026-09-04T15:19:22.874Z"
+  },
+  {
+    "id": "Afora::https://fraudreviews.net/crypto-scam-reviews/safepal-scam-review",
+    "brand": "Afora",
+    "platform": "fraudreviews.net",
+    "url": "https://fraudreviews.net/crypto-scam-reviews/safepal-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The article questions whether SafePal is a legitimate cryptocurrency wallet or a fraudulent scam.",
+    "foundAt": "2026-09-04T15:19:24.057Z"
+  },
+  {
+    "id": "Afora::https://globalfraudreviews.com/investment-scams/gtfx-scam-review",
+    "brand": "Afora",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/gtfx-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet warns that GTFX’s trading details are vague, with unclear commissions, leverage, and only a minimal deposit disclosed, suggesting it may be a fraudulent broker.",
+    "foundAt": "2026-09-04T15:19:25.121Z"
+  },
+  {
+    "id": "Afora::http://brokercomplaintalert.com/sgb-finance-sa-review-2024-legit-or-a-scam",
+    "brand": "Afora",
+    "platform": "brokercomplaintalert.com",
+    "url": "http://brokercomplaintalert.com/sgb-finance-sa-review-2024-legit-or-a-scam",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Broker Complaint Alert describes its services assisting fraud victims and offering guidance on online trading scams.",
+    "foundAt": "2026-09-04T15:19:26.058Z"
   }
 ]
