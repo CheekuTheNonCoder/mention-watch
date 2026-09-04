@@ -488,5 +488,15 @@
     "sentiment": "Negative",
     "summary": "The snippet argues that Agora Financial hasn't faced lawsuits because its $2,000 annual fee makes legal action too costly for complainants.",
     "foundAt": "2026-09-03T20:14:03.500Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/afora-shop-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/afora-shop-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The site received a medium‑low trust rating, suggesting it may be risky and should be approached with caution.",
+    "foundAt": "2026-09-04T01:44:36.813Z"
   }
 ]
