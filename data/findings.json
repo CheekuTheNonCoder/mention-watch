@@ -678,5 +678,45 @@
     "sentiment": "Neutral",
     "summary": "Broker Complaint Alert describes its services assisting fraud victims and offering guidance on online trading scams.",
     "foundAt": "2026-09-04T15:19:26.058Z"
+  },
+  {
+    "id": "Afora::https://consumer.ftc.gov/scams",
+    "brand": "Afora",
+    "platform": "consumer.ftc.gov",
+    "url": "https://consumer.ftc.gov/scams",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The FTC warns that scammers impersonate the agency, urging people not to send money and to report such scams.",
+    "foundAt": "2026-09-05T01:45:41.655Z"
+  },
+  {
+    "id": "Afora::https://www.theparisreview.org/blog/2019/07/16/the-crane-wife",
+    "brand": "Afora",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/blog/2019/07/16/the-crane-wife",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "The narrator describes feeling betrayed as their partner repeatedly downplays infidelity by claiming the relationship and its rules weren’t officially defined.",
+    "foundAt": "2026-09-05T01:45:42.811Z"
+  },
+  {
+    "id": "Afora::https://www.cjr.org/the-interview/all-i-have-is-the-power-to-talk-and-be-heard-tucker-carlson-interview-pitying-trump-podcast-new-third-party-nicotine-pouch-alp-fox-news-fired-anti-war-gaza-immigration.php",
+    "brand": "Afora",
+    "platform": "cjr.org",
+    "url": "https://www.cjr.org/the-interview/all-i-have-is-the-power-to-talk-and-be-heard-tucker-carlson-interview-pitying-trump-podcast-new-third-party-nicotine-pouch-alp-fox-news-fired-anti-war-gaza-immigration.php",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The speaker claims they are not anti‑Semitic, have no financial backers, make all programming decisions instinctively, and acknowledge a short attention span.",
+    "foundAt": "2026-09-05T01:45:43.810Z"
+  },
+  {
+    "id": "Afora::https://www.griffithreview.com",
+    "brand": "Afora",
+    "platform": "griffithreview.com",
+    "url": "https://www.griffithreview.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The excerpt shares personal reflections that celebrate First Nations heritage and cultural identity.",
+    "foundAt": "2026-09-05T01:45:44.640Z"
   }
 ]
