@@ -718,5 +718,95 @@
     "sentiment": "Positive",
     "summary": "The excerpt shares personal reflections that celebrate First Nations heritage and cultural identity.",
     "foundAt": "2026-09-05T01:45:44.640Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=9vqNiUy022E",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=9vqNiUy022E",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The review describes SOMA's odd brain‑scan premise, acknowledges its tight pacing, and criticizes the limited health‑management mechanics.",
+    "foundAt": "2026-09-05T09:34:54.737Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=OY2x0TyKzIQ",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=OY2x0TyKzIQ",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the AI video tool for its strict content filters, fast generation, watermarking, and power, while noting it contributes to doubts about online authenticity.",
+    "foundAt": "2026-09-05T09:34:55.702Z"
+  },
+  {
+    "id": "ZOP::https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html",
+    "brand": "ZOP",
+    "platform": "nytimes.com",
+    "url": "https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer laments that Peter Luger has declined, describing disappointing desserts and a feeling of being ripped off compared to their cherished experiences in the 1990s.",
+    "foundAt": "2026-09-05T09:34:56.652Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=Uwmp16aSgdk",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Uwmp16aSgdk",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer lauds the new MacBook Air’s performance, dual‑display support, and value while noting a wish for a better screen.",
+    "foundAt": "2026-09-05T09:34:57.710Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=6zHFNjK-QiQ",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=6zHFNjK-QiQ",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer highlights the PowerBeats Pro 2's strong ANC, excellent battery life with fast charging, and suitability for travel, while noting they wouldn't wear them for extremely long sessions.",
+    "foundAt": "2026-09-05T09:34:58.802Z"
+  },
+  {
+    "id": "ZOP::https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "brand": "ZOP",
+    "platform": "developers.google.com",
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists required properties for several schema types in structured data, such as MusicRecording, Organization, Product, Recipe, and SoftwareApplication.",
+    "foundAt": "2026-09-05T09:34:59.869Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=n1k4qAUbLLU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=n1k4qAUbLLU",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains how coastal tribes like the Chinook and Chumash created permanent settlements using abundant marine resources, while groups such as the Cherokee adopted maize agriculture, leading to larger towns and more complex societies.",
+    "foundAt": "2026-09-05T09:35:00.993Z"
+  },
+  {
+    "id": "ZOP::https://www.ohchr.org/en/hr-bodies/upr/basic-facts",
+    "brand": "ZOP",
+    "platform": "ohchr.org",
+    "url": "https://www.ohchr.org/en/hr-bodies/upr/basic-facts",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines various elements of the Universal Periodic Review, such as expert groups, intergovernmental working groups, mandated investigations, and complaint procedures.",
+    "foundAt": "2026-09-05T09:35:01.926Z"
+  },
+  {
+    "id": "ZOP::https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez",
+    "brand": "ZOP",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/interviews/3196/the-art-of-fiction-no-69-gabriel-garcia-marquez",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists a piece titled “The Soothing Unsubtlety of UNBROKEN: The Untold Story of Shen Yun” among various sections and headings.",
+    "foundAt": "2026-09-05T09:35:02.982Z"
   }
 ]
