@@ -818,5 +818,55 @@
     "sentiment": "Neutral",
     "summary": "The reviewer outlines the game’s mechanics—hunger meter, inventory choices, and lack of meta‑progression—highlighting both its appealing features and its shortcomings.",
     "foundAt": "2026-09-05T19:39:21.975Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=JkyIlKnMErM",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=JkyIlKnMErM",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The video jokes that the product isn’t lethal but is designed to steal your money, mocking its advertised 'exquisite features'.",
+    "foundAt": "2026-09-06T09:49:43.960Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=zGkHRa64sDY",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=zGkHRa64sDY",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The YouTube video presents a review of Five Guys burgers and fries, includes the creator’s occasional departure remark, and lists social media and app links.",
+    "foundAt": "2026-09-06T09:49:45.404Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=6zHFNjK-QiQ",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=6zHFNjK-QiQ",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer highlights the PowerBeats Pro 2 as an affordable, high‑performing set of earbuds that may be among the best options for most users, even on flights.",
+    "foundAt": "2026-09-06T09:49:46.420Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=BoZM70zT5NU",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=BoZM70zT5NU",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the game's map for its high quality, realism, and car-friendly design, making every location feel like a destination.",
+    "foundAt": "2026-09-06T09:49:47.264Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=nfHRMqqO578",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=nfHRMqqO578",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer says the S26 Ultra is a good phone with clever features but criticizes its high price and downgraded display quality.",
+    "foundAt": "2026-09-06T09:49:48.191Z"
   }
 ]
