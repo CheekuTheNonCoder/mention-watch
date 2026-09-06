@@ -868,5 +868,25 @@
     "sentiment": "Negative",
     "summary": "The reviewer says the S26 Ultra is a good phone with clever features but criticizes its high price and downgraded display quality.",
     "foundAt": "2026-09-06T09:49:48.191Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=Z6z_feacXW8&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Z6z_feacXW8&vl=en",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The reviewer praises the Z Fold 8's hinge, screen and multitasking capabilities but questions its high price and overall value.",
+    "foundAt": "2026-09-06T14:31:45.268Z"
+  },
+  {
+    "id": "Afora::https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men",
+    "brand": "Afora",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "The snippet contains graphic and disturbing language alongside unrelated headings, mentioning The Paris Review in a negative context.",
+    "foundAt": "2026-09-06T14:31:46.445Z"
   }
 ]
