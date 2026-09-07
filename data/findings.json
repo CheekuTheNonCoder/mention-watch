@@ -928,5 +928,15 @@
     "sentiment": "Negative",
     "summary": "The reviewer complains that ZOP's products are low quality, lacks any customer support, and labels the company as fraudulent.",
     "foundAt": "2026-09-07T01:37:37.707Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/afora.pk",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/afora.pk",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "Although the site receives few visitors, the review concludes that afora.pk is legitimate and safe to use.",
+    "foundAt": "2026-09-07T10:55:03.734Z"
   }
 ]
