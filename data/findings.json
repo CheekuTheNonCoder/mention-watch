@@ -948,5 +948,85 @@
     "sentiment": "Positive",
     "summary": "The snippet displays a schema.org rating of 4 out of a possible 5.",
     "foundAt": "2026-09-07T16:46:28.515Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/afora.shop",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/afora.shop",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The review concludes that afora.shop is likely legitimate and reliable.",
+    "foundAt": "2026-09-07T20:52:31.501Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/avora.co",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/avora.co",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The Scamadviser review warns that avora.co may be a scam because its owner is hidden, the site is very young, has low traffic and other risk factors.",
+    "foundAt": "2026-09-07T20:52:32.458Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/avora.com",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/avora.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet says ScamAdviser deems avora.com safe and highlights its iOS app as a personal scam‑detector tool.",
+    "foundAt": "2026-09-07T20:52:33.527Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/afloura-com-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/afloura-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The site received a very low trust score of 6.5 and is flagged as suspicious, suggesting it may be a scam.",
+    "foundAt": "2026-09-07T20:52:34.680Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/us/ny/new-york/profile/financial-services/fora-financial-llc-0121-122049/customer-reviews",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/us/ny/new-york/profile/financial-services/fora-financial-llc-0121-122049/customer-reviews",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A user warns others not to deal with the company, labeling it a scam and criticizing its aggressive, unresolved communication.",
+    "foundAt": "2026-09-07T20:52:35.769Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/afforai.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/afforai.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "Multiple users allege Afforai is dishonest, fails to pay affiliate commissions, and cancels promised lifetime deals, warning others to stay away.",
+    "foundAt": "2026-09-07T20:52:37.155Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/foratravel.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/foratravel.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "Multiple reviewers allege fraudulent bookings, loss of money, and no response from Fora Travel, labeling the company as a scam.",
+    "foundAt": "2026-09-07T20:52:38.153Z"
+  },
+  {
+    "id": "Afora::https://www.tiktok.com/discover/is-avora-clothing-company-legit",
+    "brand": "Afora",
+    "platform": "tiktok.com",
+    "url": "https://www.tiktok.com/discover/is-avora-clothing-company-legit",
+    "type": "Scam claim",
+    "sentiment": "Neutral",
+    "summary": "A video investigates the legitimacy of Avora Clothing, presenting reviews and customer experiences for prospective shoppers.",
+    "foundAt": "2026-09-07T20:52:39.184Z"
   }
 ]
