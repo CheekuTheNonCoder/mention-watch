@@ -938,5 +938,15 @@
     "sentiment": "Positive",
     "summary": "Although the site receives few visitors, the review concludes that afora.pk is legitimate and safe to use.",
     "foundAt": "2026-09-07T10:55:03.734Z"
+  },
+  {
+    "id": "Afora::https://schema.org/Review",
+    "brand": "Afora",
+    "platform": "schema.org",
+    "url": "https://schema.org/Review",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet displays a schema.org rating of 4 out of a possible 5.",
+    "foundAt": "2026-09-07T16:46:28.515Z"
   }
 ]
