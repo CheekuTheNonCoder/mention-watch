@@ -888,5 +888,45 @@
     "sentiment": "Negative",
     "summary": "The snippet contains graphic and disturbing language alongside unrelated headings, mentioning The Paris Review in a negative context.",
     "foundAt": "2026-09-06T14:31:46.445Z"
+  },
+  {
+    "id": "ZOP::https://www.scamadviser.com/check-website/zop.us",
+    "brand": "ZOP",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/zop.us",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet states that zop.us appears to be legitimate and reliable, not a scam.",
+    "foundAt": "2026-09-07T01:37:34.641Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/zop-in-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/zop-in-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A user alleges that zop.in is a fraudulent company that has not responded to requests for a refund.",
+    "foundAt": "2026-09-07T01:37:35.596Z"
+  },
+  {
+    "id": "ZOP::https://scanmonk.com/brands/zop",
+    "brand": "ZOP",
+    "platform": "scanmonk.com",
+    "url": "https://scanmonk.com/brands/zop",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The page offers information on Zop’s trustworthiness, including customer reviews, scam reports, and safety ratings to help consumers decide.",
+    "foundAt": "2026-09-07T01:37:36.676Z"
+  },
+  {
+    "id": "ZOP::https://www.trustpilot.com/review/www.zop.in?page=3",
+    "brand": "ZOP",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/www.zop.in?page=3",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer complains that ZOP's products are low quality, lacks any customer support, and labels the company as fraudulent.",
+    "foundAt": "2026-09-07T01:37:37.707Z"
   }
 ]
