@@ -1028,5 +1028,35 @@
     "sentiment": "Neutral",
     "summary": "A video investigates the legitimacy of Avora Clothing, presenting reviews and customer experiences for prospective shoppers.",
     "foundAt": "2026-09-07T20:52:39.184Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=Z6z_feacXW8&vl=en",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Z6z_feacXW8&vl=en",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer praises the improved hinge and versatile display but criticizes the high price, missing magnetic charging, reduced camera size, and overall value of the Galaxy Z Fold 8.",
+    "foundAt": "2026-09-08T10:12:36.144Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=rng_yUSwrgU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=rng_yUSwrgU",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes the iPhone 17 for minor but notable shortcomings such as limited camera functionality, unchanged design, and lack of AI improvements, making it an underwhelming update.",
+    "foundAt": "2026-09-08T10:12:37.172Z"
+  },
+  {
+    "id": "ZOP::https://baltimorereview.org",
+    "brand": "ZOP",
+    "platform": "baltimorereview.org",
+    "url": "https://baltimorereview.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The Baltimore Review is a literary publication showcasing various writers and their works across poetry, fiction, and nonfiction.",
+    "foundAt": "2026-09-08T10:12:38.126Z"
   }
 ]
