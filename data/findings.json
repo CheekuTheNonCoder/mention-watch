@@ -1058,5 +1058,15 @@
     "sentiment": "Neutral",
     "summary": "The Baltimore Review is a literary publication showcasing various writers and their works across poetry, fiction, and nonfiction.",
     "foundAt": "2026-09-08T10:12:38.126Z"
+  },
+  {
+    "id": "Afora::https://consumercomplaints.fcc.gov/hc/en-us",
+    "brand": "Afora",
+    "platform": "consumercomplaints.fcc.gov",
+    "url": "https://consumercomplaints.fcc.gov/hc/en-us",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The FCC page outlines how consumers can file complaints about various telecom issues, such as robocalls, billing, and service problems.",
+    "foundAt": "2026-09-09T20:08:32.301Z"
   }
 ]
