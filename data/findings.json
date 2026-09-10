@@ -1118,5 +1118,35 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists assorted article headings and includes a personal, neutral anecdote about watching a movie on a rainy afternoon.",
     "foundAt": "2026-09-10T10:10:40.663Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=HBhfMNewip8",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=HBhfMNewip8",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer comments on a cyborg character and notes that something in the game is very good.",
+    "foundAt": "2026-09-10T15:22:53.291Z"
+  },
+  {
+    "id": "ZOP::https://www.epa.gov/pesticide-reevaluation/registration-review-process",
+    "brand": "ZOP",
+    "platform": "epa.gov",
+    "url": "https://www.epa.gov/pesticide-reevaluation/registration-review-process",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The EPA states it reviews each registered pesticide at least every 15 years to confirm it remains effective and does not cause unreasonable health or environmental risks.",
+    "foundAt": "2026-09-10T15:22:54.438Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/groups/3243931422580521/posts/3482596105380717",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/groups/3243931422580521/posts/3482596105380717",
+    "type": "Scam claim",
+    "sentiment": "Neutral",
+    "summary": "Opinions about Fora are split, with some accusing it of being a scam while others endorse it as a reputable host agency offering solid training.",
+    "foundAt": "2026-09-10T15:22:56.939Z"
   }
 ]
