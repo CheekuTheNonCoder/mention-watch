@@ -1108,5 +1108,15 @@
     "sentiment": "Negative",
     "summary": "The company profits by using health newsletters to push its supplement sales, suggesting deceptive tactics.",
     "foundAt": "2026-09-10T01:50:41.216Z"
+  },
+  {
+    "id": "ZOP::https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men",
+    "brand": "ZOP",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/blog/2017/11/20/art-monstrous-men",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists assorted article headings and includes a personal, neutral anecdote about watching a movie on a rainy afternoon.",
+    "foundAt": "2026-09-10T10:10:40.663Z"
   }
 ]
