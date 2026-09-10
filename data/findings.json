@@ -1148,5 +1148,15 @@
     "sentiment": "Neutral",
     "summary": "Opinions about Fora are split, with some accusing it of being a scam while others endorse it as a reputable host agency offering solid training.",
     "foundAt": "2026-09-10T15:22:56.939Z"
+  },
+  {
+    "id": "Afora::https://baltimorereview.org",
+    "brand": "Afora",
+    "platform": "baltimorereview.org",
+    "url": "https://baltimorereview.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides an overview of the Baltimore Review website, listing staff, contests, and profiles of poets and writers.",
+    "foundAt": "2026-09-10T20:10:45.391Z"
   }
 ]
