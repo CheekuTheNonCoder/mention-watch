@@ -1068,5 +1068,45 @@
     "sentiment": "Neutral",
     "summary": "The FCC page outlines how consumers can file complaints about various telecom issues, such as robocalls, billing, and service problems.",
     "foundAt": "2026-09-09T20:08:32.301Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=-p3zj0YKKYE",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=-p3zj0YKKYE",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes the game's health and blocking mechanics and sparse multiplayer, despite enjoying its deep class system and melee combat, leading to overall disappointment.",
+    "foundAt": "2026-09-10T01:50:35.921Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=nfHRMqqO578",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=nfHRMqqO578",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer points out multiple shortcomings of the S26 Ultra, including dimmer privacy display, reduced camera focus performance, inferior anti‑reflective coating, and an 8‑bit display that falls short of true 10‑bit color.",
+    "foundAt": "2026-09-10T01:50:37.000Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/us/nv/las-vegas/profile/skin-care/agora-cosmetics-1086-90042459/customer-reviews",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/us/nv/las-vegas/profile/skin-care/agora-cosmetics-1086-90042459/customer-reviews",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The reviewer alleges the store is a scam, calling the staff scam artists and describing the eye cream as glue-like.",
+    "foundAt": "2026-09-10T01:50:40.253Z"
+  },
+  {
+    "id": "Afora::https://www.forbes.com/sites/emilybaker-white/2025/07/07/this-secretive-company-built-an-empire-by-hawking-bad-financial-and-health-advice-on-facebook",
+    "brand": "Afora",
+    "platform": "forbes.com",
+    "url": "https://www.forbes.com/sites/emilybaker-white/2025/07/07/this-secretive-company-built-an-empire-by-hawking-bad-financial-and-health-advice-on-facebook",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The company profits by using health newsletters to push its supplement sales, suggesting deceptive tactics.",
+    "foundAt": "2026-09-10T01:50:41.216Z"
   }
 ]
