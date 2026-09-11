@@ -1168,5 +1168,15 @@
     "sentiment": "Positive",
     "summary": "The reviewer criticizes costly upgrades and limited performance gains from more RAM, but praises the MacBook Air M5 for its portability, snappy everyday performance, and overall suitability as a sweet‑spot laptop.",
     "foundAt": "2026-09-11T01:49:21.734Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=Tl8RS0sR-qA&vl=en",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Tl8RS0sR-qA&vl=en",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "MKBHD reviews the Google Pixel Pro Fold, calling it a premium but niche device that underperforms and feels mismatched as a foldable despite some software strengths.",
+    "foundAt": "2026-09-11T10:07:36.550Z"
   }
 ]
