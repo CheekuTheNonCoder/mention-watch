@@ -1158,5 +1158,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet provides an overview of the Baltimore Review website, listing staff, contests, and profiles of poets and writers.",
     "foundAt": "2026-09-10T20:10:45.391Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=T1J7rKnVgvU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=T1J7rKnVgvU",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer criticizes costly upgrades and limited performance gains from more RAM, but praises the MacBook Air M5 for its portability, snappy everyday performance, and overall suitability as a sweet‑spot laptop.",
+    "foundAt": "2026-09-11T01:49:21.734Z"
   }
 ]
