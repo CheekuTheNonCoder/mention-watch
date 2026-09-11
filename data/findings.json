@@ -1178,5 +1178,45 @@
     "sentiment": "Negative",
     "summary": "MKBHD reviews the Google Pixel Pro Fold, calling it a premium but niche device that underperforms and feels mismatched as a foldable despite some software strengths.",
     "foundAt": "2026-09-11T10:07:36.550Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=lGKGiThvEj0",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=lGKGiThvEj0",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer enthusiastically praises Sally's Apizza, rating it 9.2 and calling it spectacular, suggesting New Haven pizza could be the world's best.",
+    "foundAt": "2026-09-11T15:24:57.176Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/besteverfoodreviewshow",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/besteverfoodreviewshow",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet mentions a Best Ever Food Review Show video where the host crossed numerous Taliban checkpoints to sample Afghan food, garnering millions of views.",
+    "foundAt": "2026-09-11T15:24:58.191Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=-p3zj0YKKYE",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=-p3zj0YKKYE",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes weak healing, unreliable blocking, and an empty multiplayer scene, though they appreciate the deep class system and occasional fun gameplay.",
+    "foundAt": "2026-09-11T15:25:01.011Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=2MdQWo9fHZs&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=2MdQWo9fHZs&vl=en",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer praises the OnePlus 15's performance and high touch sampling rate but criticizes its camera quality and other drawbacks.",
+    "foundAt": "2026-09-11T15:25:02.074Z"
   }
 ]
