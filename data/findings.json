@@ -1218,5 +1218,25 @@
     "sentiment": "Negative",
     "summary": "The reviewer praises the OnePlus 15's performance and high touch sampling rate but criticizes its camera quality and other drawbacks.",
     "foundAt": "2026-09-11T15:25:02.074Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=aE2pfqntnAM",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=aE2pfqntnAM",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet warns that Zopnow is a completely fake app, urging people to stay away.",
+    "foundAt": "2026-09-12T01:54:39.427Z"
+  },
+  {
+    "id": "Afora::https://www.afora.in",
+    "brand": "Afora",
+    "platform": "afora.in",
+    "url": "https://www.afora.in",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page contains no available information.",
+    "foundAt": "2026-09-12T01:54:42.018Z"
   }
 ]
