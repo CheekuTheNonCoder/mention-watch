@@ -1258,5 +1258,15 @@
     "sentiment": "Positive",
     "summary": "The reviewer deems the $500 MacBook Neo the top budget laptop despite its limited ports and slower charging.",
     "foundAt": "2026-09-12T09:42:54.588Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=06IPrLcJkhM",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=06IPrLcJkhM",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer enjoys the game, highlighting how grinding, upgrades, and different strategies make boss fights more manageable and rewarding.",
+    "foundAt": "2026-09-12T19:47:45.488Z"
   }
 ]
