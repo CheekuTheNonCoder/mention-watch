@@ -1238,5 +1238,25 @@
     "sentiment": "Neutral",
     "summary": "The page contains no available information.",
     "foundAt": "2026-09-12T01:54:42.018Z"
+  },
+  {
+    "id": "Afora::https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html?eafs_enabled=false",
+    "brand": "Afora",
+    "platform": "nytimes.com",
+    "url": "https://www.nytimes.com/2019/10/29/dining/peter-luger-review-pete-wells.html?eafs_enabled=false",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The writer laments that Peter Luger has declined and now feels like a scam compared to its once‑thrilling experience.",
+    "foundAt": "2026-09-12T09:42:53.398Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=h26FlWu7aDc",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=h26FlWu7aDc",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer deems the $500 MacBook Neo the top budget laptop despite its limited ports and slower charging.",
+    "foundAt": "2026-09-12T09:42:54.588Z"
   }
 ]
