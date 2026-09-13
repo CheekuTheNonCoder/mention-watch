@@ -1268,5 +1268,25 @@
     "sentiment": "Positive",
     "summary": "The reviewer enjoys the game, highlighting how grinding, upgrades, and different strategies make boss fights more manageable and rewarding.",
     "foundAt": "2026-09-12T19:47:45.488Z"
+  },
+  {
+    "id": "Afora::https://massreview.org",
+    "brand": "Afora",
+    "platform": "massreview.org",
+    "url": "https://massreview.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the Massachusetts Review’s logo, a virtual poetry reading event, and related archival content.",
+    "foundAt": "2026-09-13T10:44:00.948Z"
+  },
+  {
+    "id": "Afora::https://www.nytimes.com/2026/08/30/books/review/the-disappearers-marlon-james.html",
+    "brand": "Afora",
+    "platform": "nytimes.com",
+    "url": "https://www.nytimes.com/2026/08/30/books/review/the-disappearers-marlon-james.html",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The review hails Marlon James’s novel as a monumental, richly layered masterpiece comparable to literary classics, praising its ambitious scope and powerful storytelling.",
+    "foundAt": "2026-09-13T10:44:02.042Z"
   }
 ]
