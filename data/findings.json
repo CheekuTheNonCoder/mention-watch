@@ -1338,5 +1338,35 @@
     "sentiment": "Positive",
     "summary": "The MacBook Neo is praised as the best $500 laptop despite limited ports, slow charging, and occasional trackpad click issues.",
     "foundAt": "2026-09-14T11:07:40.093Z"
+  },
+  {
+    "id": "ZOP::https://holyprofweb.com/is-desertcart-legit-or-scam-reviews-complaints",
+    "brand": "ZOP",
+    "platform": "holyprofweb.com",
+    "url": "https://holyprofweb.com/is-desertcart-legit-or-scam-reviews-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet is a generic page listing various legitimacy review links, mentioning desertcart without providing any specific opinion.",
+    "foundAt": "2026-09-14T17:09:40.453Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet highlights scam warnings and user reports of fraudulent sites such as Topfloor.cc and investment schemes, urging readers to verify before trusting them.",
+    "foundAt": "2026-09-14T17:09:43.092Z"
+  },
+  {
+    "id": "Afora::https://reportfraud.ftc.gov",
+    "brand": "Afora",
+    "platform": "reportfraud.ftc.gov",
+    "url": "https://reportfraud.ftc.gov",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the FTC's ReportFraud website, explaining its purpose for reporting fraud and scams and how reports are used by law enforcement.",
+    "foundAt": "2026-09-14T17:09:44.243Z"
   }
 ]
