@@ -1328,5 +1328,15 @@
     "sentiment": "Positive",
     "summary": "The reviewer likes the M4 MacBook Air’s performance and multi‑display support but wishes its display were better.",
     "foundAt": "2026-09-14T02:05:03.636Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=h26FlWu7aDc",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=h26FlWu7aDc",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The MacBook Neo is praised as the best $500 laptop despite limited ports, slow charging, and occasional trackpad click issues.",
+    "foundAt": "2026-09-14T11:07:40.093Z"
   }
 ]
