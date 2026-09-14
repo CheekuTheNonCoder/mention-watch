@@ -1308,5 +1308,25 @@
     "sentiment": "Neutral",
     "summary": "Dave Portnoy posts a pizza review series called One Bite every Monday to Thursday at 6 pm ET.",
     "foundAt": "2026-09-13T19:57:19.987Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=nMMNkfSQuiU",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=nMMNkfSQuiU",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer recommends Starfield for PC and Xbox Series X, noting it faces many challenges but is still worth playing.",
+    "foundAt": "2026-09-14T02:05:02.330Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=Uwmp16aSgdk",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Uwmp16aSgdk",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer likes the M4 MacBook Air’s performance and multi‑display support but wishes its display were better.",
+    "foundAt": "2026-09-14T02:05:03.636Z"
   }
 ]
