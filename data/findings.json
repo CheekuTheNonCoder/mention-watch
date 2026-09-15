@@ -1368,5 +1368,85 @@
     "sentiment": "Neutral",
     "summary": "The snippet describes the FTC's ReportFraud website, explaining its purpose for reporting fraud and scams and how reports are used by law enforcement.",
     "foundAt": "2026-09-14T17:09:44.243Z"
+  },
+  {
+    "id": "ZOP::https://uk.trustpilot.com/review/www.zop.in?page=2",
+    "brand": "ZOP",
+    "platform": "Trustpilot",
+    "url": "https://uk.trustpilot.com/review/www.zop.in?page=2",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "Customers report major delivery delays, orders not being fulfilled, and cancellations with poor communication.",
+    "foundAt": "2026-09-15T15:49:49.025Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=ULiPSaZUQ4M",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=ULiPSaZUQ4M",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A video claims Zop.in may be a fake platform involved in large online shopping fraud.",
+    "foundAt": "2026-09-15T15:49:50.089Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=l1k0AS8lca8",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=l1k0AS8lca8",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer highlights the Quest 2's Android‑based system, wireless game installs, casting and streaming features, and overall ease of use, noting only a minor annoyance with VR password entry.",
+    "foundAt": "2026-09-15T15:49:52.277Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=4-x4XmKOjKo",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=4-x4XmKOjKo",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The speaker reflects fondly on early Bond movies, especially The Living Daylights, calling it a favorite and praising the iconic Bond portrayal.",
+    "foundAt": "2026-09-15T15:49:53.101Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=AmNVQQ-YOoE",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=AmNVQQ-YOoE",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer finds the Samsung S26 Ultra’s AI‑enhanced images fun but ultimately inferior to the Xiaomi 17 Ultra’s deeper shots.",
+    "foundAt": "2026-09-15T15:49:54.319Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=t0wIU4R0MhI",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=t0wIU4R0MhI",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The snippet reviews how England's trade restrictions and the Navigation Acts caused colonial resentment and outlines the Pilgrims' 1620 settlement of Plymouth.",
+    "foundAt": "2026-09-15T15:49:55.407Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=eK8gXP3pImU&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=eK8gXP3pImU&vl=en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides a tutorial on unit conversion and exponent rules, explaining how to convert grams to kilograms and combine powers of ten.",
+    "foundAt": "2026-09-15T15:49:56.583Z"
+  },
+  {
+    "id": "Afora::https://business.google.com/reviews",
+    "brand": "Afora",
+    "platform": "business.google.com",
+    "url": "https://business.google.com/reviews",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The video tutorial offers a quick review of significant figures and explains how to count them.",
+    "foundAt": "2026-09-15T15:49:57.547Z"
   }
 ]
