@@ -1538,5 +1538,115 @@
     "sentiment": "Negative",
     "summary": "The piece highlights numerous red flags and suggests that LandFX is likely a fraudulent, unregulated broker.",
     "foundAt": "2026-09-16T02:05:05.879Z"
+  },
+  {
+    "id": "ZOP::https://ca.linkedin.com/company/zop-media-inc-",
+    "brand": "ZOP",
+    "platform": "LinkedIn",
+    "url": "https://ca.linkedin.com/company/zop-media-inc-",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists Zop Media alongside similar companies, noting its industry as an internet marketplace platform and its Gurgaon location.",
+    "foundAt": "2026-09-16T10:24:54.925Z"
+  },
+  {
+    "id": "ZOP::https://www.zop.in",
+    "brand": "ZOP",
+    "platform": "zop.in",
+    "url": "https://www.zop.in",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet promotes ZOP as India’s first brand discovery platform that connects shoppers with many emerging and established brands.",
+    "foundAt": "2026-09-16T10:24:55.895Z"
+  },
+  {
+    "id": "ZOP::https://dbp.theatredance.utexas.edu/teaching-strategies/zip-zap-zop",
+    "brand": "ZOP",
+    "platform": "dbp.theatredance.utexas.edu",
+    "url": "https://dbp.theatredance.utexas.edu/teaching-strategies/zip-zap-zop",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains the Zip, Zap, Zop activity as a focus and energy exercise used in classrooms for subjects like science and reading/writing.",
+    "foundAt": "2026-09-16T10:24:56.828Z"
+  },
+  {
+    "id": "ZOP::https://www.sessionlab.com/methods/zip-zap-zop",
+    "brand": "ZOP",
+    "platform": "sessionlab.com",
+    "url": "https://www.sessionlab.com/methods/zip-zap-zop",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines the basic rules of the Zip Zap Zop game, describing the call pattern and how players interact.",
+    "foundAt": "2026-09-16T10:24:57.767Z"
+  },
+  {
+    "id": "ZOP::https://www.merriam-webster.com/wordfinder/classic/contains/all/-1/zop/1",
+    "brand": "ZOP",
+    "platform": "merriam-webster.com",
+    "url": "https://www.merriam-webster.com/wordfinder/classic/contains/all/-1/zop/1",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists words that contain the sequence “zop,” including azoprotein, benzophenone and related terms.",
+    "foundAt": "2026-09-16T10:24:58.674Z"
+  },
+  {
+    "id": "ZOP::https://bbbpress.com/2013/01/zip-zap-zop",
+    "brand": "ZOP",
+    "platform": "bbbpress.com",
+    "url": "https://bbbpress.com/2013/01/zip-zap-zop",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains the rules and variations of the Zip Zap Zop drama game, including word changes, movement, imitation, and elimination mechanics.",
+    "foundAt": "2026-09-16T10:24:59.733Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=dIynuCeLOoc",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=dIynuCeLOoc",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises Baldur's Gate 3 for its expertly crafted combat, limitless player creativity, and open world that encourages unconventional solutions.",
+    "foundAt": "2026-09-16T10:25:02.309Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=iXZZpAw0QLE",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=iXZZpAw0QLE",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The lyric describes personal pain, medication use, and a gradual acceptance that the burden is becoming more manageable.",
+    "foundAt": "2026-09-16T10:25:03.508Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=qNmDTug1dX4",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=qNmDTug1dX4",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the Galaxy Buds 4 Pro for effective noise cancellation, clear ambient mode, and about six hours of battery life after five days of use.",
+    "foundAt": "2026-09-16T10:25:04.519Z"
+  },
+  {
+    "id": "Afora::https://www.reginfo.gov/public/do/eoReviewSearch",
+    "brand": "Afora",
+    "platform": "reginfo.gov",
+    "url": "https://www.reginfo.gov/public/do/eoReviewSearch",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The SBA’s executive order titled “Fraud, Waste and Abuse Reforms” is currently pending review.",
+    "foundAt": "2026-09-16T10:25:05.467Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=1oNumKYNUaE",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=1oNumKYNUaE",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "A YouTube video reviewing APUSH Unit 3 and advertising a detailed study guide for the course.",
+    "foundAt": "2026-09-16T10:25:06.456Z"
   }
 ]
