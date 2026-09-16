@@ -1728,5 +1728,85 @@
     "sentiment": "Positive",
     "summary": "The article reviews Le-Vel Thrive, noting largely positive user feedback and suggesting the product may be effective despite limited FDA evaluation.",
     "foundAt": "2026-09-16T15:41:31.531Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=KtZai86htng",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=KtZai86htng",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet is a tutorial walkthrough showing quick methods for solving geometry problems on the SAT/ACT and promoting additional practice videos.",
+    "foundAt": "2026-09-16T20:33:35.106Z"
+  },
+  {
+    "id": "ZOP::https://www.dewr.gov.au/workplace-relations-australia/review-closing-loopholes-acts",
+    "brand": "ZOP",
+    "platform": "dewr.gov.au",
+    "url": "https://www.dewr.gov.au/workplace-relations-australia/review-closing-loopholes-acts",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet shows navigation, contact details and a subscription form from a government website, without expressing any opinion.",
+    "foundAt": "2026-09-16T20:33:36.307Z"
+  },
+  {
+    "id": "ZOP::https://www.frontiersin.org/journals/oncology",
+    "brand": "ZOP",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/oncology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists recent articles and editor’s picks from Frontiers in Oncology, noting an AI‑generated disclaimer.",
+    "foundAt": "2026-09-16T20:33:37.418Z"
+  },
+  {
+    "id": "ZOP::https://www.frontiersin.org/journals/physiology",
+    "brand": "ZOP",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/physiology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the Frontiers in Physiology journal, including its impact factor, citation metrics, editorial staff, and publishing details.",
+    "foundAt": "2026-09-16T20:33:38.375Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=KtZai86htng",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=KtZai86htng",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet outlines a tutorial that demonstrates fast math problem solutions for SAT/ACT exams and directs viewers to additional practice videos.",
+    "foundAt": "2026-09-16T20:33:42.678Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=l2yuDvwYq5g&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=l2yuDvwYq5g&vl=en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A tutorial video on significant figures by The Organic Chemistry Tutor mentions a linked video and encourages viewers to subscribe and enable notifications.",
+    "foundAt": "2026-09-16T20:33:43.685Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=qH7KRuW7E3o",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=qH7KRuW7E3o",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt explains the French and Indian War and plugs an A Push Himler review guide as a study aid.",
+    "foundAt": "2026-09-16T20:33:44.894Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=xDkPq5KcbS4",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=xDkPq5KcbS4",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet advertises an AP World review guide while summarizing key historical topics such as the Abbasid Golden Age, the Renaissance, and the role of serfs in Europe.",
+    "foundAt": "2026-09-16T20:33:46.010Z"
   }
 ]
