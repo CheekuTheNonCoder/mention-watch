@@ -1448,5 +1448,95 @@
     "sentiment": "Neutral",
     "summary": "The video tutorial offers a quick review of significant figures and explains how to count them.",
     "foundAt": "2026-09-15T15:49:57.547Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=q0aFOxT6TNw&vl=en",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=q0aFOxT6TNw&vl=en",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer highlights the iPhone 17 Pro’s larger, high‑resolution sensor, improved 2× zoom processing, and reliable triple 48‑MP cameras, noting minor annoyances like color choices and a scratch‑prone finish but overall praising the device.",
+    "foundAt": "2026-09-16T02:04:54.506Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=d4vHsbRWKfk",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=d4vHsbRWKfk",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer finds the Fitbit Air solid and comfortable for daily wear, offering good health and sleep tracking at a low one-time price, despite some limitations compared to higher-end devices.",
+    "foundAt": "2026-09-16T02:04:55.391Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=dIynuCeLOoc",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=dIynuCeLOoc",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises Baldur's Gate 3 for its freedom, creative gameplay and challenging battles, calling it everything they wanted.",
+    "foundAt": "2026-09-16T02:04:56.296Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=S5rbHKSRrxs",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=S5rbHKSRrxs",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The review says the always‑on display may be dim in direct sunlight unless set to maximum brightness, but otherwise visibility is good, battery lasts about one day with it on (around 2.5 days without), and it reaches 80% charge in roughly 1.5 hours and full charge in just over two hours.",
+    "foundAt": "2026-09-16T02:04:57.530Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=wRaDbRjVrc4",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=wRaDbRjVrc4",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer highlights the Galaxy Buds 4 Pro's compact case, wireless charging, redesigned earbuds with excellent sound and EQ options, noting minor loss of Samsung-specific features on iPhone, and overall gives a positive assessment.",
+    "foundAt": "2026-09-16T02:04:58.433Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=1oNumKYNUaE",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=1oNumKYNUaE",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes a YouTube review video by Heimler's History that explains key points of APUSH Unit 3, including the constitutional compromise on the slave trade.",
+    "foundAt": "2026-09-16T02:04:59.464Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=HfIWZhXt7fY",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=HfIWZhXt7fY",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "A YouTube video description promoting Heimler's History's AP World review guide and related social media links.",
+    "foundAt": "2026-09-16T02:05:00.553Z"
+  },
+  {
+    "id": "Afora::https://wisdomganga.com/dreadora-scam",
+    "brand": "Afora",
+    "platform": "wisdomganga.com",
+    "url": "https://wisdomganga.com/dreadora-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The piece labels Dreadora as a fake online store that uses a limited‑product catalog and other red flags to trick shoppers.",
+    "foundAt": "2026-09-16T02:05:04.762Z"
+  },
+  {
+    "id": "Afora::https://globalfraudreviews.com/investment-scams/landfx-scam-review",
+    "brand": "Afora",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/landfx-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The piece highlights numerous red flags and suggests that LandFX is likely a fraudulent, unregulated broker.",
+    "foundAt": "2026-09-16T02:05:05.879Z"
   }
 ]
