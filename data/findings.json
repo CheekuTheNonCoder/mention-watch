@@ -1648,5 +1648,85 @@
     "sentiment": "Positive",
     "summary": "A YouTube video reviewing APUSH Unit 3 and advertising a detailed study guide for the course.",
     "foundAt": "2026-09-16T10:25:06.456Z"
+  },
+  {
+    "id": "ZOP::https://cryptorank.io/news/feed/d4c0f-litefinance-review-is-forex-broker-legit-or-scam",
+    "brand": "ZOP",
+    "platform": "cryptorank.io",
+    "url": "https://cryptorank.io/news/feed/d4c0f-litefinance-review-is-forex-broker-legit-or-scam",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The excerpt promotes LiteFinance's high payouts, worldwide offices, and swap‑free accounts that remove daily swap fees for long‑term traders.",
+    "foundAt": "2026-09-16T15:41:23.192Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/biologixlabsresearch-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/biologixlabsresearch-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The site is flagged as a high‑risk scam with a very low trust score, indicating it is likely fraudulent.",
+    "foundAt": "2026-09-16T15:41:24.031Z"
+  },
+  {
+    "id": "ZOP::https://finance.yahoo.com/news/blockchain-recovery-scam-posing-legit-181837635.html",
+    "brand": "ZOP",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/blockchain-recovery-scam-posing-legit-181837635.html",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The FCA warns that a fake 'Blockchain Recovery' firm is impersonating a legitimate company to trick crypto users into revealing private keys or personal information.",
+    "foundAt": "2026-09-16T15:41:24.898Z"
+  },
+  {
+    "id": "Afora::https://cryptorank.io/news/feed/d4c0f-litefinance-review-is-forex-broker-legit-or-scam",
+    "brand": "Afora",
+    "platform": "cryptorank.io",
+    "url": "https://cryptorank.io/news/feed/d4c0f-litefinance-review-is-forex-broker-legit-or-scam",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The review notes that LiteFinance may require identification verification and offers different account types while highlighting its compliance and worldwide offices.",
+    "foundAt": "2026-09-16T15:41:27.186Z"
+  },
+  {
+    "id": "Afora::https://finance.yahoo.com/news/glpro-investigated-2026-report-glpro-132700164.html",
+    "brand": "Afora",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/glpro-investigated-2026-report-glpro-132700164.html",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The piece examines GLPro’s ingredients, refund policy, user experiences, and compares it to traditional supplements to assess its legitimacy and overall value.",
+    "foundAt": "2026-09-16T15:41:28.188Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/biologixlabsresearch-com-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/biologixlabsresearch-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The review rates biologixlabsresearch.com with a low trust score and labels it as a high‑risk, likely scam site.",
+    "foundAt": "2026-09-16T15:41:29.557Z"
+  },
+  {
+    "id": "Afora::https://finance.yahoo.com/news/blockchain-recovery-scam-posing-legit-181837635.html",
+    "brand": "Afora",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/blockchain-recovery-scam-posing-legit-181837635.html",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The UK FCA warns that the ‘Blockchain Recovery’ operation is a scam pretending to be a legitimate company, employing common impersonation tactics.",
+    "foundAt": "2026-09-16T15:41:30.582Z"
+  },
+  {
+    "id": "Afora::https://finance.yahoo.com/news/le-vel-thrive-review-legit-171000711.html",
+    "brand": "Afora",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/le-vel-thrive-review-legit-171000711.html",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The article reviews Le-Vel Thrive, noting largely positive user feedback and suggesting the product may be effective despite limited FDA evaluation.",
+    "foundAt": "2026-09-16T15:41:31.531Z"
   }
 ]
