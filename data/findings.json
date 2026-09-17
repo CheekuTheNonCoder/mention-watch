@@ -1808,5 +1808,65 @@
     "sentiment": "Positive",
     "summary": "The snippet advertises an AP World review guide while summarizing key historical topics such as the Abbasid Golden Age, the Renaissance, and the role of serfs in Europe.",
     "foundAt": "2026-09-16T20:33:46.010Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=t0wIU4R0MhI",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=t0wIU4R0MhI",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet uses a lunchroom metaphor to explain 17th‑century English colonization and promotes an APUSH Unit 2 review guide for studying.",
+    "foundAt": "2026-09-17T02:08:34.087Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=xDkPq5KcbS4",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=xDkPq5KcbS4",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains how medieval European serfs were bound to lords' land and contrasts that with the Inca bureaucracy and tribute system.",
+    "foundAt": "2026-09-17T02:08:35.179Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=fTv4S1q7p_c",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=fTv4S1q7p_c",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A Heimler's History YouTube video reviews early American colonization, discussing Spanish and Portuguese imperialism and funding methods.",
+    "foundAt": "2026-09-17T02:08:36.249Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=l2yuDvwYq5g&vl=en",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=l2yuDvwYq5g&vl=en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A tutorial video on YouTube explains how to count and round significant figures in numbers.",
+    "foundAt": "2026-09-17T02:08:37.453Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=fTv4S1q7p_c",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=fTv4S1q7p_c",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The video provides an APUSH Unit 1 overview covering Spanish wealth from gold and silver, joint‑stock financing, and early Portuguese voyages under Prince Henry the Navigator.",
+    "foundAt": "2026-09-17T02:08:40.530Z"
+  },
+  {
+    "id": "Afora::https://yalereview.org/article/l%C3%A1szl%C3%B3-krasznahorkai_interview",
+    "brand": "Afora",
+    "platform": "yalereview.org",
+    "url": "https://yalereview.org/article/l%C3%A1szl%C3%B3-krasznahorkai_interview",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The Yale Review includes an interview with Nobel laureate László Krasznahorkai discussing the reality of the present.",
+    "foundAt": "2026-09-17T02:08:41.837Z"
   }
 ]
