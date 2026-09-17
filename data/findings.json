@@ -1868,5 +1868,15 @@
     "sentiment": "Neutral",
     "summary": "The Yale Review includes an interview with Nobel laureate László Krasznahorkai discussing the reality of the present.",
     "foundAt": "2026-09-17T02:08:41.837Z"
+  },
+  {
+    "id": "ZOP::https://finance.yahoo.com/news/le-vel-thrive-review-legit-171000711.html",
+    "brand": "ZOP",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/le-vel-thrive-review-legit-171000711.html",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains that Le‑Vel's Thrive program is marketed as an 8‑week lifestyle plan featuring supplements, shakes, and a weight‑loss patch, promising better physical and mental performance.",
+    "foundAt": "2026-09-17T10:34:08.525Z"
   }
 ]
