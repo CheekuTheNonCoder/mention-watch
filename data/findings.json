@@ -1878,5 +1878,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet explains that Le‑Vel's Thrive program is marketed as an 8‑week lifestyle plan featuring supplements, shakes, and a weight‑loss patch, promising better physical and mental performance.",
     "foundAt": "2026-09-17T10:34:08.525Z"
+  },
+  {
+    "id": "ZOP::https://wisdomganga.com/dreadora-scam",
+    "brand": "ZOP",
+    "platform": "wisdomganga.com",
+    "url": "https://wisdomganga.com/dreadora-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The site exhibits numerous red flags—tiny product catalog, new hidden domain, no reviews, and poor customer support—indicating it is likely a fraudulent operation.",
+    "foundAt": "2026-09-17T15:47:29.323Z"
+  },
+  {
+    "id": "ZOP::https://globalfraudreviews.com/investment-scams/landfx-scam-review",
+    "brand": "ZOP",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/landfx-scam-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The piece warns that evidence points to LandFX being potentially fraudulent and advises against using it.",
+    "foundAt": "2026-09-17T15:47:30.278Z"
   }
 ]
