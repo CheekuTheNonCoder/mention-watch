@@ -1968,5 +1968,55 @@
     "sentiment": "Neutral",
     "summary": "A YouTube video titled \"Win or Lose (feat. B-Legit)\" was posted on Larry June's verified channel, receiving 493 likes and over 10,000 views.",
     "foundAt": "2026-09-18T10:10:52.450Z"
+  },
+  {
+    "id": "Afora::https://discussions.apple.com/thread/256103496",
+    "brand": "Afora",
+    "platform": "discussions.apple.com",
+    "url": "https://discussions.apple.com/thread/256103496",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A forum user posted a discussion about beta testing, including site disclaimer and user profile details, without expressing a clear opinion.",
+    "foundAt": "2026-09-18T15:20:46.926Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=Ebq9sc2h2Ck",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Ebq9sc2h2Ck",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer finds the draw length adjustment easy but warns that loose screws can be dangerous and suggests applying loctite.",
+    "foundAt": "2026-09-18T15:20:47.886Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=pmjwtC9Dfuo",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=pmjwtC9Dfuo",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the TASACA T500-V58’s large battery, powerful 5,500‑watt motor delivering up to 52 mph, comfortable suspension and overall enjoys riding it.",
+    "foundAt": "2026-09-18T15:20:49.086Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=s8m8N7C3Bsc",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=s8m8N7C3Bsc",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet features a humorous, disjointed conversation about buying car parts and how they affect a vehicle's value in Car Dealer Simulator.",
+    "foundAt": "2026-09-18T15:20:50.166Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=833WZeVacoY",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=833WZeVacoY",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The speaker critiques their Master Yi build, describing it as broken, ineffective early on, and leading to frustrating gameplay.",
+    "foundAt": "2026-09-18T15:20:51.367Z"
   }
 ]
