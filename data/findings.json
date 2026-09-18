@@ -2018,5 +2018,15 @@
     "sentiment": "Negative",
     "summary": "The speaker critiques their Master Yi build, describing it as broken, ineffective early on, and leading to frustrating gameplay.",
     "foundAt": "2026-09-18T15:20:51.367Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=DmjKiQLPQ4I",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=DmjKiQLPQ4I",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet shares lyrics from Nas's song \"Legit,\" describing personal struggles, ambition, and staying legitimate.",
+    "foundAt": "2026-09-18T20:05:24.123Z"
   }
 ]
