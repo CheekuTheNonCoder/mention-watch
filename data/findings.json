@@ -2028,5 +2028,35 @@
     "sentiment": "Neutral",
     "summary": "The snippet shares lyrics from Nas's song \"Legit,\" describing personal struggles, ambition, and staying legitimate.",
     "foundAt": "2026-09-18T20:05:24.123Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=Gvvo6vUpJRc",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=Gvvo6vUpJRc",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer finds the AirPods Max heavy yet praises their premium metal build, high‑quality sound, and refined digital crown, describing them as a luxurious listening experience.",
+    "foundAt": "2026-09-19T02:00:12.645Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=GB0b6KFZVq0",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=GB0b6KFZVq0",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "A reviewer notes the lack of a USB‑C charging cable but praises the new features and overall improvements of the AirPods Pro 3.",
+    "foundAt": "2026-09-19T02:00:13.627Z"
+  },
+  {
+    "id": "Afora::https://ca.trustpilot.com/review/www.agorafinancial.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://ca.trustpilot.com/review/www.agorafinancial.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet asserts that Agora Financial operates a network of fraudulent newsletters that scam individual investors, earning low Trustpilot ratings.",
+    "foundAt": "2026-09-19T02:00:16.214Z"
   }
 ]
