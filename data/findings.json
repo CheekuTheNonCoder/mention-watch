@@ -2108,5 +2108,85 @@
     "sentiment": "Negative",
     "summary": "The snippet shares introspective lyrics about personal struggles, medication use, and coping with emotional pain.",
     "foundAt": "2026-09-20T02:04:19.389Z"
+  },
+  {
+    "id": "ZOP::https://finance.yahoo.com/news/matsato-knife-review-kitchen-knife-152100260.html",
+    "brand": "ZOP",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/matsato-knife-review-kitchen-knife-152100260.html",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The piece offers care instructions and highlights the Matsato Knife’s high‑quality Japanese steel, sharpness, and ergonomic design, presenting it as a legitimate, well‑made kitchen tool.",
+    "foundAt": "2026-09-20T10:13:30.954Z"
+  },
+  {
+    "id": "ZOP::https://consumer.ftc.gov/scams",
+    "brand": "ZOP",
+    "platform": "consumer.ftc.gov",
+    "url": "https://consumer.ftc.gov/scams",
+    "type": "Scam claim",
+    "sentiment": "Neutral",
+    "summary": "The FTC warns that scammers pose as the agency, threatening transfers or demanding money, and urges people to report such fraud.",
+    "foundAt": "2026-09-20T10:13:31.913Z"
+  },
+  {
+    "id": "Afora::https://finance.yahoo.com/news/matsato-knife-review-kitchen-knife-152100260.html",
+    "brand": "Afora",
+    "platform": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/matsato-knife-review-kitchen-knife-152100260.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt offers a disclaimer and storage tips for the Matsato Knife while noting consumer reports and complaints references, without expressing a clear opinion.",
+    "foundAt": "2026-09-20T10:13:34.751Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=9aJ7LBfto4E",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=9aJ7LBfto4E",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet affirms that DataAnnotation is a legitimate platform where users can earn real money without needing coding skills, outlining its payout schedule and positive experience.",
+    "foundAt": "2026-09-20T10:13:35.719Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=BlYy5FVbGG4",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=BlYy5FVbGG4",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet praises Back Market as a reliable refurbished marketplace with good pricing and quality control, noting no complaints about its service.",
+    "foundAt": "2026-09-20T10:13:36.625Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=x9CPPw2FqjQ",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=x9CPPw2FqjQ",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the CE Shop’s instructional content, user-friendly dashboard, and exam preparation materials.",
+    "foundAt": "2026-09-20T10:13:37.735Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=0NKU6kGhAp0",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=0NKU6kGhAp0",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt advises users to avoid a toolbar that sells collected data and to use crowd‑sourced safety tools and common sense when judging website safety.",
+    "foundAt": "2026-09-20T10:13:38.567Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=50Zj9wYq2XU",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=50Zj9wYq2XU",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet praises the team's new offensive coordinator, strong receiver group, and solid defense, highlighting their recent success and bright future despite a playoff loss.",
+    "foundAt": "2026-09-20T10:13:39.555Z"
   }
 ]
