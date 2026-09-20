@@ -2188,5 +2188,15 @@
     "sentiment": "Positive",
     "summary": "The snippet praises the team's new offensive coordinator, strong receiver group, and solid defense, highlighting their recent success and bright future despite a playoff loss.",
     "foundAt": "2026-09-20T10:13:39.555Z"
+  },
+  {
+    "id": "ZOP::https://schema.org/Review",
+    "brand": "ZOP",
+    "platform": "schema.org",
+    "url": "https://schema.org/Review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet displays a schema.org review markup indicating a rating of 4 on a scale from 1 to 5.",
+    "foundAt": "2026-09-20T19:54:50.700Z"
   }
 ]
