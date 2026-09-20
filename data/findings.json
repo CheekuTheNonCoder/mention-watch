@@ -2088,5 +2088,25 @@
     "sentiment": "Neutral",
     "summary": "The lyrics recount the artist's financial hardships, involvement in illegal activities, and a transition toward a legitimate lifestyle.",
     "foundAt": "2026-09-19T09:51:22.584Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=CQfpLyG0B8g",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=CQfpLyG0B8g",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The user hit a quest‑blocking bug in Crimson Desert, had to reload a coworker's save to continue, and found the experience frustrating.",
+    "foundAt": "2026-09-20T02:04:18.136Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=iXZZpAw0QLE",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=iXZZpAw0QLE",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "The snippet shares introspective lyrics about personal struggles, medication use, and coping with emotional pain.",
+    "foundAt": "2026-09-20T02:04:19.389Z"
   }
 ]
