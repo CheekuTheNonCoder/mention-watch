@@ -2228,5 +2228,25 @@
     "sentiment": "Positive",
     "summary": "The reviewer praises the RG40XXV’s slim, low‑profile design, finds it acceptable compared to bulkier rivals, and recommends it for first‑time handheld users while noting it may be redundant for those who already own similar devices.",
     "foundAt": "2026-09-21T11:18:09.799Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=ViA4-YWx8Y4",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=ViA4-YWx8Y4",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes the glasses for short battery life, photo lag, unhelpful AI responses, and limited usefulness of sharing features.",
+    "foundAt": "2026-09-21T21:19:03.738Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=nMMNkfSQuiU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=nMMNkfSQuiU",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer criticizes Starfield's barren worlds but ultimately recommends the game despite its flaws.",
+    "foundAt": "2026-09-21T21:19:05.066Z"
   }
 ]
