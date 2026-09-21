@@ -2208,5 +2208,25 @@
     "sentiment": "Neutral",
     "summary": "The article reviews GLPro’s stacked supplement, weighing its claimed benefits, refund policy, and complaints to assess its legitimacy.",
     "foundAt": "2026-09-21T02:05:04.518Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=WwjHonzRd4E",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=WwjHonzRd4E",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes the AirPods 4 for offering only USB‑C and new colors while omitting any other upgrades, calling the changes insufficient and disappointing.",
+    "foundAt": "2026-09-21T11:18:08.667Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=ECe4Lak58fY",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=ECe4Lak58fY",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The reviewer praises the RG40XXV’s slim, low‑profile design, finds it acceptable compared to bulkier rivals, and recommends it for first‑time handheld users while noting it may be redundant for those who already own similar devices.",
+    "foundAt": "2026-09-21T11:18:09.799Z"
   }
 ]
