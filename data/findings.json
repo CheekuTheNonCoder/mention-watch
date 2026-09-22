@@ -2268,5 +2268,25 @@
     "sentiment": "Negative",
     "summary": "The snippet asserts that Oprolle.com is not a legitimate site, warns people to stay away, and labels it as a scam lacking reviews or social media.",
     "foundAt": "2026-09-22T02:11:19.113Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=KhhSWx4kk_I",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=KhhSWx4kk_I",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes a quest in The Sinking City Remastered as repetitive and manipulative, suggesting the game preys on players who have seen it before.",
+    "foundAt": "2026-09-22T10:28:36.211Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=daiQ6aChKfk",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=daiQ6aChKfk",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The video explains how the Silk Roads generated high profits from luxury goods and advertises an AP World review guide.",
+    "foundAt": "2026-09-22T10:28:37.479Z"
   }
 ]
