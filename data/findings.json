@@ -2248,5 +2248,25 @@
     "sentiment": "Positive",
     "summary": "The reviewer criticizes Starfield's barren worlds but ultimately recommends the game despite its flaws.",
     "foundAt": "2026-09-21T21:19:05.066Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=AmNVQQ-YOoE",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=AmNVQQ-YOoE",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The reviewer critiques the Samsung S26 Ultra’s oversharpened images and a privacy mishap, comparing it unfavorably to the Xiaomi 17 Ultra, while acknowledging a few useful AI features.",
+    "foundAt": "2026-09-22T02:11:15.551Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=iDlNFoMbrB8",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=iDlNFoMbrB8",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet asserts that Oprolle.com is not a legitimate site, warns people to stay away, and labels it as a scam lacking reviews or social media.",
+    "foundAt": "2026-09-22T02:11:19.113Z"
   }
 ]
