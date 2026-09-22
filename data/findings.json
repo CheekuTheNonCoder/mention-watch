@@ -2388,5 +2388,15 @@
     "sentiment": "Neutral",
     "summary": "The journal announces original research articles on a marine-derived sesterterpenoid that blocks triple‑negative breast cancer cell migration and on R‑spondins that inhibit adipogenic differentiation via WNT/β‑catenin signaling.",
     "foundAt": "2026-09-22T15:52:34.791Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=sxjsqauWE9E&vl=en",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=sxjsqauWE9E&vl=en",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The reviewer acknowledges Ross Cameron is a legitimate trader but cautions that his claimed profits may be overstated because of conflicts of interest and a prior FTC fine.",
+    "foundAt": "2026-09-22T20:35:56.022Z"
   }
 ]
