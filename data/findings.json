@@ -2288,5 +2288,105 @@
     "sentiment": "Neutral",
     "summary": "The video explains how the Silk Roads generated high profits from luxury goods and advertises an AP World review guide.",
     "foundAt": "2026-09-22T10:28:37.479Z"
+  },
+  {
+    "id": "ZOP::https://claremontreviewofbooks.com/are-the-kids-altright",
+    "brand": "ZOP",
+    "platform": "claremontreviewofbooks.com",
+    "url": "https://claremontreviewofbooks.com/are-the-kids-altright",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The snippet mentions that something dominates the narrative as the book progresses.",
+    "foundAt": "2026-09-22T15:52:22.360Z"
+  },
+  {
+    "id": "ZOP::https://home.treasury.gov/system/files/136/Treasury-2021-sanctions-review.pdf",
+    "brand": "ZOP",
+    "platform": "home.treasury.gov",
+    "url": "https://home.treasury.gov/system/files/136/Treasury-2021-sanctions-review.pdf",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The Treasury says it will review sanctions to mitigate humanitarian impacts while still blocking malicious actors.",
+    "foundAt": "2026-09-22T15:52:23.536Z"
+  },
+  {
+    "id": "ZOP::https://review.firstround.com",
+    "brand": "ZOP",
+    "platform": "review.firstround.com",
+    "url": "https://review.firstround.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "Prominent founders and experts commend First Round Review for delivering consistently high‑quality, actionable startup content for free.",
+    "foundAt": "2026-09-22T15:52:24.367Z"
+  },
+  {
+    "id": "ZOP::https://ideas.repec.org/s/aea/aecrev.html",
+    "brand": "ZOP",
+    "platform": "ideas.repec.org",
+    "url": "https://ideas.repec.org/s/aea/aecrev.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page notes that all content comes from publishers and authors and invites users to request corrections using the specified item handle.",
+    "foundAt": "2026-09-22T15:52:25.415Z"
+  },
+  {
+    "id": "ZOP::https://massreview.org",
+    "brand": "ZOP",
+    "platform": "massreview.org",
+    "url": "https://massreview.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page features literary excerpts, memorials, donation links, blog posts, and a brief reference to beer.",
+    "foundAt": "2026-09-22T15:52:26.552Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/@harvardbusinessreview",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/@harvardbusinessreview",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Harvard Business Review shared a YouTube video on McKinsey's AI strategy and posted advice on dealing with difficult coworkers.",
+    "foundAt": "2026-09-22T15:52:30.569Z"
+  },
+  {
+    "id": "Afora::https://claremontreviewofbooks.com/are-the-kids-altright",
+    "brand": "Afora",
+    "platform": "claremontreviewofbooks.com",
+    "url": "https://claremontreviewofbooks.com/are-the-kids-altright",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The snippet indicates that a particular element or theme increasingly dominates the book as it progresses.",
+    "foundAt": "2026-09-22T15:52:31.638Z"
+  },
+  {
+    "id": "Afora::https://home.treasury.gov/system/files/136/Treasury-2021-sanctions-review.pdf",
+    "brand": "Afora",
+    "platform": "home.treasury.gov",
+    "url": "https://home.treasury.gov/system/files/136/Treasury-2021-sanctions-review.pdf",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt outlines that blocked property cannot be transferred or dealt with unless authorized by OFAC, imposing a blanket prohibition on such activities.",
+    "foundAt": "2026-09-22T15:52:32.723Z"
+  },
+  {
+    "id": "Afora::https://review.firstround.com",
+    "brand": "Afora",
+    "platform": "review.firstround.com",
+    "url": "https://review.firstround.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "First Round Review publishes popular, actionable startup articles and is praised by industry leaders for its high‑quality content.",
+    "foundAt": "2026-09-22T15:52:33.874Z"
+  },
+  {
+    "id": "Afora::https://www.frontiersin.org/journals/cell-and-developmental-biology",
+    "brand": "Afora",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The journal announces original research articles on a marine-derived sesterterpenoid that blocks triple‑negative breast cancer cell migration and on R‑spondins that inhibit adipogenic differentiation via WNT/β‑catenin signaling.",
+    "foundAt": "2026-09-22T15:52:34.791Z"
   }
 ]
