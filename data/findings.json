@@ -2398,5 +2398,15 @@
     "sentiment": "Negative",
     "summary": "The reviewer acknowledges Ross Cameron is a legitimate trader but cautions that his claimed profits may be overstated because of conflicts of interest and a prior FTC fine.",
     "foundAt": "2026-09-22T20:35:56.022Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=TPQQnXFsUmU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=TPQQnXFsUmU",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains how Chinese paper money, called the flying money system, let merchants deposit bills in one place and withdraw them elsewhere, easing trade and travel.",
+    "foundAt": "2026-09-23T10:23:48.570Z"
   }
 ]
