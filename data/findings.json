@@ -2428,5 +2428,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet walks through detailed calculations of limits and algebraic expressions, showing step-by-step numerical approximations and recommendations.",
     "foundAt": "2026-09-23T20:47:08.794Z"
+  },
+  {
+    "id": "Afora::https://www.foratravel.com",
+    "brand": "Afora",
+    "platform": "foratravel.com",
+    "url": "https://www.foratravel.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Fora markets AI‑driven tools and services that help advisors, travelers, and suppliers create better trips, enjoy perks, and lower acquisition costs.",
+    "foundAt": "2026-09-24T01:57:38.422Z"
   }
 ]
