@@ -2448,5 +2448,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists Frontiers in Immunology's editorial team, impact factor and citation metrics, and highlights a recent review on radiomics and deep learning for immune checkpoint inhibitor outcomes.",
     "foundAt": "2026-09-24T10:40:05.032Z"
+  },
+  {
+    "id": "ZOP::https://addyosmani.com/blog/agentic-code-review",
+    "brand": "ZOP",
+    "platform": "addyosmani.com",
+    "url": "https://addyosmani.com/blog/agentic-code-review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The article warns that skipping code reviews without safeguards raises risk and recommends using tests and a structured review process.",
+    "foundAt": "2026-09-24T16:02:30.149Z"
+  },
+  {
+    "id": "ZOP::https://www.instituteofhealthequity.org/resources-reports/fair-society-healthy-lives-the-marmot-review",
+    "brand": "ZOP",
+    "platform": "instituteofhealthequity.org",
+    "url": "https://www.instituteofhealthequity.org/resources-reports/fair-society-healthy-lives-the-marmot-review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page provides an overview of the Marmot Review on health equity and lists links to its executive summary, full report, and related task‑group reports.",
+    "foundAt": "2026-09-24T16:02:31.275Z"
   }
 ]
