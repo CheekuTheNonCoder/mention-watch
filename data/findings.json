@@ -2438,5 +2438,15 @@
     "sentiment": "Positive",
     "summary": "Fora markets AI‑driven tools and services that help advisors, travelers, and suppliers create better trips, enjoy perks, and lower acquisition costs.",
     "foundAt": "2026-09-24T01:57:38.422Z"
+  },
+  {
+    "id": "ZOP::https://www.frontiersin.org/journals/immunology",
+    "brand": "ZOP",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/immunology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists Frontiers in Immunology's editorial team, impact factor and citation metrics, and highlights a recent review on radiomics and deep learning for immune checkpoint inhibitor outcomes.",
+    "foundAt": "2026-09-24T10:40:05.032Z"
   }
 ]
