@@ -2498,5 +2498,125 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists the Marmot Review’s Fair Society, Healthy Lives report and its various task‑group PDFs on the Institute of Health Equity site.",
     "foundAt": "2026-09-25T02:14:16.117Z"
+  },
+  {
+    "id": "ZOP::https://lazoo.org",
+    "brand": "ZOP",
+    "platform": "lazoo.org",
+    "url": "https://lazoo.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines the website's data storage categories—necessary, preferences, and statistical—used by the Los Angeles Zoo and Botanical Gardens site.",
+    "foundAt": "2026-09-25T10:43:49.220Z"
+  },
+  {
+    "id": "ZOP::https://www.indianapoliszoo.com",
+    "brand": "ZOP",
+    "platform": "indianapoliszoo.com",
+    "url": "https://www.indianapoliszoo.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines the Indianapolis Zoo website’s navigation, highlighting animal exhibits, events, membership options, and ways to support the zoo.",
+    "foundAt": "2026-09-25T10:43:50.528Z"
+  },
+  {
+    "id": "ZOP::https://www.phoenixzoo.org",
+    "brand": "ZOP",
+    "platform": "phoenixzoo.org",
+    "url": "https://www.phoenixzoo.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet displays the Phoenix Zoo homepage with social media links, navigation menus, and a cookie consent notice.",
+    "foundAt": "2026-09-25T10:43:51.552Z"
+  },
+  {
+    "id": "ZOP::https://www.tripadvisor.com/Attraction_Review-g31310-d127047-Reviews-Phoenix_Zoo-Phoenix_Arizona.html",
+    "brand": "ZOP",
+    "platform": "tripadvisor.com",
+    "url": "https://www.tripadvisor.com/Attraction_Review-g31310-d127047-Reviews-Phoenix_Zoo-Phoenix_Arizona.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides Tripadvisor’s disclaimer and lists various headings for Phoenix Zoo reviews and information.",
+    "foundAt": "2026-09-25T10:43:52.469Z"
+  },
+  {
+    "id": "ZOP::https://www.lpzoo.org",
+    "brand": "ZOP",
+    "platform": "lpzoo.org",
+    "url": "https://www.lpzoo.org",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet describes Lincoln Park Zoo as a historic, free-admission Chicago landmark that emphasizes wildlife conservation, education, and community support.",
+    "foundAt": "2026-09-25T10:43:53.519Z"
+  },
+  {
+    "id": "ZOP::https://nationalzoo.si.edu",
+    "brand": "ZOP",
+    "platform": "nationalzoo.si.edu",
+    "url": "https://nationalzoo.si.edu",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The Smithsonian National Zoo highlights its conservation work, merchandise sales supporting the mission, and invites visitors to see the new Asian elephant calf.",
+    "foundAt": "2026-09-25T10:43:54.754Z"
+  },
+  {
+    "id": "ZOP::https://centralparkzoo.com",
+    "brand": "ZOP",
+    "platform": "centralparkzoo.com",
+    "url": "https://centralparkzoo.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page promotes the Wildlife Conservation Society’s conservation mission, invites visitors to become members, and lists its social media and review platform links.",
+    "foundAt": "2026-09-25T10:43:56.648Z"
+  },
+  {
+    "id": "Afora::https://uk.trustpilot.com/review/www.adyunlocker.com?page=2",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://uk.trustpilot.com/review/www.adyunlocker.com?page=2",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet praises the service as legitimate and gives it a perfect TrustScore rating.",
+    "foundAt": "2026-09-25T10:43:58.995Z"
+  },
+  {
+    "id": "Afora::https://www.tiktok.com/discover/moral-the-rapper-ft-crispy-mw",
+    "brand": "Afora",
+    "platform": "tiktok.com",
+    "url": "https://www.tiktok.com/discover/moral-the-rapper-ft-crispy-mw",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet offers a brief, positive review of Kendrick Lamar’s album, noting its themes and praising the vegan wings as excellent.",
+    "foundAt": "2026-09-25T10:44:00.225Z"
+  },
+  {
+    "id": "Afora::https://wjpcenter.org/wp-content/uploads/2023/09/SDSR-Vol15.pdf",
+    "brand": "Afora",
+    "platform": "wjpcenter.org",
+    "url": "https://wjpcenter.org/wp-content/uploads/2023/09/SDSR-Vol15.pdf",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "The excerpt outlines massive cybercrime costs, political fraud claims, and violent cartel activities, emphasizing serious security and human rights issues.",
+    "foundAt": "2026-09-25T10:44:01.588Z"
+  },
+  {
+    "id": "Afora::https://journals.sagepub.com/doi/10.1177/05390184261461510?int.sj-full-text.similar-articles.1=",
+    "brand": "Afora",
+    "platform": "journals.sagepub.com",
+    "url": "https://journals.sagepub.com/doi/10.1177/05390184261461510?int.sj-full-text.similar-articles.1=",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet notes that behavioral sciences are widely employed by governments, international organizations, and in policy innovation contexts.",
+    "foundAt": "2026-09-25T10:44:02.590Z"
+  },
+  {
+    "id": "Afora::https://journals.openedition.org/cs/750",
+    "brand": "Afora",
+    "platform": "journals.openedition.org",
+    "url": "https://journals.openedition.org/cs/750",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The article examines how conflicting temporal perspectives during the Zika epidemic generate tensions.",
+    "foundAt": "2026-09-25T10:44:03.549Z"
   }
 ]
