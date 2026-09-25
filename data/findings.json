@@ -2468,5 +2468,35 @@
     "sentiment": "Neutral",
     "summary": "The page provides an overview of the Marmot Review on health equity and lists links to its executive summary, full report, and related task‑group reports.",
     "foundAt": "2026-09-24T16:02:31.275Z"
+  },
+  {
+    "id": "Afora::https://addyosmani.com/blog/agentic-code-review",
+    "brand": "Afora",
+    "platform": "addyosmani.com",
+    "url": "https://addyosmani.com/blog/agentic-code-review",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The author warns that skipping code reviews without safeguards merely postpones work, increases costs, and lowers standards, stressing that lack of users isn’t a reason to forgo verification.",
+    "foundAt": "2026-09-25T02:14:14.150Z"
+  },
+  {
+    "id": "Afora::https://ideas.repec.org/s/aea/aecrev.html",
+    "brand": "Afora",
+    "platform": "ideas.repec.org",
+    "url": "https://ideas.repec.org/s/aea/aecrev.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The site hosts publisher and author content and encourages users to report any errors using the provided correction handle.",
+    "foundAt": "2026-09-25T02:14:15.050Z"
+  },
+  {
+    "id": "Afora::https://www.instituteofhealthequity.org/resources-reports/fair-society-healthy-lives-the-marmot-review",
+    "brand": "Afora",
+    "platform": "instituteofhealthequity.org",
+    "url": "https://www.instituteofhealthequity.org/resources-reports/fair-society-healthy-lives-the-marmot-review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists the Marmot Review’s Fair Society, Healthy Lives report and its various task‑group PDFs on the Institute of Health Equity site.",
+    "foundAt": "2026-09-25T02:14:16.117Z"
   }
 ]
