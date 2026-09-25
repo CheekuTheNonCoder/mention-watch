@@ -2618,5 +2618,75 @@
     "sentiment": "Neutral",
     "summary": "The article examines how conflicting temporal perspectives during the Zika epidemic generate tensions.",
     "foundAt": "2026-09-25T10:44:03.549Z"
+  },
+  {
+    "id": "Afora::https://www.merriam-webster.com/dictionary/legit",
+    "brand": "Afora",
+    "platform": "merriam-webster.com",
+    "url": "https://www.merriam-webster.com/dictionary/legit",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "A dictionary entry defining “legit” as something conforming to recognized rules, fair, valid, or genuine.",
+    "foundAt": "2026-09-25T16:03:21.867Z"
+  },
+  {
+    "id": "Afora::https://www.legitreviews.com",
+    "brand": "Afora",
+    "platform": "legitreviews.com",
+    "url": "https://www.legitreviews.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page lists several tech product reviews and brief news snippets about space missions and a hypercar, mentioning the Legit Reviews brand.",
+    "foundAt": "2026-09-25T16:03:24.315Z"
+  },
+  {
+    "id": "Afora::https://shop-legit.com",
+    "brand": "Afora",
+    "platform": "shop-legit.com",
+    "url": "https://shop-legit.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists various Shop Legit clothing items, their prices, and a newsletter sign‑up invitation.",
+    "foundAt": "2026-09-25T16:03:25.333Z"
+  },
+  {
+    "id": "Afora::https://www.ensembleschools.com/the-inside-voice/what-is-legit-musical-theatre",
+    "brand": "Afora",
+    "platform": "ensembleschools.com",
+    "url": "https://www.ensembleschools.com/the-inside-voice/what-is-legit-musical-theatre",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The article argues that the term “legit” unfairly favors classical vocal styles and urges acceptance of non‑classical musical theatre sounds.",
+    "foundAt": "2026-09-25T16:03:26.661Z"
+  },
+  {
+    "id": "Afora::https://www.legitsecurity.com",
+    "brand": "Afora",
+    "platform": "legitsecurity.com",
+    "url": "https://www.legitsecurity.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet outlines Legit’s AI-powered platform for visualizing software factories, spotting risky shadow assets, and scanning code and collaboration tools to detect and remediate secret leaks.",
+    "foundAt": "2026-09-25T16:03:27.920Z"
+  },
+  {
+    "id": "Afora::https://www.fxnetworks.com/shows/legit",
+    "brand": "Afora",
+    "platform": "fxnetworks.com",
+    "url": "https://www.fxnetworks.com/shows/legit",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the Hulu series 'FX's Legit,' highlighting its visual style and the plot of season 2 where Jim reflects on being a good person.",
+    "foundAt": "2026-09-25T16:03:28.975Z"
+  },
+  {
+    "id": "Afora::https://www.instagram.com/legittrip_music",
+    "brand": "Afora",
+    "platform": "Instagram",
+    "url": "https://www.instagram.com/legittrip_music",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists recent Instagram posts and profile details for Legit Trip, showing a series of photos and videos from 2023–2026, with a Budapest location and contact information.",
+    "foundAt": "2026-09-25T16:03:30.042Z"
   }
 ]
