@@ -2688,5 +2688,45 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists recent Instagram posts and profile details for Legit Trip, showing a series of photos and videos from 2023–2026, with a Budapest location and contact information.",
     "foundAt": "2026-09-25T16:03:30.042Z"
+  },
+  {
+    "id": "ZOP::https://zop.dev",
+    "brand": "ZOP",
+    "platform": "zop.dev",
+    "url": "https://zop.dev",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet outlines zopdev’s security controls, broad cloud resource support, integration with IaC tools, and a usage‑based pricing model aimed at reducing cloud costs.",
+    "foundAt": "2026-09-26T15:15:57.690Z"
+  },
+  {
+    "id": "ZOP::https://www.okczoo.org/htz",
+    "brand": "ZOP",
+    "platform": "okczoo.org",
+    "url": "https://www.okczoo.org/htz",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The zoo’s Halloween event sets family‑friendly costume rules, forbids masks, weapons and balloons, and sells a limited, non‑refundable number of treat bags in advance.",
+    "foundAt": "2026-09-26T15:15:58.938Z"
+  },
+  {
+    "id": "ZOP::https://www.zoonewengland.org/franklin-park-zoo",
+    "brand": "ZOP",
+    "platform": "zoonewengland.org",
+    "url": "https://www.zoonewengland.org/franklin-park-zoo",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists navigation links, special events, donation options, and membership information for the zoo.",
+    "foundAt": "2026-09-26T15:15:59.992Z"
+  },
+  {
+    "id": "Afora::https://www.reviews.io/company-reviews/store/attiora-com",
+    "brand": "Afora",
+    "platform": "reviews.io",
+    "url": "https://www.reviews.io/company-reviews/store/attiora-com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "Multiple reviewers allege they lost tens of thousands of dollars to a fraudulent site and warn others to avoid it.",
+    "foundAt": "2026-09-26T15:16:02.889Z"
   }
 ]
