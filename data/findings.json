@@ -2728,5 +2728,35 @@
     "sentiment": "Negative",
     "summary": "Multiple reviewers allege they lost tens of thousands of dollars to a fraudulent site and warn others to avoid it.",
     "foundAt": "2026-09-26T15:16:02.889Z"
+  },
+  {
+    "id": "ZOP::https://www.stlouisfed.org/publications/review",
+    "brand": "ZOP",
+    "platform": "stlouisfed.org",
+    "url": "https://www.stlouisfed.org/publications/review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The St. Louis Fed page lists various consumer and banker resources and highlights recent review publications on U.S. inflation inequality and agricultural employment.",
+    "foundAt": "2026-09-28T02:18:56.992Z"
+  },
+  {
+    "id": "Afora::https://www.stlouisfed.org/publications/review",
+    "brand": "Afora",
+    "platform": "stlouisfed.org",
+    "url": "https://www.stlouisfed.org/publications/review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page lists various Federal Reserve resources and recent review publications covering topics such as U.S. inflation inequality and agricultural employment trends.",
+    "foundAt": "2026-09-28T02:18:59.636Z"
+  },
+  {
+    "id": "Afora::https://www.frontiersin.org/journals/physiology",
+    "brand": "Afora",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/physiology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides a neutral overview of the Frontiers in Physiology journal, noting its impact metrics and recent article listings.",
+    "foundAt": "2026-09-28T02:19:00.612Z"
   }
 ]
