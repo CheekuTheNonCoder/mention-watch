@@ -2768,5 +2768,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet provides factual details about Frontiers in Microbiology, including editors, article titles, impact metrics, and author guidelines.",
     "foundAt": "2026-09-29T03:03:44.890Z"
+  },
+  {
+    "id": "Afora::https://legit.health",
+    "brand": "Afora",
+    "platform": "legit.health",
+    "url": "https://legit.health",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The excerpt describes Legit.Health’s AI-driven dermatology tools as accurate, expert‑level solutions that improve diagnosis, remote consultations, and administrative efficiency.",
+    "foundAt": "2026-09-29T11:43:18.364Z"
   }
 ]
