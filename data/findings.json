@@ -2758,5 +2758,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet provides a neutral overview of the Frontiers in Physiology journal, noting its impact metrics and recent article listings.",
     "foundAt": "2026-09-28T02:19:00.612Z"
+  },
+  {
+    "id": "ZOP::https://www.frontiersin.org/journals/microbiology",
+    "brand": "ZOP",
+    "platform": "frontiersin.org",
+    "url": "https://www.frontiersin.org/journals/microbiology",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides factual details about Frontiers in Microbiology, including editors, article titles, impact metrics, and author guidelines.",
+    "foundAt": "2026-09-29T03:03:44.890Z"
   }
 ]
