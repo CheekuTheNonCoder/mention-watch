@@ -2778,5 +2778,15 @@
     "sentiment": "Positive",
     "summary": "The excerpt describes Legit.Health’s AI-driven dermatology tools as accurate, expert‑level solutions that improve diagnosis, remote consultations, and administrative efficiency.",
     "foundAt": "2026-09-29T11:43:18.364Z"
+  },
+  {
+    "id": "Afora::https://en.wikipedia.org/wiki/Legit_(2013_TV_series)",
+    "brand": "Afora",
+    "platform": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/Legit_(2013_TV_series)",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes 'Legit' as a 2013 American sitcom about a comedian dealing with sexual addiction and other themes, noting its creators, broadcast dates, and production details.",
+    "foundAt": "2026-09-29T17:10:01.778Z"
   }
 ]
