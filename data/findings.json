@@ -2788,5 +2788,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet describes 'Legit' as a 2013 American sitcom about a comedian dealing with sexual addiction and other themes, noting its creators, broadcast dates, and production details.",
     "foundAt": "2026-09-29T17:10:01.778Z"
+  },
+  {
+    "id": "Afora::https://www.quora.com/Is-Aororra-com-a-scam-or-a-legit-store-What-is-your-review",
+    "brand": "Afora",
+    "platform": "quora.com",
+    "url": "https://www.quora.com/Is-Aororra-com-a-scam-or-a-legit-store-What-is-your-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The reviewer claims Aororra.com is a scam that never delivers orders, refuses refunds, and cannot be contacted.",
+    "foundAt": "2026-09-30T11:30:28.097Z"
   }
 ]
