@@ -2798,5 +2798,15 @@
     "sentiment": "Negative",
     "summary": "The reviewer claims Aororra.com is a scam that never delivers orders, refuses refunds, and cannot be contacted.",
     "foundAt": "2026-09-30T11:30:28.097Z"
+  },
+  {
+    "id": "Afora::https://www.fca.org.uk/news/warnings/agoracom",
+    "brand": "Afora",
+    "platform": "fca.org.uk",
+    "url": "https://www.fca.org.uk/news/warnings/agoracom",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page lists FCA consumer protection resources, including rights, complaint procedures, and scam reporting information.",
+    "foundAt": "2026-10-02T02:53:37.860Z"
   }
 ]
