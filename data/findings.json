@@ -2808,5 +2808,15 @@
     "sentiment": "Neutral",
     "summary": "The page lists FCA consumer protection resources, including rights, complaint procedures, and scam reporting information.",
     "foundAt": "2026-10-02T02:53:37.860Z"
+  },
+  {
+    "id": "Afora::https://afa-stores.pissedconsumer.com/review.html",
+    "brand": "Afora",
+    "platform": "afa-stores.pissedconsumer.com",
+    "url": "https://afa-stores.pissedconsumer.com/review.html",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer got a product with wrong color and material, was denied a refund, and warns others to avoid AFA Stores, calling them a scam.",
+    "foundAt": "2026-10-04T11:27:36.708Z"
   }
 ]
