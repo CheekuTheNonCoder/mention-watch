@@ -2858,5 +2858,55 @@
     "sentiment": "Positive",
     "summary": "The snippet reviews Eqmac.com, noting it appears legitimate with excellent reputation scores, though child safety is unknown.",
     "foundAt": "2026-10-05T12:53:16.322Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/check-website/afora.in",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/afora.in",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page provides a free tool to assess afora.in's legitimacy and lets users report scams.",
+    "foundAt": "2026-10-05T23:25:48.445Z"
+  },
+  {
+    "id": "Afora::https://au.trustpilot.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://au.trustpilot.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Trustpilot promotes its service as a place for shoppers to read, write, and share authentic consumer reviews.",
+    "foundAt": "2026-10-05T23:25:49.493Z"
+  },
+  {
+    "id": "Afora::https://taskandpurpose.com/news/tricare-fraud-scheme-gold-cybertruck",
+    "brand": "Afora",
+    "platform": "taskandpurpose.com",
+    "url": "https://taskandpurpose.com/news/tricare-fraud-scheme-gold-cybertruck",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "A mental‑health clinic owner was convicted of using illegal kickbacks to bill TRICARE for TMS treatments that were not provided or improperly qualified.",
+    "foundAt": "2026-10-05T23:25:50.666Z"
+  },
+  {
+    "id": "Afora::https://www.realtor.com/news/real-estate-news/louisiana-arson-insurance-fraud-family-whitlock-brown",
+    "brand": "Afora",
+    "platform": "realtor.com",
+    "url": "https://www.realtor.com/news/real-estate-news/louisiana-arson-insurance-fraud-family-whitlock-brown",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A Louisiana family is accused of deliberately burning 13 homes to commit insurance fraud.",
+    "foundAt": "2026-10-05T23:25:51.834Z"
+  },
+  {
+    "id": "Afora::https://www.justice.gov/usao-ma/pr/four-massachusetts-men-arrested-and-charged-fraud-money-laundering-schemes",
+    "brand": "Afora",
+    "platform": "justice.gov",
+    "url": "https://www.justice.gov/usao-ma/pr/four-massachusetts-men-arrested-and-charged-fraud-money-laundering-schemes",
+    "type": "Mention",
+    "sentiment": "Negative",
+    "summary": "A DOJ page reports that four men from Massachusetts were arrested and charged with fraud and money‑laundering schemes.",
+    "foundAt": "2026-10-05T23:25:52.862Z"
   }
 ]
