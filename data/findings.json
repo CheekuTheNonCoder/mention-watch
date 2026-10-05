@@ -2818,5 +2818,45 @@
     "sentiment": "Negative",
     "summary": "The reviewer got a product with wrong color and material, was denied a refund, and warns others to avoid AFA Stores, calling them a scam.",
     "foundAt": "2026-10-04T11:27:36.708Z"
+  },
+  {
+    "id": "ZOP::https://www.scamadviser.com/articles/scam-website-checker-is-this-site-safe-or-a-scam-use-this-free-tool-to-find-out",
+    "brand": "ZOP",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/articles/scam-website-checker-is-this-site-safe-or-a-scam-use-this-free-tool-to-find-out",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet offers guidance on assessing a website’s legitimacy, warning about fake reviews and suggesting checks of the address, policies, and external sources.",
+    "foundAt": "2026-10-05T12:53:11.507Z"
+  },
+  {
+    "id": "ZOP::https://review.easycounter.com/eqmac.com",
+    "brand": "ZOP",
+    "platform": "review.easycounter.com",
+    "url": "https://review.easycounter.com/eqmac.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The review concludes that Eqmac.com seems legitimate and safe with excellent reputation scores, though child safety remains unknown.",
+    "foundAt": "2026-10-05T12:53:12.453Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/articles/scam-website-checker-is-this-site-safe-or-a-scam-use-this-free-tool-to-find-out",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/articles/scam-website-checker-is-this-site-safe-or-a-scam-use-this-free-tool-to-find-out",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The piece outlines how to assess a website’s legitimacy, warning about fake reviews and advising users to verify company details, policies, and contact information.",
+    "foundAt": "2026-10-05T12:53:15.082Z"
+  },
+  {
+    "id": "Afora::https://review.easycounter.com/eqmac.com",
+    "brand": "Afora",
+    "platform": "review.easycounter.com",
+    "url": "https://review.easycounter.com/eqmac.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The snippet reviews Eqmac.com, noting it appears legitimate with excellent reputation scores, though child safety is unknown.",
+    "foundAt": "2026-10-05T12:53:16.322Z"
   }
 ]
