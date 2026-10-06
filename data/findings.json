@@ -2908,5 +2908,25 @@
     "sentiment": "Negative",
     "summary": "A DOJ page reports that four men from Massachusetts were arrested and charged with fraud and money‑laundering schemes.",
     "foundAt": "2026-10-05T23:25:52.862Z"
+  },
+  {
+    "id": "Afora::https://en.wikipedia.org/wiki/The_Fraud",
+    "brand": "Afora",
+    "platform": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/The_Fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The Wikipedia entry lists basic information about the novel \"The Fraud\", including its ISBN and official website.",
+    "foundAt": "2026-10-06T12:20:47.688Z"
+  },
+  {
+    "id": "Afora::https://www.newzimbabwe.com/uk-faith-moyo-three-others-sentenced-for-250000-fraud-and-money-laundering",
+    "brand": "Afora",
+    "platform": "newzimbabwe.com",
+    "url": "https://www.newzimbabwe.com/uk-faith-moyo-three-others-sentenced-for-250000-fraud-and-money-laundering",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists assorted news headlines about fraud, legal actions, and other events without expressing a specific opinion.",
+    "foundAt": "2026-10-06T12:20:48.917Z"
   }
 ]
