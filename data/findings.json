@@ -2928,5 +2928,55 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists assorted news headlines about fraud, legal actions, and other events without expressing a specific opinion.",
     "foundAt": "2026-10-06T12:20:48.917Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/boxnutra-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/boxnutra-com-review",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet advises using Guardio and Surfshark for fraud protection and offers help to victims of scams.",
+    "foundAt": "2026-10-06T21:57:40.853Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/boxnutra-com-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/boxnutra-com-review",
+    "type": "Scam claim",
+    "sentiment": "Neutral",
+    "summary": "The page offers assistance to fraud victims and recommends fraud‑prevention tools such as Guardio and Surfshark.",
+    "foundAt": "2026-10-06T21:57:45.165Z"
+  },
+  {
+    "id": "Afora::https://www.miamidade.gov/global/service.page?Mduid_service=ser1467813318557396",
+    "brand": "Afora",
+    "platform": "miamidade.gov",
+    "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1467813318557396",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines how to file a formal consumer complaint affidavit in Florida, detailing submission methods and warning against false statements.",
+    "foundAt": "2026-10-06T21:57:46.073Z"
+  },
+  {
+    "id": "Afora::https://www.fraudsmart.ie/personal/fraud-scams",
+    "brand": "Afora",
+    "platform": "fraudsmart.ie",
+    "url": "https://www.fraudsmart.ie/personal/fraud-scams",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page provides information and tips on recognizing and avoiding a wide range of financial scams, including phone, text, email, cheque, money mule, investment, online, social media, and card fraud.",
+    "foundAt": "2026-10-06T21:57:47.158Z"
+  },
+  {
+    "id": "Afora::https://lookup.robokiller.com",
+    "brand": "Afora",
+    "platform": "lookup.robokiller.com",
+    "url": "https://lookup.robokiller.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists numerous phone numbers with Positive or Negative labels, showing the tool’s classification of each number.",
+    "foundAt": "2026-10-06T21:57:48.277Z"
   }
 ]
