@@ -2978,5 +2978,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists numerous phone numbers with Positive or Negative labels, showing the tool’s classification of each number.",
     "foundAt": "2026-10-06T21:57:48.277Z"
+  },
+  {
+    "id": "Afora::https://www.linkedin.com/company/fraud-complaints",
+    "brand": "Afora",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/fraud-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page lists broker reviews questioning whether they are legitimate or scams, offering regulatory and risk information.",
+    "foundAt": "2026-10-07T03:03:25.886Z"
   }
 ]
