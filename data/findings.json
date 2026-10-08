@@ -2988,5 +2988,15 @@
     "sentiment": "Neutral",
     "summary": "The page lists broker reviews questioning whether they are legitimate or scams, offering regulatory and risk information.",
     "foundAt": "2026-10-07T03:03:25.886Z"
+  },
+  {
+    "id": "ZOP::https://www.linkedin.com/company/fraud-complaints",
+    "brand": "ZOP",
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/company/fraud-complaints",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Fraud Complaints is a site that posts broker reviews to assess legitimacy and warn about scams, aiming to help users protect their investments.",
+    "foundAt": "2026-10-08T12:23:10.203Z"
   }
 ]
