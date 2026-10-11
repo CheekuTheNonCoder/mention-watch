@@ -3008,5 +3008,65 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists various cross‑border and interbank payment use cases offered by Project Agorá.",
     "foundAt": "2026-10-11T02:36:50.606Z"
+  },
+  {
+    "id": "Afora::https://en.wikipedia.org/wiki/2016_Washington_elections",
+    "brand": "Afora",
+    "platform": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/2016_Washington_elections",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists a series of years for different Washington state elections, including U.S. House, presidential, and other contests.",
+    "foundAt": "2026-10-11T21:09:53.533Z"
+  },
+  {
+    "id": "Afora::https://www.cnn.com/election/2016/results/states/washington",
+    "brand": "Afora",
+    "platform": "cnn.com",
+    "url": "https://www.cnn.com/election/2016/results/states/washington",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists various CNN navigation sections and links, unrelated to election results.",
+    "foundAt": "2026-10-11T21:09:54.499Z"
+  },
+  {
+    "id": "Afora::https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive",
+    "brand": "Afora",
+    "platform": "sos.wa.gov",
+    "url": "https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page lists donor resources, complaint filing options, and election archive information from the Washington Secretary of State.",
+    "foundAt": "2026-10-11T21:09:55.548Z"
+  },
+  {
+    "id": "Afora::https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Washington_(state)",
+    "brand": "Afora",
+    "platform": "en.wikipedia.org",
+    "url": "https://en.wikipedia.org/wiki/2016_United_States_presidential_election_in_Washington_(state)",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists links to past United States presidential election pages and other election years for Washington state.",
+    "foundAt": "2026-10-11T21:09:56.652Z"
+  },
+  {
+    "id": "Afora::https://election.org/results/2016/washington",
+    "brand": "Afora",
+    "platform": "election.org",
+    "url": "https://election.org/results/2016/washington",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page provides official 2016 Washington U.S. House election results, showing vote counts and percentages for candidates such as Cathy McMorris Rodgers, Derek Kilmer, and Pramila Jayapal.",
+    "foundAt": "2026-10-11T21:09:57.933Z"
+  },
+  {
+    "id": "Afora::https://www.politico.com/2016-election/results/map/president/washington",
+    "brand": "Afora",
+    "platform": "politico.com",
+    "url": "https://www.politico.com/2016-election/results/map/president/washington",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists 2016 Washington county vote totals, showing Trump leading Clinton with percentages and raw vote counts.",
+    "foundAt": "2026-10-11T21:09:58.937Z"
   }
 ]
