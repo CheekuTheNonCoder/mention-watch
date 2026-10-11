@@ -2998,5 +2998,15 @@
     "sentiment": "Positive",
     "summary": "Fraud Complaints is a site that posts broker reviews to assess legitimacy and warn about scams, aiming to help users protect their investments.",
     "foundAt": "2026-10-08T12:23:10.203Z"
+  },
+  {
+    "id": "Afora::https://www.bis.org/project/agora",
+    "brand": "Afora",
+    "platform": "bis.org",
+    "url": "https://www.bis.org/project/agora",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists various cross‑border and interbank payment use cases offered by Project Agorá.",
+    "foundAt": "2026-10-11T02:36:50.606Z"
   }
 ]
