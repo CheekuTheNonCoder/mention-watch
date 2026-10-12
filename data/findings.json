@@ -3068,5 +3068,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists 2016 Washington county vote totals, showing Trump leading Clinton with percentages and raw vote counts.",
     "foundAt": "2026-10-11T21:09:58.937Z"
+  },
+  {
+    "id": "ZOP::https://competition-policy.ec.europa.eu/mergers/review-merger-guidelines_en",
+    "brand": "ZOP",
+    "platform": "competition-policy.ec.europa.eu",
+    "url": "https://competition-policy.ec.europa.eu/mergers/review-merger-guidelines_en",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists navigation items and sections such as State aid, Digital Markets Act, and related resources on a competition policy website.",
+    "foundAt": "2026-10-12T13:44:41.530Z"
   }
 ]
