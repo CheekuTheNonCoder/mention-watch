@@ -3148,5 +3148,15 @@
     "sentiment": "Neutral",
     "summary": "The page provides the 2025 Easter date (April 20) along with related holidays and brief historical context.",
     "foundAt": "2026-10-14T02:28:19.399Z"
+  },
+  {
+    "id": "Afora::https://www.hbc.bank/11-ways-to-check-if-a-website-is-legit-or-trying-to-scam-you",
+    "brand": "Afora",
+    "platform": "hbc.bank",
+    "url": "https://www.hbc.bank/11-ways-to-check-if-a-website-is-legit-or-trying-to-scam-you",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet offers tips for verifying a website’s legitimacy, such as checking reviews, BBB ratings, contact options, and social media presence.",
+    "foundAt": "2026-10-14T16:05:31.685Z"
   }
 ]
