@@ -3078,5 +3078,75 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists navigation items and sections such as State aid, Digital Markets Act, and related resources on a competition policy website.",
     "foundAt": "2026-10-12T13:44:41.530Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/fraudcomplaints.net",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/fraudcomplaints.net",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer alleges they were scammed by the company, paid a large sum, received no product or updates, and demand a refund.",
+    "foundAt": "2026-10-14T02:28:12.371Z"
+  },
+  {
+    "id": "Afora::https://www.fdic.gov/consumer-resource-center/2020-10/beware-its-scam",
+    "brand": "Afora",
+    "platform": "fdic.gov",
+    "url": "https://www.fdic.gov/consumer-resource-center/2020-10/beware-its-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "They overpay with a cashier's check, which signals a fraudulent scheme.",
+    "foundAt": "2026-10-14T02:28:13.686Z"
+  },
+  {
+    "id": "Afora::https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams",
+    "brand": "Afora",
+    "platform": "fbi.gov",
+    "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "Scammers pretending to be company employees recruit victims and demand they deposit their own money.",
+    "foundAt": "2026-10-14T02:28:14.743Z"
+  },
+  {
+    "id": "Afora::https://www.consumerreports.org/money/scams-fraud/new-scams-to-watch-out-for-a9334297641",
+    "brand": "Afora",
+    "platform": "consumerreports.org",
+    "url": "https://www.consumerreports.org/money/scams-fraud/new-scams-to-watch-out-for-a9334297641",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet warns that Primo's costly travel membership is a likely scam and advises consumers to protect their financial info and report the fraud to authorities.",
+    "foundAt": "2026-10-14T02:28:15.739Z"
+  },
+  {
+    "id": "Afora::https://www.usa.gov/scams-and-fraud",
+    "brand": "Afora",
+    "platform": "usa.gov",
+    "url": "https://www.usa.gov/scams-and-fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page warns that imposters posing as IRS, SSA, businesses, or charities use scams like unemployment fraud to steal personal data and money, and offers advice on protection and reporting.",
+    "foundAt": "2026-10-14T02:28:17.255Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/GuyFieri/videos/scam-alert-im-very-sorry-to-anyone-whos-been-scammed-by-these-crooks-and-well-ke/897571221986552",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/GuyFieri/videos/scam-alert-im-very-sorry-to-anyone-whos-been-scammed-by-these-crooks-and-well-ke/897571221986552",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The post warns that fraudsters are using the brand’s name to scam people and advises checking the official website for authenticity.",
+    "foundAt": "2026-10-14T02:28:18.348Z"
+  },
+  {
+    "id": "Afora::https://fraud.org",
+    "brand": "Afora",
+    "platform": "fraud.org",
+    "url": "https://fraud.org",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page provides the 2025 Easter date (April 20) along with related holidays and brief historical context.",
+    "foundAt": "2026-10-14T02:28:19.399Z"
   }
 ]
