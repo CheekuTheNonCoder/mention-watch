@@ -3178,5 +3178,15 @@
     "sentiment": "Negative",
     "summary": "The snippet alleges that a business paid Yelp for advertising, which allegedly suppressed legitimate negative reviews and involved fake customer endorsements, highlighting concerns about review fraud.",
     "foundAt": "2026-10-15T02:09:26.408Z"
+  },
+  {
+    "id": "Afora::https://consumer.ftc.gov/articles/refund-and-recovery-scams",
+    "brand": "Afora",
+    "platform": "consumer.ftc.gov",
+    "url": "https://consumer.ftc.gov/articles/refund-and-recovery-scams",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The article warns that scammers pose as government or refund agencies, offering fake refunds or checks that later turn out to be scams.",
+    "foundAt": "2026-10-15T20:38:23.895Z"
   }
 ]
