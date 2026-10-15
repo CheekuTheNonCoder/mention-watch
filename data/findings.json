@@ -3158,5 +3158,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet offers tips for verifying a website’s legitimacy, such as checking reviews, BBB ratings, contact options, and social media presence.",
     "foundAt": "2026-10-14T16:05:31.685Z"
+  },
+  {
+    "id": "ZOP::https://www.unionsquare.org/resources/fraud-prevention-center/is-this-company-legit",
+    "brand": "ZOP",
+    "platform": "unionsquare.org",
+    "url": "https://www.unionsquare.org/resources/fraud-prevention-center/is-this-company-legit",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet advises researching a company online, checking reviews and contact details, and warns that unrealistic ads and a lack of online presence can indicate a potential scam.",
+    "foundAt": "2026-10-15T02:09:25.247Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=PUg12b8q3Kc",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=PUg12b8q3Kc",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The snippet alleges that a business paid Yelp for advertising, which allegedly suppressed legitimate negative reviews and involved fake customer endorsements, highlighting concerns about review fraud.",
+    "foundAt": "2026-10-15T02:09:26.408Z"
   }
 ]
