@@ -3238,5 +3238,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet advises researching a business online, checking reviews and contact info, and being cautious of ads and scams, especially when the company lacks an online presence.",
     "foundAt": "2026-10-17T09:50:27.321Z"
+  },
+  {
+    "id": "ZOP::https://www.theparisreview.org/interviews/3439/the-art-of-fiction-no-71-joan-didion",
+    "brand": "ZOP",
+    "platform": "theparisreview.org",
+    "url": "https://www.theparisreview.org/interviews/3439/the-art-of-fiction-no-71-joan-didion",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet features a Joan Didion interview in the Paris Review where she reflects on early attempts to write for others and her writing motivations.",
+    "foundAt": "2026-10-17T14:33:20.977Z"
   }
 ]
