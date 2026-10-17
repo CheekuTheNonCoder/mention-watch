@@ -3188,5 +3188,35 @@
     "sentiment": "Negative",
     "summary": "The article warns that scammers pose as government or refund agencies, offering fake refunds or checks that later turn out to be scams.",
     "foundAt": "2026-10-15T20:38:23.895Z"
+  },
+  {
+    "id": "Afora::https://www.reddit.com/r/TRADEMARK/comments/17xnajo/is_this_email_a_scam_or_legitimate_and_should_i",
+    "brand": "Afora",
+    "platform": "Reddit",
+    "url": "https://www.reddit.com/r/TRADEMARK/comments/17xnajo/is_this_email_a_scam_or_legitimate_and_should_i",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A Reddit post questions whether an urgent‑action email is a scam, noting attached PDFs and videos that seem suspicious.",
+    "foundAt": "2026-10-17T01:54:09.193Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=PUg12b8q3Kc",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=PUg12b8q3Kc",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet alleges that Green Care paid Yelp to suppress legitimate negative reviews and used fabricated customer endorsements, indicating fraudulent review practices.",
+    "foundAt": "2026-10-17T01:54:10.264Z"
+  },
+  {
+    "id": "Afora::https://www.texasattorneygeneral.gov/consumer-protection/common-scams",
+    "brand": "Afora",
+    "platform": "texasattorneygeneral.gov",
+    "url": "https://www.texasattorneygeneral.gov/consumer-protection/common-scams",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet explains the overpayment scam using fake cashier's checks and warns people to stop contact and report the fraud.",
+    "foundAt": "2026-10-17T01:54:11.458Z"
   }
 ]
