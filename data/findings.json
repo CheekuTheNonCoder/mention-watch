@@ -3218,5 +3218,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet explains the overpayment scam using fake cashier's checks and warns people to stop contact and report the fraud.",
     "foundAt": "2026-10-17T01:54:11.458Z"
+  },
+  {
+    "id": "Afora::https://oag.ca.gov/consumers/general/checking_business_bkgrd10",
+    "brand": "Afora",
+    "platform": "oag.ca.gov",
+    "url": "https://oag.ca.gov/consumers/general/checking_business_bkgrd10",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet advises checking a company's legitimacy by reviewing BBB complaints, reading policies, and scrutinizing the website for professionalism.",
+    "foundAt": "2026-10-17T09:50:26.261Z"
+  },
+  {
+    "id": "Afora::https://www.unionsquare.org/resources/fraud-prevention-center/is-this-company-legit",
+    "brand": "Afora",
+    "platform": "unionsquare.org",
+    "url": "https://www.unionsquare.org/resources/fraud-prevention-center/is-this-company-legit",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet advises researching a business online, checking reviews and contact info, and being cautious of ads and scams, especially when the company lacks an online presence.",
+    "foundAt": "2026-10-17T09:50:27.321Z"
   }
 ]
