@@ -3248,5 +3248,35 @@
     "sentiment": "Neutral",
     "summary": "The snippet features a Joan Didion interview in the Paris Review where she reflects on early attempts to write for others and her writing motivations.",
     "foundAt": "2026-10-17T14:33:20.977Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/agora-x.com",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/agora-x.com",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A reviewer claims Agora X is a scam, saying they were asked to pay extra to activate their account and are being deceived.",
+    "foundAt": "2026-10-18T15:00:40.009Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/all/social-media-scams/think-twice-before-buying-from-these-social-media-ads",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/all/social-media-scams/think-twice-before-buying-from-these-social-media-ads",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The alert urges shoppers to verify businesses via online searches for complaints and contact details before purchasing from social-media ads, warning of potential scams.",
+    "foundAt": "2026-10-18T15:00:41.562Z"
+  },
+  {
+    "id": "Afora::https://pirg.org/edfund/resources/how-to-recognize-fake-online-reviews-of-products-and-services",
+    "brand": "Afora",
+    "platform": "pirg.org",
+    "url": "https://pirg.org/edfund/resources/how-to-recognize-fake-online-reviews-of-products-and-services",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The excerpt explains how to spot fake reviews, noting that verified purchaser tags are more trustworthy and describing various ways companies manipulate reviews, both positively and negatively.",
+    "foundAt": "2026-10-18T15:00:42.645Z"
   }
 ]
