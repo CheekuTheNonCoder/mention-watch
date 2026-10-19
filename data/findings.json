@@ -3278,5 +3278,15 @@
     "sentiment": "Neutral",
     "summary": "The excerpt explains how to spot fake reviews, noting that verified purchaser tags are more trustworthy and describing various ways companies manipulate reviews, both positively and negatively.",
     "foundAt": "2026-10-18T15:00:42.645Z"
+  },
+  {
+    "id": "Afora::https://www.usa.gov/where-report-scams",
+    "brand": "Afora",
+    "platform": "usa.gov",
+    "url": "https://www.usa.gov/where-report-scams",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The USAGov page explains how to identify and report scams, offering a tool that guides users to the appropriate agency.",
+    "foundAt": "2026-10-19T02:10:09.821Z"
   }
 ]
