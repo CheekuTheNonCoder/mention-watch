@@ -3288,5 +3288,15 @@
     "sentiment": "Neutral",
     "summary": "The USAGov page explains how to identify and report scams, offering a tool that guides users to the appropriate agency.",
     "foundAt": "2026-10-19T02:10:09.821Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/SaveMeSteve/posts/got-a-viewer-complaint-about-a-company-a-quick-click-on-the-about-us-tab-and-doe/1199055801589576",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/SaveMeSteve/posts/got-a-viewer-complaint-about-a-company-a-quick-click-on-the-about-us-tab-and-doe/1199055801589576",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A commenter accuses the brand of fraud for not delivering a product after payment.",
+    "foundAt": "2026-10-21T02:19:16.056Z"
   }
 ]
