@@ -3298,5 +3298,25 @@
     "sentiment": "Negative",
     "summary": "A commenter accuses the brand of fraud for not delivering a product after payment.",
     "foundAt": "2026-10-21T02:19:16.056Z"
+  },
+  {
+    "id": "Afora::https://support.google.com/business/thread/350398953/scammers-are-threatening-my-business-with-fake-reviews-unless-we-pay-them-what-should-i-do?hl=en",
+    "brand": "Afora",
+    "platform": "support.google.com",
+    "url": "https://support.google.com/business/thread/350398953/scammers-are-threatening-my-business-with-fake-reviews-unless-we-pay-them-what-should-i-do?hl=en",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A business owner reports being extorted by scammers who post fake negative reviews and demand payment, and despite paying, the scammers continue to post new reviews.",
+    "foundAt": "2026-10-22T16:12:18.400Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=7nm0JQvSeq0",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=7nm0JQvSeq0",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines ways to spot fake product reviews, such as bulk posting dates, unverified reviewers, and generic language.",
+    "foundAt": "2026-10-22T16:12:19.404Z"
   }
 ]
