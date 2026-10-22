@@ -3318,5 +3318,45 @@
     "sentiment": "Neutral",
     "summary": "The snippet outlines ways to spot fake product reviews, such as bulk posting dates, unverified reviewers, and generic language.",
     "foundAt": "2026-10-22T16:12:19.404Z"
+  },
+  {
+    "id": "ZOP::https://www.scamadviser.com/check-website/www.zop.in",
+    "brand": "ZOP",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/check-website/www.zop.in",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet promotes a free tool to assess whether zop.in is legitimate and offers a way to report scams.",
+    "foundAt": "2026-10-22T20:56:28.336Z"
+  },
+  {
+    "id": "ZOP::https://www.cbsnews.com/minnesota/news/nick-shirley-10000-check-minnesota-day-care-fraud-videos",
+    "brand": "ZOP",
+    "platform": "cbsnews.com",
+    "url": "https://www.cbsnews.com/minnesota/news/nick-shirley-10000-check-minnesota-day-care-fraud-videos",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "CBS News found no evidence of fraud in Minnesota daycare centers despite a YouTuber’s accusations, noting only safety violations.",
+    "foundAt": "2026-10-22T20:56:29.573Z"
+  },
+  {
+    "id": "ZOP::https://www.justice.gov/fraud/whistleblower",
+    "brand": "ZOP",
+    "platform": "justice.gov",
+    "url": "https://www.justice.gov/fraud/whistleblower",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The official U.S. government page explains the Whistleblower Rewards Program, which offers early incentives for tips to aid fraud investigations.",
+    "foundAt": "2026-10-22T20:56:30.484Z"
+  },
+  {
+    "id": "ZOP::https://nypost.com/2026/10/19/us-news/ucsb-dean-launches-review-after-alpha-phi-sorority-racism-scandal",
+    "brand": "ZOP",
+    "platform": "nypost.com",
+    "url": "https://nypost.com/2026/10/19/us-news/ucsb-dean-launches-review-after-alpha-phi-sorority-racism-scandal",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The UCSB dean initiated a review following an Alpha Phi sorority racism scandal involving discriminatory recruiting practices and campus disciplinary action.",
+    "foundAt": "2026-10-22T20:56:31.522Z"
   }
 ]
