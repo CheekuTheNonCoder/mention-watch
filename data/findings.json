@@ -3358,5 +3358,15 @@
     "sentiment": "Negative",
     "summary": "The UCSB dean initiated a review following an Alpha Phi sorority racism scandal involving discriminatory recruiting practices and campus disciplinary action.",
     "foundAt": "2026-10-22T20:56:31.522Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=ngaUijaxLj4",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=ngaUijaxLj4",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The speaker describes how they verify a site's legitimacy by searching for reviews, noting missing reviews and using tools like Scam Advisor while advising caution.",
+    "foundAt": "2026-10-23T16:02:02.913Z"
   }
 ]
