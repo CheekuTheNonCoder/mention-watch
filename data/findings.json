@@ -3408,5 +3408,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet lists several Columbia apparel items on Zappos, showing their names, colors, genders, prices, and occasional star ratings.",
     "foundAt": "2026-10-24T14:58:54.239Z"
+  },
+  {
+    "id": "Afora::https://www.consumerfinance.gov/ask-cfpb/what-are-some-classic-warning-signs-of-possible-fraud-and-scams-en-2094",
+    "brand": "Afora",
+    "platform": "consumerfinance.gov",
+    "url": "https://www.consumerfinance.gov/ask-cfpb/what-are-some-classic-warning-signs-of-possible-fraud-and-scams-en-2094",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The CFPB outlines typical scam warning signs, including upfront fees, overly attractive offers, and requests for money or financial information.",
+    "foundAt": "2026-10-24T19:55:39.453Z"
+  },
+  {
+    "id": "Afora::https://www.occ.gov/topics/consumers-and-communities/consumer-protection/fraud-resources/imposter-scams.html",
+    "brand": "Afora",
+    "platform": "occ.gov",
+    "url": "https://www.occ.gov/topics/consumers-and-communities/consumer-protection/fraud-resources/imposter-scams.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Imposter scams are fraud schemes where criminals pose as trusted officials or company representatives to trick people into giving money or personal data.",
+    "foundAt": "2026-10-24T19:55:40.566Z"
   }
 ]
