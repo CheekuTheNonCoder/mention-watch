@@ -3368,5 +3368,45 @@
     "sentiment": "Neutral",
     "summary": "The speaker describes how they verify a site's legitimacy by searching for reviews, noting missing reviews and using tools like Scam Advisor while advising caution.",
     "foundAt": "2026-10-23T16:02:02.913Z"
+  },
+  {
+    "id": "ZOP::https://www.zop.org",
+    "brand": "ZOP",
+    "platform": "zop.org",
+    "url": "https://www.zop.org",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet displays ZOP's tagline urging consumers not to be overcharged, along with copyright and legal links.",
+    "foundAt": "2026-10-24T14:58:51.254Z"
+  },
+  {
+    "id": "ZOP::https://www.zopmedia.com",
+    "brand": "ZOP",
+    "platform": "zopmedia.com",
+    "url": "https://www.zopmedia.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "Customers commend Zop for professional, responsive service, intuitive software that saves time, and timely, high-quality delivery.",
+    "foundAt": "2026-10-24T14:58:52.151Z"
+  },
+  {
+    "id": "ZOP::https://zopsoftware.com",
+    "brand": "ZOP",
+    "platform": "zopsoftware.com",
+    "url": "https://zopsoftware.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Zop Dealer provides software that helps automotive dealerships manage their operations more efficiently.",
+    "foundAt": "2026-10-24T14:58:53.176Z"
+  },
+  {
+    "id": "ZOP::https://r.zappos.com",
+    "brand": "ZOP",
+    "platform": "r.zappos.com",
+    "url": "https://r.zappos.com",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists several Columbia apparel items on Zappos, showing their names, colors, genders, prices, and occasional star ratings.",
+    "foundAt": "2026-10-24T14:58:54.239Z"
   }
 ]
