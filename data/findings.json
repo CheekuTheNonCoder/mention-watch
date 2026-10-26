@@ -3428,5 +3428,25 @@
     "sentiment": "Neutral",
     "summary": "Imposter scams are fraud schemes where criminals pose as trusted officials or company representatives to trick people into giving money or personal data.",
     "foundAt": "2026-10-24T19:55:40.566Z"
+  },
+  {
+    "id": "Afora::https://consumer.ftc.gov/consumer-alerts/2023/11/so-online-scam-not-what-you-ordered",
+    "brand": "Afora",
+    "platform": "consumer.ftc.gov",
+    "url": "https://consumer.ftc.gov/consumer-alerts/2023/11/so-online-scam-not-what-you-ordered",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "An 82‑year‑old consumer was duped online, disputed a $1,000 charge with their credit card, and urges others to verify companies before purchasing.",
+    "foundAt": "2026-10-26T02:05:15.319Z"
+  },
+  {
+    "id": "Afora::https://www.fcc.gov/scam-glossary",
+    "brand": "Afora",
+    "platform": "fcc.gov",
+    "url": "https://www.fcc.gov/scam-glossary",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The FCC’s scam glossary outlines various robocall and spoofing scams, such as interest‑rate, investment, and health‑insurance scams, and provides links for more information.",
+    "foundAt": "2026-10-26T02:05:16.450Z"
   }
 ]
