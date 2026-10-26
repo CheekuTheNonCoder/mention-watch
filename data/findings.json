@@ -3448,5 +3448,25 @@
     "sentiment": "Neutral",
     "summary": "The FCC’s scam glossary outlines various robocall and spoofing scams, such as interest‑rate, investment, and health‑insurance scams, and provides links for more information.",
     "foundAt": "2026-10-26T02:05:16.450Z"
+  },
+  {
+    "id": "ZOP::https://www.youtube.com/watch?v=JQjriIvXfgU",
+    "brand": "ZOP",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=JQjriIvXfgU",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The snippet points out that LuLaRoe has an ongoing lawsuit and numerous negative reviews, warning consumers to be cautious.",
+    "foundAt": "2026-10-26T11:44:23.248Z"
+  },
+  {
+    "id": "ZOP::https://www.fdic.gov/consumer-resource-center/2020-10/beware-its-scam",
+    "brand": "ZOP",
+    "platform": "fdic.gov",
+    "url": "https://www.fdic.gov/consumer-resource-center/2020-10/beware-its-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The FDIC warns that a phishing scam tricks victims into depositing counterfeit checks and wiring money back to fraudsters under the guise of evaluating a money‑transfer service.",
+    "foundAt": "2026-10-26T11:44:24.373Z"
   }
 ]
