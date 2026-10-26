@@ -3468,5 +3468,15 @@
     "sentiment": "Negative",
     "summary": "The FDIC warns that a phishing scam tricks victims into depositing counterfeit checks and wiring money back to fraudsters under the guise of evaluating a money‑transfer service.",
     "foundAt": "2026-10-26T11:44:24.373Z"
+  },
+  {
+    "id": "Afora::https://gridinsoft.com/online-virus-scanner/url/afora-in",
+    "brand": "Afora",
+    "platform": "gridinsoft.com",
+    "url": "https://gridinsoft.com/online-virus-scanner/url/afora-in",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The review notes a mixed trust rating of 66/100 for afora.in, citing some positive signs but insufficient evidence to deem it fully reliable.",
+    "foundAt": "2026-10-26T17:47:38.310Z"
   }
 ]
