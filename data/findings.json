@@ -3478,5 +3478,105 @@
     "sentiment": "Neutral",
     "summary": "The review notes a mixed trust rating of 66/100 for afora.in, citing some positive signs but insufficient evidence to deem it fully reliable.",
     "foundAt": "2026-10-26T17:47:38.310Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/opzop-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/opzop-com-review",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The piece outlines the service’s pricing and claims of trustworthiness but warns that the site has a medium trust score and is deemed questionable, urging caution.",
+    "foundAt": "2026-10-30T21:45:44.888Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/zapostore-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/zapostore-com-review",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The staff confirms zapostore.com is trustworthy and affordable, highlighting its low‑cost plans and recommending Guardio for additional fraud protection.",
+    "foundAt": "2026-10-30T21:45:46.142Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/zovpp-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/zovpp-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The page notes that while the service is marketed as trustworthy with low-priced plans, the site receives a low trust score of 27.3 and is flagged for high‑risk activity and telemarketing, suggesting it may be a scam.",
+    "foundAt": "2026-10-30T21:45:47.455Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/zap-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/zap-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet alleges that zap.com is a scam that misuses personal data and engages in telemarketing calls.",
+    "foundAt": "2026-10-30T21:45:48.719Z"
+  },
+  {
+    "id": "ZOP::https://www.scam-detector.com/validator/zol-com-review",
+    "brand": "ZOP",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/zol-com-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The analysis rates zol.com as medium‑risk with a low trust score, indicating potential scam or phishing activity.",
+    "foundAt": "2026-10-30T21:45:49.819Z"
+  },
+  {
+    "id": "ZOP::https://complaintinfo.com/z-complaints/znz-one-complaints.html",
+    "brand": "ZOP",
+    "platform": "complaintinfo.com",
+    "url": "https://complaintinfo.com/z-complaints/znz-one-complaints.html",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The snippet reports multiple consumer complaints about ZNZ One, noting some resolution attempts but also suggesting it may be a scam.",
+    "foundAt": "2026-10-30T21:45:51.064Z"
+  },
+  {
+    "id": "Afora::https://blog.summitchargeback.com/avora-capital-review-legit-or-a-scam",
+    "brand": "Afora",
+    "platform": "blog.summitchargeback.com",
+    "url": "https://blog.summitchargeback.com/avora-capital-review-legit-or-a-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The piece asserts Avora Capital is a scam and encourages victims to file complaints with Summit ChargeBack to recover their losses.",
+    "foundAt": "2026-10-30T21:45:54.559Z"
+  },
+  {
+    "id": "Afora::https://malwaretips.com/blogs/avora-london-com-scam-or-legit-investigation",
+    "brand": "Afora",
+    "platform": "malwaretips.com",
+    "url": "https://malwaretips.com/blogs/avora-london-com-scam-or-legit-investigation",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The article warns that Avora-london.com appears to be a fraudulent online store selling cheap goods that often are low quality, incorrect, or never delivered, and offers poor customer support.",
+    "foundAt": "2026-10-30T21:45:55.581Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/afr-com-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/afr-com-review",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The site afr.com is rated highly trustworthy with an 84.6 trust score, labeled as authentic, trustworthy, and secure.",
+    "foundAt": "2026-10-30T21:45:56.617Z"
+  },
+  {
+    "id": "Afora::https://malwaretips.com/blogs/evoraofficial-com-scam",
+    "brand": "Afora",
+    "platform": "malwaretips.com",
+    "url": "https://malwaretips.com/blogs/evoraofficial-com-scam",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The snippet warns that EvoraOfficial.com is a fraudulent site that cycles through rebranding after negative feedback, using malicious links and lacking genuine customer reviews.",
+    "foundAt": "2026-10-30T21:45:57.712Z"
   }
 ]
