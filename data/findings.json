@@ -3608,5 +3608,65 @@
     "sentiment": "Neutral",
     "summary": "The article says most of the 180 voter‑fraud cases involved honest mistakes and found no organized effort to recruit noncitizens to vote.",
     "foundAt": "2026-10-31T03:00:29.908Z"
+  },
+  {
+    "id": "Afora::https://www.consumerfinance.gov/ask-cfpb/who-do-i-contact-for-help-with-a-scam-or-fraud-en-1777",
+    "brand": "Afora",
+    "platform": "consumerfinance.gov",
+    "url": "https://www.consumerfinance.gov/ask-cfpb/who-do-i-contact-for-help-with-a-scam-or-fraud-en-1777",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page advises contacting law enforcement or agencies for scam help and warns that legitimate institutions never demand money or gift cards, clarifying it’s general consumer information.",
+    "foundAt": "2026-10-31T11:21:00.332Z"
+  },
+  {
+    "id": "Afora::https://www.aging.senate.gov/fraud-hotline",
+    "brand": "Afora",
+    "platform": "aging.senate.gov",
+    "url": "https://www.aging.senate.gov/fraud-hotline",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The Senate Special Committee on Aging provides a fraud hotline and resources to help people report and prevent scams.",
+    "foundAt": "2026-10-31T11:21:01.425Z"
+  },
+  {
+    "id": "Afora::https://consumer.sc.gov/consumer-resources/consumer-complaints/search-complaints",
+    "brand": "Afora",
+    "platform": "consumer.sc.gov",
+    "url": "https://consumer.sc.gov/consumer-resources/consumer-complaints/search-complaints",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The South Carolina Department of Consumer Affairs explains its complaint search tool and advises assessing businesses based on complaint outcomes rather than sheer numbers.",
+    "foundAt": "2026-10-31T11:21:02.456Z"
+  },
+  {
+    "id": "Afora::https://www.ocgov.com/how-do-i/report/fraud-waste-abuse",
+    "brand": "Afora",
+    "platform": "ocgov.com",
+    "url": "https://www.ocgov.com/how-do-i/report/fraud-waste-abuse",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Orange County employs ComplianceLine to receive and forward fraud, waste, and abuse reports from employees, the public, and vendors, offering whistleblower protections.",
+    "foundAt": "2026-10-31T11:21:03.501Z"
+  },
+  {
+    "id": "Afora::https://www.sfgate.com/bayarea/article/california-school-chef-stealing-22501526.php",
+    "brand": "Afora",
+    "platform": "sfgate.com",
+    "url": "https://www.sfgate.com/bayarea/article/california-school-chef-stealing-22501526.php",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A Costco breakfast purchase helped expose an alleged $300,000 fraud at a California school.",
+    "foundAt": "2026-10-31T11:21:04.596Z"
+  },
+  {
+    "id": "Afora::https://www.justice.gov/fraud",
+    "brand": "Afora",
+    "platform": "justice.gov",
+    "url": "https://www.justice.gov/fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The DOJ's National Fraud Enforcement Division describes its role in investigating and prosecuting fraud using advanced data techniques and collaborations to protect the nation's financial integrity.",
+    "foundAt": "2026-10-31T11:21:05.552Z"
   }
 ]
