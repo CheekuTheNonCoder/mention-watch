@@ -3668,5 +3668,95 @@
     "sentiment": "Neutral",
     "summary": "The DOJ's National Fraud Enforcement Division describes its role in investigating and prosecuting fraud using advanced data techniques and collaborations to protect the nation's financial integrity.",
     "foundAt": "2026-10-31T11:21:05.552Z"
+  },
+  {
+    "id": "ZOP::https://eveninsight.com/safety-checker/website/zop.in",
+    "brand": "ZOP",
+    "platform": "eveninsight.com",
+    "url": "https://eveninsight.com/safety-checker/website/zop.in",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "A recent article evaluates Zop.in to determine if it is legitimate or a scam.",
+    "foundAt": "2026-10-31T16:26:30.370Z"
+  },
+  {
+    "id": "ZOP::https://stopthinkfraud.campaign.gov.uk/reporting-fraud",
+    "brand": "ZOP",
+    "platform": "stopthinkfraud.campaign.gov.uk",
+    "url": "https://stopthinkfraud.campaign.gov.uk/reporting-fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page explains how to report fraudulent calls and texts by forwarding them to 7726 and advising victims to inform their bank and other authorities.",
+    "foundAt": "2026-10-31T16:26:31.514Z"
+  },
+  {
+    "id": "ZOP::https://uk.trustpilot.com",
+    "brand": "ZOP",
+    "platform": "Trustpilot",
+    "url": "https://uk.trustpilot.com",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "The snippet promotes Trustpilot as a platform where shoppers can read, write, and share consumer reviews.",
+    "foundAt": "2026-10-31T16:26:32.659Z"
+  },
+  {
+    "id": "ZOP::https://www.latimes.com/entertainment-arts/story/2026-10-29/music-man-review-review-theater-ahmanson",
+    "brand": "ZOP",
+    "platform": "latimes.com",
+    "url": "https://www.latimes.com/entertainment-arts/story/2026-10-29/music-man-review-review-theater-ahmanson",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The review criticizes the revival as self‑absorbed and unconvincing, making it difficult to care about the characters.",
+    "foundAt": "2026-10-31T16:26:33.617Z"
+  },
+  {
+    "id": "Afora::https://steamcommunity.com/app/526870/discussions/0/4843148932553751132",
+    "brand": "Afora",
+    "platform": "steamcommunity.com",
+    "url": "https://steamcommunity.com/app/526870/discussions/0/4843148932553751132",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "The user notes the train station needs a big initial investment but then makes moving resources fast, painless, and looks stylish.",
+    "foundAt": "2026-10-31T16:26:36.328Z"
+  },
+  {
+    "id": "Afora::https://docs.ficsit.app/satisfactory-modding/latest/CommunityResources/TrainSignalGuide.html",
+    "brand": "Afora",
+    "platform": "docs.ficsit.app",
+    "url": "https://docs.ficsit.app/satisfactory-modding/latest/CommunityResources/TrainSignalGuide.html",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The documentation explains using empty platforms for trains, notes that stations add a distance penalty affecting route choices, and that trains cannot change routes while moving, effectively acting like large belts.",
+    "foundAt": "2026-10-31T16:26:37.485Z"
+  },
+  {
+    "id": "Afora::https://satisfactory.wiki.gg/wiki/Train_Station",
+    "brand": "Afora",
+    "platform": "satisfactory.wiki.gg",
+    "url": "https://satisfactory.wiki.gg/wiki/Train_Station",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page notes it requires cleanup and provides a list of train station names.",
+    "foundAt": "2026-10-31T16:26:38.533Z"
+  },
+  {
+    "id": "Afora::https://steamcommunity.com/app/526870/discussions/0/2577697791646986821",
+    "brand": "Afora",
+    "platform": "steamcommunity.com",
+    "url": "https://steamcommunity.com/app/526870/discussions/0/2577697791646986821",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The user asks how to make trains loop back onto the same track, referencing a YouTube video showing trains running back and forth on a single line.",
+    "foundAt": "2026-10-31T16:26:39.650Z"
+  },
+  {
+    "id": "Afora::https://www.reddit.com/r/satisfactory/comments/n1cjhb/how_do_you_make_train_loops_work",
+    "brand": "Afora",
+    "platform": "Reddit",
+    "url": "https://www.reddit.com/r/satisfactory/comments/n1cjhb/how_do_you_make_train_loops_work",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The post explains how to build a looped train station by starting with an incoming track and adding left and right turns that end perpendicular to the main line.",
+    "foundAt": "2026-10-31T16:26:40.666Z"
   }
 ]
