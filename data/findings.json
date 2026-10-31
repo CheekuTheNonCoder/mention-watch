@@ -3578,5 +3578,35 @@
     "sentiment": "Negative",
     "summary": "The snippet warns that EvoraOfficial.com is a fraudulent site that cycles through rebranding after negative feedback, using malicious links and lacking genuine customer reviews.",
     "foundAt": "2026-10-30T21:45:57.712Z"
+  },
+  {
+    "id": "ZOP::https://www.justice.gov/fraud",
+    "brand": "ZOP",
+    "platform": "justice.gov",
+    "url": "https://www.justice.gov/fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet describes the DOJ's National Fraud Enforcement Division, its mission to investigate and prosecute fraud, and provides contact information.",
+    "foundAt": "2026-10-31T03:00:27.561Z"
+  },
+  {
+    "id": "ZOP::https://www.hollywoodreporter.com/tv/tv-reviews/the-one-about-matthew-perry-review-netflix-documentary-1236740422",
+    "brand": "ZOP",
+    "platform": "hollywoodreporter.com",
+    "url": "https://www.hollywoodreporter.com/tv/tv-reviews/the-one-about-matthew-perry-review-netflix-documentary-1236740422",
+    "type": "Review",
+    "sentiment": "Neutral",
+    "summary": "The docuseries is praised as inspiring but criticized for lacking sharper focus.",
+    "foundAt": "2026-10-31T03:00:28.700Z"
+  },
+  {
+    "id": "ZOP::https://www.washingtonpost.com/immigration/2026/10/28/we-studied-180-voter-fraud-cases-many-charged-cite-honest-mistakes",
+    "brand": "ZOP",
+    "platform": "washingtonpost.com",
+    "url": "https://www.washingtonpost.com/immigration/2026/10/28/we-studied-180-voter-fraud-cases-many-charged-cite-honest-mistakes",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The article says most of the 180 voter‑fraud cases involved honest mistakes and found no organized effort to recruit noncitizens to vote.",
+    "foundAt": "2026-10-31T03:00:29.908Z"
   }
 ]
