@@ -3778,5 +3778,65 @@
     "sentiment": "Positive",
     "summary": "Dealers commend ZopDealer for its user‑friendly website design, mobile access, and strong value, recommending it enthusiastically.",
     "foundAt": "2026-11-01T02:56:11.138Z"
+  },
+  {
+    "id": "ZOP::https://tavily.com/knowledge/company/wYFwSfncS4Hs",
+    "brand": "ZOP",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/wYFwSfncS4Hs",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet lists basic information about Zakład Obróbki Plastycznej, including its name, location, industry, contact details, and product offerings.",
+    "foundAt": "2026-11-01T21:26:38.643Z"
+  },
+  {
+    "id": "ZOP::https://tavily.com/knowledge/company/30ZNpK9sa2hc",
+    "brand": "ZOP",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/30ZNpK9sa2hc",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides a neutral overview of ZOP, an Indian online marketplace founded in 2024, including its headquarters, LinkedIn presence, headcount, web traffic statistics, and lack of open roles.",
+    "foundAt": "2026-11-01T21:26:39.658Z"
+  },
+  {
+    "id": "ZOP::https://tavily.com/knowledge/company/cihuvpx9tans",
+    "brand": "ZOP",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/cihuvpx9tans",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides a basic overview of ZOP, a privately held technology company founded in 2025 in Porto, Portugal, with a small headcount and no open positions.",
+    "foundAt": "2026-11-01T21:26:40.701Z"
+  },
+  {
+    "id": "Afora::https://tavily.com/knowledge/company/Ua1PcIyy6AM2",
+    "brand": "Afora",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/Ua1PcIyy6AM2",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet provides a factual profile of AforA, a wedding design workshop in Madrid, including its legal name, location, contact details, social media links, industry classification, and basic web traffic statistics.",
+    "foundAt": "2026-11-01T21:26:43.033Z"
+  },
+  {
+    "id": "Afora::https://tavily.com/knowledge/company/vRv6CV6kiBuk",
+    "brand": "Afora",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/vRv6CV6kiBuk",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Afora is a privately held wellness and fitness services company based in Mumbai that provides physiotherapy tools and diabetic foot lab equipment, with a small staff and contact details listed.",
+    "foundAt": "2026-11-01T21:26:44.073Z"
+  },
+  {
+    "id": "Afora::https://tavily.com/knowledge/company/YHHF0v8i50RU",
+    "brand": "Afora",
+    "platform": "tavily.com",
+    "url": "https://tavily.com/knowledge/company/YHHF0v8i50RU",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "Afora, a privately held health and wellness firm founded in 2015, was acquired by quip in 2018.",
+    "foundAt": "2026-11-01T21:26:45.120Z"
   }
 ]
