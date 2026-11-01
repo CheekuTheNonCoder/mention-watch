@@ -3758,5 +3758,25 @@
     "sentiment": "Neutral",
     "summary": "The post explains how to build a looped train station by starting with an incoming track and adding left and right turns that end perpendicular to the main line.",
     "foundAt": "2026-10-31T16:26:40.666Z"
+  },
+  {
+    "id": "ZOP::https://zop.org/about",
+    "brand": "ZOP",
+    "platform": "zop.org",
+    "url": "https://zop.org/about",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "ZOP is a consumer tool that compares prices, tracks price gouging and helps people report unfair pricing.",
+    "foundAt": "2026-11-01T02:56:10.185Z"
+  },
+  {
+    "id": "ZOP::https://www.zopdealer.com",
+    "brand": "ZOP",
+    "platform": "zopdealer.com",
+    "url": "https://www.zopdealer.com",
+    "type": "Review",
+    "sentiment": "Positive",
+    "summary": "Dealers commend ZopDealer for its user‑friendly website design, mobile access, and strong value, recommending it enthusiastically.",
+    "foundAt": "2026-11-01T02:56:11.138Z"
   }
 ]
