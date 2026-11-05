@@ -3838,5 +3838,15 @@
     "sentiment": "Neutral",
     "summary": "Afora, a privately held health and wellness firm founded in 2015, was acquired by quip in 2018.",
     "foundAt": "2026-11-01T21:26:45.120Z"
+  },
+  {
+    "id": "Afora::https://www.youtube.com/watch?v=DH93TyLFYJ8",
+    "brand": "Afora",
+    "platform": "youtube.com",
+    "url": "https://www.youtube.com/watch?v=DH93TyLFYJ8",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "ScamAdviser rates Avendorra.com 12/100 and highlights numerous red flags such as a hidden owner, low traffic, a registrar used by scammers, cryptocurrency and anonymous payment methods, outweighing the few positive signs like SSL and shopping features.",
+    "foundAt": "2026-11-05T22:58:52.511Z"
   }
 ]
