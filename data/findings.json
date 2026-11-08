@@ -3848,5 +3848,15 @@
     "sentiment": "Negative",
     "summary": "ScamAdviser rates Avendorra.com 12/100 and highlights numerous red flags such as a hidden owner, low traffic, a registrar used by scammers, cryptocurrency and anonymous payment methods, outweighing the few positive signs like SSL and shopping features.",
     "foundAt": "2026-11-05T22:58:52.511Z"
+  },
+  {
+    "id": "Afora::https://www.focusdailynews.com/better-business-bureau-provides-in-depth-info-on-scams",
+    "brand": "Afora",
+    "platform": "focusdailynews.com",
+    "url": "https://www.focusdailynews.com/better-business-bureau-provides-in-depth-info-on-scams",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines BBB’s resources for reporting scams and advises caution with online payments, especially warning against using Zelle.",
+    "foundAt": "2026-11-08T12:21:15.158Z"
   }
 ]
