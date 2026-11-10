@@ -3858,5 +3858,25 @@
     "sentiment": "Neutral",
     "summary": "The snippet outlines BBB’s resources for reporting scams and advises caution with online payments, especially warning against using Zelle.",
     "foundAt": "2026-11-08T12:21:15.158Z"
+  },
+  {
+    "id": "ZOP::https://www.consumerfinance.gov/ask-cfpb/who-do-i-contact-for-help-with-a-scam-or-fraud-en-1777",
+    "brand": "ZOP",
+    "platform": "consumerfinance.gov",
+    "url": "https://www.consumerfinance.gov/ask-cfpb/who-do-i-contact-for-help-with-a-scam-or-fraud-en-1777",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The CFPB page offers general consumer guidance on reporting scams, advises contacting authorities, and warns against fraudulent communications while noting it’s not legal advice.",
+    "foundAt": "2026-11-10T13:53:32.178Z"
+  },
+  {
+    "id": "ZOP::https://america.gov/fraud",
+    "brand": "ZOP",
+    "platform": "america.gov",
+    "url": "https://america.gov/fraud",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The page offers ways to report various fraud types, directing users to the appropriate federal agency.",
+    "foundAt": "2026-11-10T13:53:33.413Z"
   }
 ]
