@@ -3878,5 +3878,15 @@
     "sentiment": "Neutral",
     "summary": "The page offers ways to report various fraud types, directing users to the appropriate federal agency.",
     "foundAt": "2026-11-10T13:53:33.413Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/groups/229091985485646/posts/1212901103771391",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/groups/229091985485646/posts/1212901103771391",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "A user warns that Zafora is a scam, claiming they paid for car seat covers but never received them and cannot reach customer support.",
+    "foundAt": "2026-11-10T22:37:20.262Z"
   }
 ]
