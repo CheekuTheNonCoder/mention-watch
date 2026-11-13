@@ -3898,5 +3898,15 @@
     "sentiment": "Neutral",
     "summary": "The author says Fora Travel Agency is a legitimate platform that can be profitable for dedicated travel agents, but it requires effort and isn’t a quick‑money scheme.",
     "foundAt": "2026-11-12T22:56:24.683Z"
+  },
+  {
+    "id": "Afora::https://www.scamadviser.com/tc/check-website/afora.pk",
+    "brand": "Afora",
+    "platform": "scamadviser.com",
+    "url": "https://www.scamadviser.com/tc/check-website/afora.pk",
+    "type": "Mention",
+    "sentiment": "Positive",
+    "summary": "Scamadviser rates afora.pk as very likely safe and trustworthy, noting low traffic but no scam signs.",
+    "foundAt": "2026-11-13T13:33:08.154Z"
   }
 ]
