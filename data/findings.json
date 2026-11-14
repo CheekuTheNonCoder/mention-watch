@@ -3908,5 +3908,15 @@
     "sentiment": "Positive",
     "summary": "Scamadviser rates afora.pk as very likely safe and trustworthy, noting low traffic but no scam signs.",
     "foundAt": "2026-11-13T13:33:08.154Z"
+  },
+  {
+    "id": "Afora::https://afora.in/policies/privacy-policy",
+    "brand": "Afora",
+    "platform": "afora.in",
+    "url": "https://afora.in/policies/privacy-policy",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet outlines Afora's privacy policy, detailing how it uses, shares, and updates personal data and provides contact information for inquiries.",
+    "foundAt": "2026-11-14T12:38:30.149Z"
   }
 ]
