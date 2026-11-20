@@ -3928,5 +3928,15 @@
     "sentiment": "Neutral",
     "summary": "It advises checking grammar, review count, and whether reviewers received free products to detect fake reviews.",
     "foundAt": "2026-11-20T14:31:29.967Z"
+  },
+  {
+    "id": "Afora::https://www.trustpilot.com/review/agora.io",
+    "brand": "Afora",
+    "platform": "Trustpilot",
+    "url": "https://www.trustpilot.com/review/agora.io",
+    "type": "Complaint",
+    "sentiment": "Negative",
+    "summary": "The reviewer criticizes Agora.io’s buggy dashboard, poor billing experience, abrupt account suspension, and unhelpful support.",
+    "foundAt": "2026-11-20T23:27:32.990Z"
   }
 ]
