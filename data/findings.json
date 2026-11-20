@@ -3918,5 +3918,15 @@
     "sentiment": "Neutral",
     "summary": "The snippet outlines Afora's privacy policy, detailing how it uses, shares, and updates personal data and provides contact information for inquiries.",
     "foundAt": "2026-11-14T12:38:30.149Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/all/spot-a-scam/how-to-spot-a-fake-review",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/all/spot-a-scam/how-to-spot-a-fake-review",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "It advises checking grammar, review count, and whether reviewers received free products to detect fake reviews.",
+    "foundAt": "2026-11-20T14:31:29.967Z"
   }
 ]
