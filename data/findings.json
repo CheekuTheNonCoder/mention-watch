@@ -3938,5 +3938,15 @@
     "sentiment": "Negative",
     "summary": "The reviewer criticizes Agora.io’s buggy dashboard, poor billing experience, abrupt account suspension, and unhelpful support.",
     "foundAt": "2026-11-20T23:27:32.990Z"
+  },
+  {
+    "id": "Afora::https://globalfraudreviews.com/investment-scams/axi-scam-review",
+    "brand": "Afora",
+    "platform": "globalfraudreviews.com",
+    "url": "https://globalfraudreviews.com/investment-scams/axi-scam-review",
+    "type": "Review",
+    "sentiment": "Negative",
+    "summary": "The snippet warns that AXI may lack clear regulation and has mixed reviews, urging verification of licenses and caution before using the broker.",
+    "foundAt": "2026-11-25T16:21:31.402Z"
   }
 ]
