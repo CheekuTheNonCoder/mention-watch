@@ -3948,5 +3948,15 @@
     "sentiment": "Negative",
     "summary": "The snippet warns that AXI may lack clear regulation and has mixed reviews, urging verification of licenses and caution before using the broker.",
     "foundAt": "2026-11-25T16:21:31.402Z"
+  },
+  {
+    "id": "Afora::https://www.facebook.com/groups/1919359608205619/posts/2916283031846600",
+    "brand": "Afora",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/groups/1919359608205619/posts/2916283031846600",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "User reports receiving messages from an alleged Etsy bot named Adora that asks for email and banking info, indicating a potential scam.",
+    "foundAt": "2026-11-27T15:44:44.242Z"
   }
 ]
