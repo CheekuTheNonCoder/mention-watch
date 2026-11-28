@@ -3958,5 +3958,45 @@
     "sentiment": "Negative",
     "summary": "User reports receiving messages from an alleged Etsy bot named Adora that asks for email and banking info, indicating a potential scam.",
     "foundAt": "2026-11-27T15:44:44.242Z"
+  },
+  {
+    "id": "Afora::https://www.scam-detector.com/validator/afora-in-review",
+    "brand": "Afora",
+    "platform": "scam-detector.com",
+    "url": "https://www.scam-detector.com/validator/afora-in-review",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "Scam Detector rates afora.in as suspicious with a low trust score of 24.7 and advises it is likely a scam.",
+    "foundAt": "2026-11-28T00:47:47.787Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/scamtracker/lookupscam/1021555",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/scamtracker/lookupscam/1021555",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The user reports paying for a pool from Axuro that never arrived, with the seller unresponsive and phone disconnected, calling the site a scam.",
+    "foundAt": "2026-11-28T00:47:48.908Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/scamtracker/lookupscam/970362",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/scamtracker/lookupscam/970362",
+    "type": "Scam claim",
+    "sentiment": "Negative",
+    "summary": "The writer describes being asked to pay extra fees to receive promised crypto bonuses and cash out, concluding it was a scam.",
+    "foundAt": "2026-11-28T00:47:49.776Z"
+  },
+  {
+    "id": "Afora::https://www.bbb.org/scamtracker/lookupscam/1104379",
+    "brand": "Afora",
+    "platform": "bbb.org",
+    "url": "https://www.bbb.org/scamtracker/lookupscam/1104379",
+    "type": "Mention",
+    "sentiment": "Neutral",
+    "summary": "The snippet is a BBB page encouraging consumers to report and review scams, providing navigation options for both consumers and businesses.",
+    "foundAt": "2026-11-28T00:47:50.940Z"
   }
 ]
